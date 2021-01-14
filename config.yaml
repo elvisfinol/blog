@@ -28,7 +28,7 @@ params:
     ShowShareButtons: true
     comments: false
     defaultTheme: auto
-    disableThemeToggle: true
+    disableThemeToggle: false
     disableSpecial1stPost: false
 
     assets:
