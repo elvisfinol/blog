@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on elvisfinol-blog</title>
-    <link>https://elvisfinol.github.io/blog/posts/</link>
-    <description>Recent content in Posts on elvisfinol-blog</description>
+    <title>aws on elvisfinol-blog</title>
+    <link>https://elvisfinol.github.io/blog/tags/aws/</link>
+    <description>Recent content in aws on elvisfinol-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 19:42:22 -0300</lastBuildDate><atom:link href="https://elvisfinol.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jan 2021 19:42:22 -0300</lastBuildDate><atom:link href="https://elvisfinol.github.io/blog/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Are You Well-Architected?</title>
       <link>https://elvisfinol.github.io/blog/posts/are-you-well-architected/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://elvisfinol.github.io/blog/posts/are-you-well-architected/</guid>
       <description>What is AWS Well-Architected Framework? To be able to help businesses make the right decisions while building their systems on the cloud, AWS well-architected framework provides a consistent set of best practices. Businesses can refer to these and evaluate how well their architecture is aligned to AWS best practices. The AWS reference architecture comprises of the foundational questions based on the experience of thousands of customers. The goal of the AWS well architected structure being simple – enable customers to measure the AWS architecture against best practices and address shortcomings.</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://elvisfinol.github.io/blog/posts/first-post/</link>
-      <pubDate>Thu, 14 Jan 2021 10:33:41 -0300</pubDate>
-      
-      <guid>https://elvisfinol.github.io/blog/posts/first-post/</guid>
-      <description>Testing Hugo!</description>
     </item>
     
   </channel>
