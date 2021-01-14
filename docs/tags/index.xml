@@ -5,6 +5,16 @@
     <link>https://elvisfinol.github.io/blog/tags/</link>
     <description>Recent content in Tags on elvisfinol-blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://elvisfinol.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Jan 2021 10:33:41 -0300</lastBuildDate><atom:link href="https://elvisfinol.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>first</title>
+      <link>https://elvisfinol.github.io/blog/tags/first/</link>
+      <pubDate>Thu, 14 Jan 2021 10:33:41 -0300</pubDate>
+      
+      <guid>https://elvisfinol.github.io/blog/tags/first/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
