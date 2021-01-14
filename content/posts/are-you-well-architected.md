@@ -43,7 +43,7 @@ This pillar refers to the ability to safeguard systems, information, and assets 
 
 - Build a strong identity foundation and define access rules
 - Create traceability
-- Automate securityt
+- Automate security
 - Protect data in transit and at rest
 - Prepare for security events
 
@@ -76,7 +76,7 @@ It is also just as important to take into consideration the cost for availabilit
 - Test your recovery procedures in case of interruptions
 - Increase aggregate system availability
 - Measure the cost of designing an application with high availability levels
-- Dont guess capacity
+- Don’t guess capacity
 
 **5.Performance efficiency**
 This pillar emphasizes on efficiently utilizing computing resources to meet business requirements. It also establishes practices on how to maintain that efficiency as your business scales, demands grow, and technologies evolve.
@@ -95,4 +95,5 @@ The four main components of performance efficiency in an AWS architecture diagra
 - Use serverless architectures
 
 References
-- https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf
+**
+- *https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf*
