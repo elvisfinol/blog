@@ -41,7 +41,7 @@ params:
         safari_pinned_tab: "<link / abs url>"
 
     label:
-        text: "elvisfinol-blog"
+        text: "Home"
         # icon: /apple-touch-icon.png
         iconHeight: 35
 
@@ -62,7 +62,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hello \U0001F44B"
-        Content: Welcome to my blog
+        Content: Welcome to this space! Here you will see topics about new tech and guides about what I am learning at the moment. Enjoy the stay!
 
     socialIcons:
         - name: linkedin
@@ -92,23 +92,19 @@ params:
 
 # Menu feature
 menu:
-    main:
-        - identifier: posts
-          name: posts
-          url: /posts/
-          weight: 30   
-        - identifier: tags
-          name: tags
-          url: /tags/
-          weight: 30
-        - identified: search
-          name: search
-          url: /search/
-          weight: 20
+    main: 
         - identifier: archive
           name: archives
           url: /archive/
           weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+        - identified: search
+          name: 🔍
+          url: /search/
+          weight: 30
 
 # Search feature
 outputs:

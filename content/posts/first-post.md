@@ -3,7 +3,7 @@ title: "First Post"
 date: 2021-01-14T10:33:41-03:00
 draft: false
 tags: ["first"]
-author: "Me"
+author: "Elvis Finol"
 ---
 
 Testing Hugo!
