@@ -3,28 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://elvisfinol.github.io/blog/posts/are-you-well-architected/</loc>
-    <lastmod>2021-01-14T19:42:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.github.io/blog/tags/aws/</loc>
-    <lastmod>2021-01-14T19:42:22-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://elvisfinol.github.io/blog/</loc>
-    <lastmod>2021-01-14T19:42:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.github.io/blog/posts/</loc>
-    <lastmod>2021-01-14T19:42:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.github.io/blog/tags/</loc>
-    <lastmod>2021-01-14T19:42:22-03:00</lastmod>
+    <lastmod>2021-01-14T10:33:41-03:00</lastmod>
   </url>
   
   <url>
@@ -34,6 +14,16 @@
   
   <url>
     <loc>https://elvisfinol.github.io/blog/posts/first-post/</loc>
+    <lastmod>2021-01-14T10:33:41-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/posts/</loc>
+    <lastmod>2021-01-14T10:33:41-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/tags/</loc>
     <lastmod>2021-01-14T10:33:41-03:00</lastmod>
   </url>
   
