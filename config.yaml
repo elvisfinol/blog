@@ -1,0 +1,28 @@
+# Site Info
+baseURL: "/"
+languageCode: "en-us"
+title: "elvisfinol-blog"
+theme: "PaperMod"
+
+# Menu feature
+menu:
+    main:
+        - identifier: categories
+          name: categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+        - identified: search
+          name: search
+          url: /search/
+          weight: 30
+
+# Search feature
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
