@@ -13,8 +13,33 @@
   </url>
   
   <url>
+    <loc>https://elvisfinol.github.io/blog/tags/hugo-framework/</loc>
+    <lastmod>2021-01-20T11:25:47-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://elvisfinol.github.io/blog/posts/</loc>
     <lastmod>2021-01-20T11:25:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/tags/</loc>
+    <lastmod>2021-01-20T11:25:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</loc>
+    <lastmod>2021-01-15T12:20:50-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/tags/espa%C3%B1ol/</loc>
+    <lastmod>2021-01-15T12:20:50-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/tags/ssh/</loc>
+    <lastmod>2021-01-15T12:20:50-03:00</lastmod>
   </url>
   
   <url>
@@ -27,10 +52,6 @@
   
   <url>
     <loc>https://elvisfinol.github.io/blog/search/</loc>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.github.io/blog/tags/</loc>
   </url>
   
 </urlset>

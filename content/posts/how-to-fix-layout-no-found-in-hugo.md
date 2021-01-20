@@ -2,6 +2,8 @@
 title: "How to fix the error `found no layout file for “HTML” for “page”` in Hugo?"
 date: 2021-01-20T11:25:47-03:00
 draft: false
+tags: ["hugo-framework"]
+author: "Elvis Finol"
 ---
 
 ![](https://paper-attachments.dropbox.com/s_3EA6CC7F2AE38E7F2F997BE5ED73447B1DBC1D718516A1C5A3168F4F9738D743_1610985197347_image.png)

@@ -19,6 +19,19 @@ git submodule init   git submodule update   hugo server   Then your project will
     </item>
     
     <item>
+      <title>Configurando SSH con GitHub (Windows)</title>
+      <link>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</link>
+      <pubDate>Fri, 15 Jan 2021 12:20:50 -0300</pubDate>
+      
+      <guid>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</guid>
+      <description>Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
+Comandos Paso 1: Generar llave SSH
+Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:
+$ ssh-keygen -t rsa -b 4096 -C &amp;quot;ejemplo@ejemplo.com&amp;quot;
+(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)</description>
+    </item>
+    
+    <item>
       <title>Archive</title>
       <link>https://elvisfinol.github.io/blog/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

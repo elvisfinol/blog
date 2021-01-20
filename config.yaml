@@ -41,7 +41,7 @@ params:
         safari_pinned_tab: "<link / abs url>"
 
     label:
-        text: "Home"
+        text: "elvisfinol-blog"
         # icon: /apple-touch-icon.png
         iconHeight: 35
 
@@ -49,7 +49,7 @@ params:
     profileMode:
         enabled: false # needs to be explicitly set
         title: Elvis Finol
-        imageUrl: "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+        imageUrl: "https://images.unsplash.com/photo-1580777361964-27e9cdd2f838?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
@@ -62,7 +62,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hello \U0001F44B"
-        Content: Welcome to this space! Here you will see topics about new tech and guides about what I am learning at the moment. Enjoy the stay!
+        Content: Welcome to this space! Here you will see topics about new tech and guides about what I am learning at the moment. Enjoy the stay! 
 
     socialIcons:
         - name: linkedin
