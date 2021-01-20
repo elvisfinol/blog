@@ -6,14 +6,16 @@
     <description>Recent content in Posts on elvisfinol-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 10:33:41 -0300</lastBuildDate><atom:link href="https://elvisfinol.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 11:25:47 -0300</lastBuildDate><atom:link href="https://elvisfinol.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>https://elvisfinol.github.io/blog/posts/first-post/</link>
-      <pubDate>Thu, 14 Jan 2021 10:33:41 -0300</pubDate>
+      <title>How to fix the error `found no layout file for “HTML” for “page”` in Hugo?</title>
+      <link>https://elvisfinol.github.io/blog/posts/how-to-fix-layout-no-found-in-hugo/</link>
+      <pubDate>Wed, 20 Jan 2021 11:25:47 -0300</pubDate>
       
-      <guid>https://elvisfinol.github.io/blog/posts/first-post/</guid>
-      <description>Testing Hugo!</description>
+      <guid>https://elvisfinol.github.io/blog/posts/how-to-fix-layout-no-found-in-hugo/</guid>
+      <description>You have a theme you added as a git submodule and you recently re-cloned your project. In order to fix this, your submodule needs to be re-downloaded as well.
+Run the following commands:
+git submodule init   git submodule update   hugo server   Then your project will load without errors.</description>
     </item>
     
   </channel>
