@@ -1,4 +1,6 @@
 #!/bin/sh
+vared -p "Enter commit message " -c message
+
 printf "\e[33m\nBuuilding project...\e[39m\n"
 
 hugo -d docs
