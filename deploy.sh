@@ -1,22 +1,18 @@
 #!/bin/sh
+printf "\e[33m\nBuuilding project...\e[39m\n"
 
-# If a command fails then the deploy stops
-set -e
+hugo -d docs
 
-printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+printf "\e[33m\nPushing to elvis.finol.github.io repository...\e[39m\n"
 
-# Build the project.
-hugo -d docs # if using a theme, replace with hugo -t <YOURTHEME>
-
-# Add changes to git.
 git add .
 
-# Commit changes.
-msg="rebuilding site $(date)"
-if [ -n "$*" ]; then
-  msg="$*"
-fi
-git commit -m "$msg"
+DATE=$(date)
 
-# Push source and build repos.
-git push origin master
+git commit -m "changes made on $DATE"
+
+git push
+
+osacript -e "display notification 'pushed to remote' with tittle 'SUCCESS'" 
+
+printf "\e[33m\nSuccessfully deployed!\e[39m\n"
