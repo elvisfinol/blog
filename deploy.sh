@@ -11,8 +11,6 @@ DATE=$(date)
 
 git commit -m "changes made on $DATE"
 
-git push
-
-osacript -e "display notification 'pushed to remote' with tittle 'SUCCESS'" 
+git push origin master
 
 printf "\e[33m\nSuccessfully deployed!\e[39m\n"
