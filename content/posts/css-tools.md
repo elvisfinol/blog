@@ -13,7 +13,8 @@ author: "Elvis Finol"
 - [Frameworks](#frameworks)
 - [Preprocessors](#preprocessors)
 - [Reset and Normalize](#reset-and-normalize)
-- [Design and Inspiration](#design-and-inspiration)
+- [Design Inspiration](#design-inspiration)
+- [Illustrations](#illustrations)
 
 ## Frameworks🎨
 
