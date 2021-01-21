@@ -4,6 +4,9 @@ languageCode: "en-us"
 title: "elvisfinol-blog"
 theme: "PaperMod"
 
+#Enable comments by entering your disqus shortname
+disqusShortname: elvisfinol
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -19,13 +22,12 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: ExampleSite
     description: "ExampleSite description"
-    author: Elvis Finol
-    # author: ["Me", "You"] # multiple authors
+    author: Elvis Finol    
 
     images: ["<link or path of image for opengraph, twitter-cards>"]
 
     ShowReadingTime: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     comments: false
     defaultTheme: auto
     disableThemeToggle: false

@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-vared -p "Enter commit message " -c message
+vared -p "Enter commit message: " -c message
 
 printf "\e[33m\nBuuilding project...\e[39m\n"
 
