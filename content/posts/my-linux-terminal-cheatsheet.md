@@ -1,12 +1,12 @@
 ---
-title: "My Linux Terminal Cheatsheet"
+title: "My Linux Terminal CHEAT SHEET 🗂️"
 date: 2021-01-21T12:14:18-03:00
 draft: false
 tags: ["linux"]
 author: "Elvis Finol"
 ---
 
-Hey there! Here you will find this cheat sheet which I prepared to show, all linux commands which I use to, in my actual role as System Engineer in [Teradata](https://www.teradata.com/).
+Hey there! Here you will find this cheat sheet which I prepared to show, all linux commands which I use to day a day, in my actual role as System Engineer in [Teradata](https://www.teradata.com/).
 
 ## Table content
 
