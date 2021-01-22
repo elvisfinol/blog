@@ -3,8 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://elvisfinol.github.io/blog/tags/aws/</loc>
+    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/tags/cloudwatch/</loc>
+    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://elvisfinol.github.io/blog/</loc>
-    <lastmod>2021-01-21T12:14:18-03:00</lastmod>
+    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/posts/how-to-install-cloudwatch-agent-on-ec2/</loc>
+    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/posts/</loc>
+    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.github.io/blog/tags/</loc>
+    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
   </url>
   
   <url>
@@ -14,16 +39,6 @@
   
   <url>
     <loc>https://elvisfinol.github.io/blog/posts/my-linux-terminal-cheatsheet/</loc>
-    <lastmod>2021-01-21T12:14:18-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.github.io/blog/posts/</loc>
-    <lastmod>2021-01-21T12:14:18-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.github.io/blog/tags/</loc>
     <lastmod>2021-01-21T12:14:18-03:00</lastmod>
   </url>
   
