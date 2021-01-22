@@ -6,20 +6,20 @@ tags: ["aws", "cloudwatch"]
 author: "Elvis Finol"
 ---
 
-*Before start please install Apache HTTP Server on the instance > following the “****yum install httpd****” command and create a simple index.html file under path /var/www/html/index.html*
+Before start please install Apache HTTP Server on the instance > following the “****yum install httpd****” command and create a simple index.html file under path /var/www/html/index.html
 
-*After that, start httpd agent an validate accessing over the public DNS, you should see your “Hello World”. If you see that on your browser this means that your server is running properly.*
+After that, start httpd agent an validate accessing over the public DNS, you should see your “Hello World”. If you see that on your browser this means that your server is running properly.
 
 
 ![](https://paper-attachments.dropbox.com/s_9325814064604EBD25706FDBD9C2F88362964E0D36FEE7D1E04B0AE552555C30_1611325323018_Screen+Shot+2021-01-22+at+11.21.52.png)
 
 
-*Remember we will catch the following logs. So we need to put both path on the CloudWatch wizard later.*
+Remember we will catch the following logs. So we need to put both path on the CloudWatch wizard later.
 
 `/var/log/httpd/access_log` &
 `/var/log/httpd/error_log`
 
-***Installing the CloudWatch Agent***
+**Installing the CloudWatch Agent**
 On this step we install the [Unified CloudWatch Agent](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/UseCloudWatchUnifiedAgent.html) that will allows us to send metrics and logs into CloudWatch. You can store and retrieve configuration into the SSM Parameter Store and allow you to have quick setup for all your instances if you want to have them all configure the same way! 
 
 
@@ -33,9 +33,9 @@ On this step we install the [Unified CloudWatch Agent](https://docs.aws.amazon.c
 
 ![](https://paper-attachments.dropbox.com/s_9325814064604EBD25706FDBD9C2F88362964E0D36FEE7D1E04B0AE552555C30_1611329839689_Screen+Shot+2021-01-22+at+12.37.00.png)
 
-*I had already install*
+I had already install
 
-***Run the wizard***
+**Run the wizard**
 
 
     sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
@@ -296,19 +296,19 @@ On this step we install the [Unified CloudWatch Agent](https://docs.aws.amazon.c
     Successfully put config to parameter store AmazonCloudWatch-linux.
     Program exits now.
 
- *You can see JSON config is already on the Parameter Store. So any other EC2 instances will bootup and fetch the value of this config.* 
+ You can see JSON config is already on the Parameter Store. So any other EC2 instances will bootup and fetch the value of this config.
 
 ![](https://paper-attachments.dropbox.com/s_9325814064604EBD25706FDBD9C2F88362964E0D36FEE7D1E04B0AE552555C30_1611327219228_Screen+Shot+2021-01-22+at+11.53.17.png)
 
 
-*In order to point to the SSM Parameter you have two options:*
+In order to point to the SSM Parameter you have two options:
 
-*Fetch  the config* 
+Fetch  the config
 
 
     sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -s -c ssm:AmazonCloudWatch-linux
 
-*Reading directly JSON file* 
+Reading directly JSON file
 
 
     sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -s -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json
@@ -333,9 +333,9 @@ On this step we install the [Unified CloudWatch Agent](https://docs.aws.amazon.c
     2021-01-22T15:04:52Z E! [telegraf] Error running agent: Error parsing /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.toml, open /usr/share/collectd/types.db: no such file or directory
     [root@ip-172-31-55-22 ec2-user]# 
 
-*We successfully fetch the config. Probably you will see an error that* `/usr/share/collectd/types.db` *is missing.* 
+We successfully fetch the config. Probably you will see an error that `/usr/share/collectd/types.db` is missing. 
 
-*To solve this create the folders/file and re-run the agent*
+To solve this create the folders/file and re-run the agent
 
 
     [root@ip-172-31-55-22 ec2-user]# mkdir -p /usr/share/collectd/
@@ -363,16 +363,17 @@ On this step we install the [Unified CloudWatch Agent](https://docs.aws.amazon.c
     Redirecting to /bin/systemctl restart amazon-cloudwatch-agent.service
     [root@ip-172-31-55-22 ec2-user]#
 
-*Now agent is WORKING and you should start seeing CloudWatchLogs and Metrics! 💪 Go to CloudWatch and check it out:*
+Now agent is WORKING and you should start seeing CloudWatchLogs and Metrics! 💪
+Go to CloudWatch and check it out:
 
-*Logs*
+Logs
 
 ![](https://paper-attachments.dropbox.com/s_9325814064604EBD25706FDBD9C2F88362964E0D36FEE7D1E04B0AE552555C30_1611328439418_Screen+Shot+2021-01-22+at+12.12.43.png)
 
 ![](https://paper-attachments.dropbox.com/s_9325814064604EBD25706FDBD9C2F88362964E0D36FEE7D1E04B0AE552555C30_1611328995602_Screen+Shot+2021-01-22+at+12.21.40.png)
 
 
-*Metrics*
+Metrics
 
 ![](https://paper-attachments.dropbox.com/s_9325814064604EBD25706FDBD9C2F88362964E0D36FEE7D1E04B0AE552555C30_1611328953134_Screen+Shot+2021-01-22+at+12.19.41.png)
 
