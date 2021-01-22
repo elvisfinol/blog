@@ -1,5 +1,5 @@
 # Site Info
-baseURL: "https://elvisfinol.github.io/blog/"
+baseURL: "https://elvisfinol.github.io/website"
 languageCode: "en-us"
 title: "elvisfinol-blog"
 theme: "PaperMod"

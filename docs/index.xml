@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>elvisfinol-blog</title>
-    <link>https://elvisfinol.github.io/blog/</link>
+    <link>https://elvisfinol.github.io/website/</link>
     <description>Recent content on elvisfinol-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jan 2021 12:24:45 -0300</lastBuildDate><atom:link href="https://elvisfinol.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 12:24:45 -0300</lastBuildDate><atom:link href="https://elvisfinol.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to install CloudWatch Agent on EC2 Instances?</title>
-      <link>https://elvisfinol.github.io/blog/posts/how-to-install-cloudwatch-agent-on-ec2/</link>
+      <link>https://elvisfinol.github.io/website/posts/how-to-install-cloudwatch-agent-on-ec2/</link>
       <pubDate>Fri, 22 Jan 2021 12:24:45 -0300</pubDate>
       
-      <guid>https://elvisfinol.github.io/blog/posts/how-to-install-cloudwatch-agent-on-ec2/</guid>
+      <guid>https://elvisfinol.github.io/website/posts/how-to-install-cloudwatch-agent-on-ec2/</guid>
       <description>Before start please install Apache HTTP Server on the instance &amp;gt; following the “yum install httpd” command and create a simple index.html file under path /var/www/html/index.html
 After that, start httpd agent an validate accessing over the public DNS, you should see your “Hello World”. If you see that on your browser this means that your server is running properly.
 Remember we will catch the following logs. So we need to put both path on the CloudWatch wizard later.</description>
@@ -20,10 +20,10 @@ Remember we will catch the following logs. So we need to put both path on the Cl
     
     <item>
       <title>My Linux Terminal CHEAT SHEET 🗂️</title>
-      <link>https://elvisfinol.github.io/blog/posts/my-linux-terminal-cheatsheet/</link>
+      <link>https://elvisfinol.github.io/website/posts/my-linux-terminal-cheatsheet/</link>
       <pubDate>Thu, 21 Jan 2021 12:14:18 -0300</pubDate>
       
-      <guid>https://elvisfinol.github.io/blog/posts/my-linux-terminal-cheatsheet/</guid>
+      <guid>https://elvisfinol.github.io/website/posts/my-linux-terminal-cheatsheet/</guid>
       <description>Hey there! Here you will find this cheat sheet which I prepared to show, all linux commands which I use to day a day, in my actual role as System Engineer in Teradata.
 Table content  Help Users Network  More coming soon! Stay tuned&amp;hellip;
  Files &amp;amp; Folders Version Control Remote Permissions Editors Differences Packages Compressor   Help Help commands
@@ -33,10 +33,10 @@ Table content  Help Users Network  More coming soon! Stay tuned&amp;hellip;
     
     <item>
       <title>How to fix the error found no layout file for HTML for page in Hugo?</title>
-      <link>https://elvisfinol.github.io/blog/posts/how-to-fix-layout-no-found-in-hugo/</link>
+      <link>https://elvisfinol.github.io/website/posts/how-to-fix-layout-no-found-in-hugo/</link>
       <pubDate>Wed, 20 Jan 2021 11:25:47 -0300</pubDate>
       
-      <guid>https://elvisfinol.github.io/blog/posts/how-to-fix-layout-no-found-in-hugo/</guid>
+      <guid>https://elvisfinol.github.io/website/posts/how-to-fix-layout-no-found-in-hugo/</guid>
       <description>You have a theme you added as a git submodule and you recently re-cloned your project. In order to fix this, your submodule needs to be re-downloaded as well.
 Run the following commands:
 git submodule init   git submodule update   hugo server   Then your project will load without errors.</description>
@@ -44,10 +44,10 @@ git submodule init   git submodule update   hugo server   Then your project will
     
     <item>
       <title>Configurando SSH con GitHub (Windows)</title>
-      <link>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</link>
+      <link>https://elvisfinol.github.io/website/posts/configurando-ssh-con-github-windows/</link>
       <pubDate>Fri, 15 Jan 2021 12:20:50 -0300</pubDate>
       
-      <guid>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</guid>
+      <guid>https://elvisfinol.github.io/website/posts/configurando-ssh-con-github-windows/</guid>
       <description>Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
 Comandos Paso 1: Generar llave SSH
 Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:
@@ -57,10 +57,10 @@ $ ssh-keygen -t rsa -b 4096 -C &amp;quot;ejemplo@ejemplo.com&amp;quot;
     
     <item>
       <title>CSS Tools 🌈</title>
-      <link>https://elvisfinol.github.io/blog/posts/css-tools/</link>
+      <link>https://elvisfinol.github.io/website/posts/css-tools/</link>
       <pubDate>Mon, 20 Jul 2020 16:41:21 -0300</pubDate>
       
-      <guid>https://elvisfinol.github.io/blog/posts/css-tools/</guid>
+      <guid>https://elvisfinol.github.io/website/posts/css-tools/</guid>
       <description>Frameworks, guides and several tools to help you improve your writing CSS.
 Table content  Frameworks Preprocessors Reset and Normalize Design Inspiration Illustrations  Frameworks🎨 CSS framework gives web developers a basic structure, which includes grid, interactive UI patterns, web typography, tooltips, buttons, form elements, icons. This structure helps web developers to start quickly and efficiently when they are designing a website or web applications.
  awsm.css - Simple CSS library for semantic HTML markup.</description>
@@ -68,19 +68,19 @@ Table content  Frameworks Preprocessors Reset and Normalize Design Inspiration I
     
     <item>
       <title>Archive</title>
-      <link>https://elvisfinol.github.io/blog/archive/</link>
+      <link>https://elvisfinol.github.io/website/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elvisfinol.github.io/blog/archive/</guid>
+      <guid>https://elvisfinol.github.io/website/archive/</guid>
       <description>archive</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://elvisfinol.github.io/blog/search/</link>
+      <link>https://elvisfinol.github.io/website/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elvisfinol.github.io/blog/search/</guid>
+      <guid>https://elvisfinol.github.io/website/search/</guid>
       <description>search</description>
     </item>
     

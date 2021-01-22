@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>español on elvisfinol-blog</title>
-    <link>https://elvisfinol.github.io/blog/tags/espa%C3%B1ol/</link>
+    <link>https://elvisfinol.github.io/website/tags/espa%C3%B1ol/</link>
     <description>Recent content in español on elvisfinol-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2021 12:20:50 -0300</lastBuildDate><atom:link href="https://elvisfinol.github.io/blog/tags/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 12:20:50 -0300</lastBuildDate><atom:link href="https://elvisfinol.github.io/website/tags/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configurando SSH con GitHub (Windows)</title>
-      <link>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</link>
+      <link>https://elvisfinol.github.io/website/posts/configurando-ssh-con-github-windows/</link>
       <pubDate>Fri, 15 Jan 2021 12:20:50 -0300</pubDate>
       
-      <guid>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</guid>
+      <guid>https://elvisfinol.github.io/website/posts/configurando-ssh-con-github-windows/</guid>
       <description>Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
 Comandos Paso 1: Generar llave SSH
 Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:
