@@ -375,3 +375,8 @@ On this step we install the [Unified CloudWatch Agent](https://docs.aws.amazon.c
 *Metrics*
 
 ![](https://paper-attachments.dropbox.com/s_9325814064604EBD25706FDBD9C2F88362964E0D36FEE7D1E04B0AE552555C30_1611328953134_Screen+Shot+2021-01-22+at+12.19.41.png)
+
+***references***
+
+- [Installing and Running the CloudWatch Agent on Your Servers](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-commandline-fleet.html)
+
