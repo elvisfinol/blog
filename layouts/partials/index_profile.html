@@ -1,0 +1,42 @@
+<div class="profile">
+    {{- with .Site.Params.profileMode }}
+    <div class="profile_inner">
+        <!-- {{- if .imageUrl}}<img src="{{ .imageUrl}}" alt="{{ .imageTitle | default "profile image" }}"
+            height="{{- .imageHeight | default 150 -}}" width="{{- .imageWidth | default 150 -}}" />{{- end}} -->
+        <!-- <h1>{{- .title | default $.Site.Title | markdownify -}} 👋</h1> -->
+
+        <!-- Lines added by me! -->
+        <div class="content-wrap">
+
+            <div class="content">
+                <!-- TITLE -->
+                <h1> Hello.👋</h1>
+
+                <h2>My name is <span class="link-1">Elvis Finol.</span></h2>
+                    
+                <!-- DESCRIPTION -->
+                <p>Senior System Engineer with exposure to a wide variety of environments and a diversity of challenges. Distinction for problem-solving and resilience in high pressure situations. Capable of working independently or with a team throughout the lifecycle of a project. Ability to assist in business analysis and requirements gathering, as well as development, implementation and support.</p>
+
+            <p>For collaboration or questions; <br>
+            <!-- <a class="link-2" href="mailto:e.finol7@gmail.com">e.finol7@gmail.com</a></p> -->
+            <p><a class="link-1" href="posts">Check blog! </a></p>
+            </div>
+        </div>
+
+
+        <span>{{- .subtitle | markdownify -}}</span>
+        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
+
+        {{- with .buttons }}
+        
+        <!-- <div class="buttons">
+            {{- range . -}}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | humanize }}">
+                <span class="button-inner">{{ .name }}</span>
+            </a>
+            {{- end -}}
+        </div> -->
+        {{- end }}
+    </div>
+    {{- end}}
+</div>
