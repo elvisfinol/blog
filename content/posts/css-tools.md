@@ -11,10 +11,13 @@ author: "Elvis Finol"
 ## Table content
 
 - [Frameworks](#frameworks)
+- [Tools](#tools)
 - [Preprocessors](#preprocessors)
 - [Reset and Normalize](#reset-and-normalize)
 - [Design Inspiration](#design-inspiration)
 - [Illustrations](#illustrations)
+- [Placeholder](#placeholder)
+- [Games](#games)
 
 ## Frameworks🎨
 
@@ -49,6 +52,15 @@ CSS framework gives web developers a basic structure, which includes grid, inter
 * [UIkit](http://getuikit.com/) - A lightweight and modular front-end framework.
 * [unsemantic](http://unsemantic.com/) - Fluid grid for mobile, tablet, and desktop.
 * [Wing](https://kbrsh.github.io/wing/) - A Minimal, Lightweight, Responsive framework.
+
+<sub>[⇧ back to top](#table-content)</sub>
+
+
+## Tools🔧
+
+- [Codepen](https://codepen.io/) - The best place to build, test, and discover front-end code.
+- [Pleese Play](http://pleeease.io/play/) - All the annoying CSS stuff we don't want to do in 1 tool.
+- [CCSmatic](https://www.cssmatic.com/) - The ultimate CSS tools for web designers.
 
 <sub>[⇧ back to top](#table-content)</sub>
 
@@ -96,5 +108,22 @@ A CSS preprocessor is a program that lets you generate CSS from the preprocessor
 - [icons8](https://icons8.com/illustrations) - Free vector illustrations to class up your project.
 
 <sub>[⇧ back to top](#table-content)</sub>
+
+## Placeholder
+- [Placedog](https://placedog.net/) - Hand-picked, stunning photographs of our favourite pets: dogs!
+Free to use with your websites/projects.
+- [Placekitten](https://placekitten.com/) - A quick and simple service for getting pictures of kittens for use as placeholders in your designs or code.
+- [Placeholder](https://placeholder.com/) - is a free image placeholder service for web designers, serving billions and billions of images each year.
+- [Picsum](https://picsum.photos/) - The Lorem Ipsum for photos.
+
+## Games🕹️
+
+- [Grid Garden](https://cssgridgarden.com/#es) - A game where you write CSS code to grow your carrot garden. 🥕
+- [Flexbox Froggy](https://flexboxfroggy.com/) - A game where you help Froggy and friends by writing CSS code. 🐸
+- [Flexbox Defense](http://www.flexboxdefense.com/) - Tower Defense with a twist: all towers must be positioned with CSS Flexbox.
+- [CSS Dinner](https://flukeout.github.io/) - It's a fun game to learn and practice CSS selectors.
+
+<sub>[⇧ back to top](#table-content)</sub>
+
 
 *More coming soon! Stay tuned...*

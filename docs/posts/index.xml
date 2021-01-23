@@ -63,7 +63,7 @@ $ ssh-keygen -t rsa -b 4096 -C &amp;quot;ejemplo@ejemplo.com&amp;quot;
       
       <guid>https://elvisfinol.com/posts/css-tools/</guid>
       <description>Frameworks, guides and several tools to help you improve your writing CSS.
-Table content  Frameworks Preprocessors Reset and Normalize Design Inspiration Illustrations  Frameworks🎨 CSS framework gives web developers a basic structure, which includes grid, interactive UI patterns, web typography, tooltips, buttons, form elements, icons. This structure helps web developers to start quickly and efficiently when they are designing a website or web applications.
+Table content  Frameworks Tools Preprocessors Reset and Normalize Design Inspiration Illustrations Placeholder Games  Frameworks🎨 CSS framework gives web developers a basic structure, which includes grid, interactive UI patterns, web typography, tooltips, buttons, form elements, icons. This structure helps web developers to start quickly and efficiently when they are designing a website or web applications.
  awsm.css - Simple CSS library for semantic HTML markup.</description>
     </item>
     

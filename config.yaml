@@ -7,6 +7,9 @@ theme: "PaperMod"
 #Enable comments by entering your disqus shortname
 disqusShortname: elvisfinol
 
+params:
+    comments: true
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -20,7 +23,7 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
+    title: Elvis Finol | Website
     description: "ExampleSite description"
     author: Elvis Finol    
 
@@ -28,7 +31,7 @@ params:
 
     ShowReadingTime: true
     ShowShareButtons: false
-    comments: false
+    comments: true
     defaultTheme: auto
     disableThemeToggle: false
     disableSpecial1stPost: false
