@@ -6,18 +6,19 @@ tags: ["linux"]
 author: "Elvis Finol"
 ---
 
-Hey there! Here you will find this cheat sheet which I prepared to show, all linux commands which I use to day a day, in my actual role as System Engineer in [Teradata](https://www.teradata.com/).
+Hey there! Here you will find this cheat sheet which I prepared to show, all linux commands which I use to day a day, in my actual role as System Engineer.
 
 ## Table content
 
 - [Help](#help)
 - [Users](#users)
 - [Network](#network)
+- [Files-Folders](#files-folders)
+- [Remote](#remote)
+
+
 
 *More coming soon! Stay tuned...*
-- [Files & Folders](#files-&-folders)
-- [Version Control](#version-control) 
-- [Remote](#remote)
 - [Permissions](#permissions)
 - [Editors](#editors)
 - [Differences](#differences)
@@ -118,5 +119,62 @@ Hey there! Here you will find this cheat sheet which I prepared to show, all lin
 - **iptables** ip packet filter & NAT
   - **shorewall** firewall for iptables
   - **ufw** firewall for iptables
+
+  <sub>[⇧ back to top](#table-content)</sub>
+
+## Files-Folders
+
+*Folders (Directories)*
+
+- **mkdir** create dir
+  - **-p** all dirs
+- **pwd** current dir
+- **ls** list files & dirs
+  - **-l** long data
+  - **-h** human 
+  - **-R** recursive
+- **cd** change to dir
+- **pushd / popd** directory stack
+- **autojump** smart jump to dirs
+- **tree** list files in tree format
+
+*File handling*
+
+- **file** show file type
+- **touch** update/create
+- **mv** move/rename files
+  - **-f** force
+  - **-u** update
+- **cp** copy files
+  - **-f** force
+  - **-r** recursive
+- **rm** remove files
+- **ln** make link to file
+- **stat** filesytem stats
+
+*Fine files*
+
+- **type** display command type
+- **Find** search files in a dir
+  - **locate** search files in database
+  - **updatedb** update file database
+- **whereis** locate binary/manpage
+- **which** get binary file pathname
+
+  <sub>[⇧ back to top](#table-content)</sub>
+
+## Remote
+
+- **telnet** telnet connection
+- **ftp** file transfer connect
+  - **ssh** remote connection
+- **sftp** connect ftp via ssh
+- **sshfs** connect disk via ssh
+
+SCP/SSH SYNTAX
+
+```
+scp user@ip:/folder remote
+```
 
   <sub>[⇧ back to top](#table-content)</sub>

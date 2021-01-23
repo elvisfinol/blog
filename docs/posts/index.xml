@@ -24,11 +24,12 @@ Remember we will catch the following logs. So we need to put both path on the Cl
       <pubDate>Thu, 21 Jan 2021 12:14:18 -0300</pubDate>
       
       <guid>https://elvisfinol.com/posts/my-linux-terminal-cheatsheet/</guid>
-      <description>Hey there! Here you will find this cheat sheet which I prepared to show, all linux commands which I use to day a day, in my actual role as System Engineer in Teradata.
-Table content  Help Users Network  More coming soon! Stay tuned&amp;hellip;
- Files &amp;amp; Folders Version Control Remote Permissions Editors Differences Packages Compressor   Help Help commands
+      <description>Hey there! Here you will find this cheat sheet which I prepared to show, all linux commands which I use to day a day, in my actual role as System Engineer.
+Table content  Help Users Network Files-Folders Remote  More coming soon! Stay tuned&amp;hellip;
+ Permissions Editors Differences Packages Compressor   Help Help commands
   man manual page (wide)
-  whatis short description</description>
+  whatis short description
+  apropos related help</description>
     </item>
     
     <item>
