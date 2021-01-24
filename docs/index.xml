@@ -6,7 +6,18 @@
     <description>Recent content on Elvis Finol | Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jan 2021 12:24:45 -0300</lastBuildDate><atom:link href="https://elvisfinol.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jan 2021 21:00:03 -0300</lastBuildDate><atom:link href="https://elvisfinol.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing EC2 Instances at scale - System Manager (SSM)</title>
+      <link>https://elvisfinol.com/posts/aws-system-manager/</link>
+      <pubDate>Sat, 23 Jan 2021 21:00:03 -0300</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/aws-system-manager/</guid>
+      <description>How does it works AWS System Manager?
+ AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and enables you to automate operational tasks across your AWS resources.
+ Table content  Overview Features Documents Syntax Run Command Patch Manager Inventory State Manager Agent  Overview  Helps you manage your EC2 and On-Premise systems at scale.</description>
+    </item>
+    
     <item>
       <title>How to install CloudWatch Agent on EC2 Instances?</title>
       <link>https://elvisfinol.com/posts/how-to-install-cloudwatch-agent-on-ec2/</link>
