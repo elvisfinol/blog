@@ -2,7 +2,7 @@
 title: "My Linux Terminal CHEAT SHEET 🗂️"
 date: 2021-01-21T12:14:18-03:00
 draft: false
-tags: ["linux"]
+tags: ["linux", "cheatsheet"]
 author: "Elvis Finol"
 ---
 

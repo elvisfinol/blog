@@ -1,5 +1,5 @@
 ---
-title: "CSS Tools 🌈"
+title: "CSS Tools & Resources🌈"
 date: 2020-07-20T16:41:21-03:00
 draft: false
 tags: ["css"]

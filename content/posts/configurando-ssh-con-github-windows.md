@@ -1,8 +1,8 @@
 ---
-title: "Configurando SSH con GitHub (Windows)"
+title: "Tutorial - Configurando SSH con GitHub (Windows)"
 date: 2021-01-15T12:20:50-03:00
 draft: false
-tags: ["ssh", "español"]
+tags: ["ssh", "español", "step-by-step"]
 author: "Elvis Finol"
 ---
 

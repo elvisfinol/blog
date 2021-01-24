@@ -18,5 +18,18 @@ After that, start httpd agent an validate accessing over the public DNS, you sho
 Remember we will catch the following logs. So we need to put both path on the CloudWatch wizard later.</description>
     </item>
     
+    <item>
+      <title>Tutorial - Configurando SSH con GitHub (Windows)</title>
+      <link>https://elvisfinol.com/posts/configurando-ssh-con-github-windows/</link>
+      <pubDate>Fri, 15 Jan 2021 12:20:50 -0300</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/configurando-ssh-con-github-windows/</guid>
+      <description>Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
+Comandos Paso 1: Generar llave SSH
+Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:
+$ ssh-keygen -t rsa -b 4096 -C &amp;quot;ejemplo@ejemplo.com&amp;quot;
+(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)</description>
+    </item>
+    
   </channel>
 </rss>

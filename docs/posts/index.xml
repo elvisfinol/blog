@@ -33,7 +33,7 @@ Table content  Help Users Network Files-Folders Remote  More coming soon! Stay t
     </item>
     
     <item>
-      <title>How to fix the error found no layout file for HTML for page in Hugo?</title>
+      <title>[Solved] How to fix the error found no layout file for HTML for page in Hugo?</title>
       <link>https://elvisfinol.com/posts/how-to-fix-layout-no-found-in-hugo/</link>
       <pubDate>Wed, 20 Jan 2021 11:25:47 -0300</pubDate>
       
@@ -44,7 +44,7 @@ git submodule init   git submodule update   hugo server   Then your project will
     </item>
     
     <item>
-      <title>Configurando SSH con GitHub (Windows)</title>
+      <title>Tutorial - Configurando SSH con GitHub (Windows)</title>
       <link>https://elvisfinol.com/posts/configurando-ssh-con-github-windows/</link>
       <pubDate>Fri, 15 Jan 2021 12:20:50 -0300</pubDate>
       
@@ -57,7 +57,7 @@ $ ssh-keygen -t rsa -b 4096 -C &amp;quot;ejemplo@ejemplo.com&amp;quot;
     </item>
     
     <item>
-      <title>CSS Tools 🌈</title>
+      <title>CSS Tools &amp; Resources🌈</title>
       <link>https://elvisfinol.com/posts/css-tools/</link>
       <pubDate>Mon, 20 Jul 2020 16:41:21 -0300</pubDate>
       
