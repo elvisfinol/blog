@@ -1,7 +1,7 @@
 ---
 title: "Managing EC2 Instances at scale - System Manager (SSM)"
 date: 2021-01-23T21:00:03-03:00
-draft: false
+draft: true
 ---
 
 *How does it works AWS System Manager?*
