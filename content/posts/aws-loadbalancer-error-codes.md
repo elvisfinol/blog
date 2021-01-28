@@ -33,3 +33,4 @@ author: "Elvis Finol"
 - Error 561: Unauthorized
 
 *references*
+https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-troubleshooting.html
