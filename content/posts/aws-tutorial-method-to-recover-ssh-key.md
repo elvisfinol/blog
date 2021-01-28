@@ -15,7 +15,7 @@ author: "Elvis Finol"
   - Move the the volume back to the stopped instance
   - Start the instance and you can SSH into it again
 
-## If the instance is EBS:
+## If the instance is EBS (new method 🧙):
 - Run the [AWSSupport-ResetAccess](https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-awssupport-resetaccess.html) automation document in SSM
 
 ## Instance Store backed EC2:
