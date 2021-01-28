@@ -2,7 +2,7 @@
 title: "Tutorial - How to install CloudWatch Agent on EC2 Instances?"
 date: 2021-01-22T12:24:45-03:00
 draft: false
-tags: ["aws", "cloudwatch", "step-by-step"]
+tags: ["aws", "cloudwatch", "step-by-step", "sysops"]
 author: "Elvis Finol"
 ---
 

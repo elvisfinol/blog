@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://elvisfinol.com/posts/aws-tutorial-method-to-recover-ssh-key/</loc>
-    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
+    <loc>https://elvisfinol.com/posts/aws-loadbalancer-error-codes/</loc>
+    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/alb/</loc>
+    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://elvisfinol.com/tags/aws/</loc>
+    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/cheatsheet/</loc>
+    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/</loc>
+    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/posts/</loc>
+    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/sysops/</loc>
+    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/</loc>
+    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/posts/aws-tutorial-method-to-recover-ssh-key/</loc>
     <lastmod>2021-01-28T12:51:07-03:00</lastmod>
   </url>
   
@@ -18,27 +53,12 @@
   </url>
   
   <url>
-    <loc>https://elvisfinol.com/</loc>
-    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://elvisfinol.com/tags/how-to/</loc>
     <lastmod>2021-01-28T12:51:07-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://elvisfinol.com/posts/</loc>
-    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://elvisfinol.com/tags/ssh/</loc>
-    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/tags/</loc>
     <lastmod>2021-01-28T12:51:07-03:00</lastmod>
   </url>
   
@@ -58,17 +78,12 @@
   </url>
   
   <url>
-    <loc>https://elvisfinol.com/tags/cheatsheet/</loc>
+    <loc>https://elvisfinol.com/posts/my-linux-terminal-cheatsheet/</loc>
     <lastmod>2021-01-21T12:14:18-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://elvisfinol.com/tags/linux/</loc>
-    <lastmod>2021-01-21T12:14:18-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/posts/my-linux-terminal-cheatsheet/</loc>
     <lastmod>2021-01-21T12:14:18-03:00</lastmod>
   </url>
   

@@ -1,8 +1,8 @@
 ---
-title: "My Linux Terminal CHEAT SHEET 🗂️"
+title: "[CHEAT SHEET 📒] - My Linux Terminal"
 date: 2021-01-21T12:14:18-03:00
 draft: false
-tags: ["linux", "cheatsheet"]
+tags: ["linux", "cheatsheet", "sysops"]
 author: "Elvis Finol"
 ---
 

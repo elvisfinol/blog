@@ -2,7 +2,7 @@
 title: "[How-to] I lost my SSH key for EC2! Steps to get into your instance back"
 date: 2021-01-28T12:51:07-03:00
 draft: false
-tags: ["aws", "ec2", "ssh", "how-to"]
+tags: ["aws", "ec2", "ssh", "how-to", "sysops"]
 author: "Elvis Finol"
 ---
 
@@ -19,7 +19,7 @@ author: "Elvis Finol"
 - Run the [AWSSupport-ResetAccess](https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-awssupport-resetaccess.html) automation document in SSM
 
 ## Instance Store backed EC2:
-  - You can not stop the instance (otherwise data is lost) - AWS recommends termination
+  - You cannot stop the instance (otherwise data is lost) - AWS recommends termination
   - Use Session Manager access and edit the ~/.ssh/authorized_keys file directly
 
 ## *references*
