@@ -31,9 +31,7 @@ Hey there! Here you will find this cheat sheet which I prepared to show, all lin
 *Help commands*
 
 - **man** manual page (wide)
-
 - **whatis** short description
-
 - **apropos** related help
 
 <sub>[⇧ back to top](#table-content)</sub>
@@ -51,7 +49,6 @@ Hey there! Here you will find this cheat sheet which I prepared to show, all lin
 
 - **useradd** create/update user
   - **adduser** friendly add user
-
 - **userdel** delete user
   - **deluser** friendly del user
 - **usermod** modify user account
@@ -63,7 +60,6 @@ Hey there! Here you will find this cheat sheet which I prepared to show, all lin
 
 - **who** current logged users
   - **w** current logged users & data
-
 - **users** current logged users
 - **last** last logged users & reboots
 - **lastb** last bad logins
@@ -178,3 +174,6 @@ scp user@ip:/folder remote
 ```
 
   <sub>[⇧ back to top](#table-content)</sub>
+
+  *More coming soon! Stay tuned...*
+
