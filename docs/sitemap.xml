@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://elvisfinol.com/posts/aws-tutorial-method-to-recover-ssh-key/</loc>
+    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://elvisfinol.com/tags/aws/</loc>
-    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
+    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/ec2/</loc>
+    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/</loc>
+    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/guide/</loc>
+    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/posts/</loc>
+    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/ssh/</loc>
+    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/</loc>
+    <lastmod>2021-01-28T12:51:07-03:00</lastmod>
   </url>
   
   <url>
@@ -13,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://elvisfinol.com/</loc>
-    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/posts/</loc>
-    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://elvisfinol.com/tags/step-by-step/</loc>
-    <lastmod>2021-01-22T12:24:45-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/tags/</loc>
     <lastmod>2021-01-22T12:24:45-03:00</lastmod>
   </url>
   
@@ -69,11 +89,6 @@
   
   <url>
     <loc>https://elvisfinol.com/tags/espa%C3%B1ol/</loc>
-    <lastmod>2021-01-15T12:20:50-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/tags/ssh/</loc>
     <lastmod>2021-01-15T12:20:50-03:00</lastmod>
   </url>
   
