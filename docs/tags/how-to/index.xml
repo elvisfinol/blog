@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ec2 on Elvis Finol | Website</title>
-    <link>https://elvisfinol.com/tags/ec2/</link>
-    <description>Recent content in ec2 on Elvis Finol | Website</description>
+    <title>how-to on Elvis Finol | Website</title>
+    <link>https://elvisfinol.com/tags/how-to/</link>
+    <description>Recent content in how-to on Elvis Finol | Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jan 2021 12:51:07 -0300</lastBuildDate><atom:link href="https://elvisfinol.com/tags/ec2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jan 2021 12:51:07 -0300</lastBuildDate><atom:link href="https://elvisfinol.com/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[How-to] I lost my SSH key for EC2! Steps to get into your instance back</title>
       <link>https://elvisfinol.com/posts/aws-tutorial-method-to-recover-ssh-key/</link>
