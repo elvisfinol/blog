@@ -126,9 +126,9 @@ A CSS preprocessor is a program that lets you generate CSS from the preprocessor
 
 ## Icons
 
-* [Font Awesome](https://fontawesome.com/)
-* [Ikonate](https://ikonate.com/)
-* [LineIcons](https://lineicons.com/)
+* [Font Awesome](https://fontawesome.com/) - Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
+* [Ikonate](https://ikonate.com/) - Ikonate are fully customisable & accessible[*](http://github.com/eucalyptuss/ikonate#accessibility), well-optimised vector icons.
+* [LineIcons](https://lineicons.com/) - Handcrafted Line Icons for Modern User Interfaces of Web, Android, iOS, and Desktop App Projects.
 * [TheNounProject](https://thenounproject.com/)
 * [MaterialDesignIcons](https://materialdesignicons.com/)
 * [FlatIcon](https://www.flaticon.com/)
