@@ -1,23 +1,24 @@
 ---
-title: "CSS Tools & Resources🌈"
-date: 2020-07-20T16:41:21-03:00
-draft: false
-tags: ["css"]
-author: "Elvis Finol"
----
+title: "CSS Tools & Resources\U0001F308"
+date: 2020-07-20T16:41:21.000-03:00
+tags:
+- css
+author: Elvis Finol
 
-*Frameworks, guides and several tools to help you improve your writing CSS.*
+---
+_Frameworks, guides and several tools to help you improve your writing CSS._
 
 ## Table content
 
-- [Frameworks](#frameworks)
-- [Tools](#tools)
-- [Preprocessors](#preprocessors)
-- [Reset and Normalize](#reset-and-normalize)
-- [Design Inspiration](#design-inspiration)
-- [Illustrations](#illustrations)
-- [Placeholder](#placeholder)
-- [Games](#games)
+* [Frameworks](#frameworks)
+* [Tools](#tools)
+* [Preprocessors](#preprocessors)
+* [Reset and Normalize](#reset-and-normalize)
+* [Design Inspiration](#design-inspiration)
+* [Illustrations](#illustrations)
+* [Placeholder](#placeholder)
+* [Games](#games)
+* [Icons](#icons)
 
 ## Frameworks🎨
 
@@ -55,15 +56,13 @@ CSS framework gives web developers a basic structure, which includes grid, inter
 
 <sub>[⇧ back to top](#table-content)</sub>
 
-
 ## Tools🔧
 
-- [Codepen](https://codepen.io/) - The best place to build, test, and discover front-end code.
-- [Pleese Play](http://pleeease.io/play/) - All the annoying CSS stuff we don't want to do in 1 tool.
-- [CCSmatic](https://www.cssmatic.com/) - The ultimate CSS tools for web designers.
+* [Codepen](https://codepen.io/) - The best place to build, test, and discover front-end code.
+* [Pleese Play](http://pleeease.io/play/) - All the annoying CSS stuff we don't want to do in 1 tool.
+* [CCSmatic](https://www.cssmatic.com/) - The ultimate CSS tools for web designers.
 
 <sub>[⇧ back to top](#table-content)</sub>
-
 
 ## Preprocessors⚙️
 
@@ -77,53 +76,71 @@ A CSS preprocessor is a program that lets you generate CSS from the preprocessor
 
 <sub>[⇧ back to top](#table-content)</sub>
 
-
 ## Reset and Normalize
 
-- [Normalize](https://github.com/necolas/normalize.css) - A set of CSS rules that provide better cross-browser consistency in the default styling of HTML elements.
-- [Normalize-OpenType](https://github.com/kennethormandy/normalize-opentype.css) - Adds OpenType features—ligatures, kerning, and more—to Normalize.css.
-- [MiniReset.css](https://github.com/jgthms/minireset.css) - A tiny modern CSS reset.
-- [sanitize.css](https://github.com/jonathantneal/sanitize.css/) - A set of CSS rules that style with today’s best practices out-of-the-box.
-- [unstyle.css](https://github.com/Martin-Pitt/css-unstyle) - Specialised stylesheet for removing user agent styles, style the web with your baseline.
-- [reset.css](https://meyerweb.com/eric/tools/css/reset/) - CSS Tools: Reset CSS.
+* [Normalize](https://github.com/necolas/normalize.css) - A set of CSS rules that provide better cross-browser consistency in the default styling of HTML elements.
+* [Normalize-OpenType](https://github.com/kennethormandy/normalize-opentype.css) - Adds OpenType features—ligatures, kerning, and more—to Normalize.css.
+* [MiniReset.css](https://github.com/jgthms/minireset.css) - A tiny modern CSS reset.
+* [sanitize.css](https://github.com/jonathantneal/sanitize.css/) - A set of CSS rules that style with today’s best practices out-of-the-box.
+* [unstyle.css](https://github.com/Martin-Pitt/css-unstyle) - Specialised stylesheet for removing user agent styles, style the web with your baseline.
+* [reset.css](https://meyerweb.com/eric/tools/css/reset/) - CSS Tools: Reset CSS.
 
 <sub>[⇧ back to top](#table-content)</sub>
 
 ## Design Inspiration
 
-- [Behance](https://www.behance.net/) - is a social media platform owned by Adobe "to showcase and discover creative work"
-- [Dribbble](https://dribbble.com/) - is a self-promotion and social networking platform for digital designers and creatives.
-- [Land-book](https://land-book.com/) - design gallery with the best and most carefully collected websites. We help creatives find inspiration & motivation to do rad stuff.
-- [awwwards](https://www.awwwards.com/) - are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.
+* [Behance](https://www.behance.net/) - is a social media platform owned by Adobe "to showcase and discover creative work"
+* [Dribbble](https://dribbble.com/) - is a self-promotion and social networking platform for digital designers and creatives.
+* [Land-book](https://land-book.com/) - design gallery with the best and most carefully collected websites. We help creatives find inspiration & motivation to do rad stuff.
+* [awwwards](https://www.awwwards.com/) - are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.
 
 <sub>[⇧ back to top](#table-content)</sub>
 
 ## Illustrations
 
-- [Pexels](https://www.pexels.com/?locale=en-us) - The best free stock photos & videos shared by talented creators.
-- [unDraw](https://undraw.co/illustrations) - Open-source illustrations for any idea you can imagine and create.
-- [DrawKit](https://www.drawkit.io/) - Hand-drawn vector illustration and icon resources, perfect for your next project.
-- [freepik](https://www.freepik.com/) - Graphic resources for everyone.
-- [pixabay](https://pixabay.com/) - Stunning free images & royalty free stock.
-- [icons8](https://icons8.com/illustrations) - Free vector illustrations to class up your project.
+* [Pexels](https://www.pexels.com/?locale=en-us) - The best free stock photos & videos shared by talented creators.
+* [unDraw](https://undraw.co/illustrations) - Open-source illustrations for any idea you can imagine and create.
+* [DrawKit](https://www.drawkit.io/) - Hand-drawn vector illustration and icon resources, perfect for your next project.
+* [freepik](https://www.freepik.com/) - Graphic resources for everyone.
+* [pixabay](https://pixabay.com/) - Stunning free images & royalty free stock.
+* [icons8](https://icons8.com/illustrations) - Free vector illustrations to class up your project.
 
 <sub>[⇧ back to top](#table-content)</sub>
 
 ## Placeholder
-- [Placedog](https://placedog.net/) - Hand-picked, stunning photographs of our favourite pets: dogs!
-Free to use with your websites/projects.
-- [Placekitten](https://placekitten.com/) - A quick and simple service for getting pictures of kittens for use as placeholders in your designs or code.
-- [Placeholder](https://placeholder.com/) - is a free image placeholder service for web designers, serving billions and billions of images each year.
-- [Picsum](https://picsum.photos/) - The Lorem Ipsum for photos.
+
+* [Placedog](https://placedog.net/) - Hand-picked, stunning photographs of our favourite pets: dogs!
+  Free to use with your websites/projects.
+* [Placekitten](https://placekitten.com/) - A quick and simple service for getting pictures of kittens for use as placeholders in your designs or code.
+* [Placeholder](https://placeholder.com/) - is a free image placeholder service for web designers, serving billions and billions of images each year.
+* [Picsum](https://picsum.photos/) - The Lorem Ipsum for photos.
 
 ## Games🕹️
 
-- [Grid Garden](https://cssgridgarden.com/#es) - A game where you write CSS code to grow your carrot garden. 🥕
-- [Flexbox Froggy](https://flexboxfroggy.com/) - A game where you help Froggy and friends by writing CSS code. 🐸
-- [Flexbox Defense](http://www.flexboxdefense.com/) - Tower Defense with a twist: all towers must be positioned with CSS Flexbox.
-- [CSS Dinner](https://flukeout.github.io/) - It's a fun game to learn and practice CSS selectors.
+* [Grid Garden](https://cssgridgarden.com/#es) - A game where you write CSS code to grow your carrot garden. 🥕
+* [Flexbox Froggy](https://flexboxfroggy.com/) - A game where you help Froggy and friends by writing CSS code. 🐸
+* [Flexbox Defense](http://www.flexboxdefense.com/) - Tower Defense with a twist: all towers must be positioned with CSS Flexbox.
+* [CSS Dinner](https://flukeout.github.io/) - It's a fun game to learn and practice CSS selectors.
 
 <sub>[⇧ back to top](#table-content)</sub>
 
+## Icons
 
-*More coming soon! Stay tuned...*
+* [Font Awesome](https://fontawesome.com/)
+* [Ikonate](https://ikonate.com/)
+* [LineIcons](https://lineicons.com/)
+* [TheNounProject](https://thenounproject.com/)
+* [MaterialDesignIcons](https://materialdesignicons.com/)
+* [FlatIcon](https://www.flaticon.com/)
+* [IconFinder](https://www.iconfinder.com/)
+* [FeatherIcons](https://feathericons.com/)
+* [StreamLineIcons](https://www.streamlineicons.com/)
+* [LinearIcons](https://linearicons.com/)
+* [Unicons](https://iconscout.com/unicons)
+* [NucleoApp](https://nucleoapp.com/)
+* [CoreUI Icons](https://coreui.io/icons/)
+* [Line-Awesome](https://icons8.com/line-awesome)
+
+<sub>[⇧ back to top](#table-content)</sub>
+
+_More coming soon! Stay tuned..._
