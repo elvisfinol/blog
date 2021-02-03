@@ -129,17 +129,17 @@ A CSS preprocessor is a program that lets you generate CSS from the preprocessor
 * [Font Awesome](https://fontawesome.com/) - Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.
 * [Ikonate](https://ikonate.com/) - Ikonate are fully customisable & accessible[*](http://github.com/eucalyptuss/ikonate#accessibility), well-optimised vector icons.
 * [LineIcons](https://lineicons.com/) - Handcrafted Line Icons for Modern User Interfaces of Web, Android, iOS, and Desktop App Projects.
-* [TheNounProject](https://thenounproject.com/)
-* [MaterialDesignIcons](https://materialdesignicons.com/)
-* [FlatIcon](https://www.flaticon.com/)
-* [IconFinder](https://www.iconfinder.com/)
-* [FeatherIcons](https://feathericons.com/)
-* [StreamLineIcons](https://www.streamlineicons.com/)
-* [LinearIcons](https://linearicons.com/)
-* [Unicons](https://iconscout.com/unicons)
-* [NucleoApp](https://nucleoapp.com/)
-* [CoreUI Icons](https://coreui.io/icons/)
-* [Line-Awesome](https://icons8.com/line-awesome)
+* [TheNounProject](https://thenounproject.com/) - Icons and Photos For Everything.
+* [MaterialDesignIcons](https://materialdesignicons.com/) - Beautifully crafted symbols for common actions and items.
+* [FlatIcon](https://www.flaticon.com/) - The best UI icons for your projects.
+* [IconFinder](https://www.iconfinder.com/) - is the world's largest marketplace for vector and raster icons in SVG and PNG formats.
+* [FeatherIcons](https://feathericons.com/) - is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.
+* [StreamLineIcons](https://www.streamlineicons.com/) - The world’s largest icon pack.
+* [LinearIcons](https://linearicons.com/) - is the highest quality set of line icons, matching with minimalist UI designs in iOS.
+* [Unicons](https://iconscout.com/unicons) - Web’s new favorite icon library.
+* [NucleoApp](https://nucleoapp.com/) - Nucleo is a beautiful library of 30635 icons, and a powerful application to collect, customize and export all your icons.
+* [CoreUI Icons](https://coreui.io/icons/) - Premium designed free icon set with marks in SVG, Webfont and raster formats.
+* [Line-Awesome](https://icons8.com/line-awesome) - Swap Font Awesome for modern line icons in one line of code.
 
 <sub>[⇧ back to top](#table-content)</sub>
 

@@ -46,7 +46,7 @@ params:
         safari_pinned_tab: "<link / abs url>"
 
     label:
-        text: "Home"
+        text: "elvisfinol.com"
         # icon: /apple-touch-icon.png
         iconHeight: 35
 
@@ -67,7 +67,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hello \U0001F44B"
-        Content: Welcome board! Here you will see topics about new tech and guides about what I am learning at the moment. Enjoy the stay! 
+        Content: Welcome board! I am Senior System Engineer based in Argentina. Here you will see topics about new tech and guides about what I am learning at the moment. Enjoy the stay!
 
     socialIcons:
         - name: email
