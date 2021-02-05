@@ -32,11 +32,11 @@ A pensar que mi título diga lo contrario, desde siempre me he desarrollado en a
 
 Desde muy chico descubrí que me encantaba la música. Recuerdo las visitas a las tiendas de discos donde guardaba los pocos ahorros que tenía para comprar los últimos álbumes (aquellos tiempos). No fue hasta los 12 años que mi papá me regalo una guitarra española y ahí no pare de aprender y hacer música. Aprendí a tocar el bajo eléctrico, guitarra, teclado y lo que más disfruto es la producción; estar detrás de backstage, en mi espacio creando música.
 
-Sin intención de hacer publicidad en mi portafolio te dejo este [enlace](https://open.spotify.com/artist/1aBF34ZnXc9SHwvx0Rc0qK?si=dcVQPYUgTPeUG4TfR1ylqw) de mis producciones en el área de la música. 
+Sin intención de hacer publicidad en mi portafolio te dejo este [**enlace**](https://open.spotify.com/artist/1aBF34ZnXc9SHwvx0Rc0qK?si=dcVQPYUgTPeUG4TfR1ylqw) de mis producciones en el área de la música. 
 
 ### Contenido Visual y Fotografía
 
-En el 2019, Mica y yo decidimos crear **Vive Simple** un espacio en [Youtube](https://www.youtube.com/c/ViveSimple/featured) e [Instagram](https://www.instagram.com/info.vivesimple/) en el que ambos pudiéramos canalizar nuestra creatividad, compartiendo nuestras experiencias. Todo esto con el fin de ayudar a las personas y darles a conocer lo hermoso que es Buenos Aires, Argentina. 
+En el 2019, Mica y yo decidimos crear **Vive Simple** un espacio en [**Youtube**](https://www.youtube.com/c/ViveSimple/featured) e [**Instagram**](https://www.instagram.com/info.vivesimple/) en el que ambos pudiéramos canalizar nuestra creatividad, compartiendo nuestras experiencias. Todo esto con el fin de ayudar a las personas y darles a conocer lo hermoso que es Buenos Aires, Argentina. 
 
 ### ¡Escríbeme! 📥
 
