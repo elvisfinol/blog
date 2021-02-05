@@ -36,7 +36,7 @@ Sin intención de hacer publicidad en mi portafolio te dejo este [enlace](https:
 
 ### Contenido Visual y Fotografía
 
-En el 2019, Mica y yo decidimos crear **Vive Simple** un espacio en [Youtube](https://www.youtube.com/c/ViveSimple/featured) e [Instagram](https://www.instagram.com/info.vivesimple/) en el que ambos podía pudiéramos mos canalizar nuestra creatividad, compartiendo nuestras experiencias. Todo esto con el fin de ayudar a las personas y darles a conocer lo hermoso que es Buenos Aires, Argentina. 
+En el 2019, Mica y yo decidimos crear **Vive Simple** un espacio en [Youtube](https://www.youtube.com/c/ViveSimple/featured) e [Instagram](https://www.instagram.com/info.vivesimple/) en el que ambos pudiéramos canalizar nuestra creatividad, compartiendo nuestras experiencias. Todo esto con el fin de ayudar a las personas y darles a conocer lo hermoso que es Buenos Aires, Argentina. 
 
 ### ¡Escríbeme! 📥
 
