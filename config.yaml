@@ -29,8 +29,8 @@ params:
 
     images: ["<link or path of image for opengraph, twitter-cards>"]
 
-    ShowReadingTime: true
-    ShowShareButtons: true
+    ShowReadingTime: false
+    ShowShareButtons: false
     comments: true
     defaultTheme: auto
     disableThemeToggle: false
@@ -63,6 +63,8 @@ params:
               url: posts
             - name: Tags
               url: tags
+            - name: Sobre Mi
+              url: sobremi
 
     # home-info mode
     homeInfoParams:
@@ -101,17 +103,21 @@ params:
 menu:
     main: 
         - identifier: archive
-          name: archives
+          name: Blog
           url: /archive/
-          weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
           weight: 20
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 30
+        - identified: sobremi
+          name: Sobre Mi
+          url: /sobremi/
+          weight: 10
         - identified: search
           name: 🔍
           url: /search/
-          weight: 30
+          weight: 40
 
 # Search feature
 outputs:

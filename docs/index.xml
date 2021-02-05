@@ -86,12 +86,12 @@ Table content  Frameworks Tools Preprocessors Reset and Normalize Design Inspira
     </item>
     
     <item>
-      <title>Archive</title>
+      <title>Blog</title>
       <link>https://elvisfinol.com/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://elvisfinol.com/archive/</guid>
-      <description>archive</description>
+      <description>archives</description>
     </item>
     
     <item>
@@ -101,6 +101,15 @@ Table content  Frameworks Tools Preprocessors Reset and Normalize Design Inspira
       
       <guid>https://elvisfinol.com/search/</guid>
       <description>search</description>
+    </item>
+    
+    <item>
+      <title>Sobre Mi</title>
+      <link>https://elvisfinol.com/sobremi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/sobremi/</guid>
+      <description>sobremi</description>
     </item>
     
   </channel>

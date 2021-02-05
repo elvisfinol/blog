@@ -6,27 +6,38 @@
         <!-- <h1>{{- .title | default $.Site.Title | markdownify -}} 👋</h1> -->
 
         <!-- Lines added by me! -->
+
+        <div id="particles-js"></div>
         <div class="content-wrap">
 
             <div class="content">
                 <!-- TITLE -->
-                <h1> Hello.👋</h1>
+                <h1> Hola!👋</h1>
 
-                <h2>My name is <span class="link-1">Elvis.</span></h2>
+                <h2>Mi nombre es <span class="link-1">Elvis Finol.</span></h2>
                     
                 <!-- DESCRIPTION -->
-                <p>Welcome board! I am System Engineer based in Argentina. Here you will see topics about new tech and guides about what I am learning at the moment. Enjoy the stay!</p>
+                <p>Llevo +5 años trabajando en el área de Sistemas. Soy un apasionado por las nuevas tecnologias. Tengo la curiosidad de investigar y la disciplina de estudiar constantemente. Disfruto mucho del proceso de crear y generar valor. </p>
                 <!-- <p>Get in touch: <a class="link-2" href="mailto:e.finol7@gmail.com">e.finol7@gmail.com</a></p> -->
-                <p><a class="link-2" href="posts">Check blog!</a></p>
+                <!-- <p><a class="link-2" href="posts">Mirar Blog!</a></p> -->
+                <br>
+                <button class="big-button">
+                    <a href="https://www.dropbox.com/s/q8lpuxhaqeu4wfn/Elvis%20Enrique%20Finol%20Arrieta%20-%20Resum%C3%A9.pdf?dl=0" target="_blank">Descargar Resumé</a>
+                </button>
             </div>
         </div>
+        <br>
 
 
         <span>{{- .subtitle | markdownify -}}</span>
+        
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
         
+        
+
+
         <!-- <div class="buttons">
             {{- range . -}}
             <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | humanize }}">
