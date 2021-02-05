@@ -47,7 +47,7 @@ params:
 
     label:
         text: "elvisfinol.com"
-        # icon: /apple-touch-icon.png
+        # icon: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Rubik_cube.png/600px-Rubik_cube.png
         iconHeight: 35
 
     # profile-mode
