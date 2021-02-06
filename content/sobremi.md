@@ -30,9 +30,7 @@ A pensar que mi título diga lo contrario, desde siempre me he desarrollado en a
 
 ### Pasión por la música
 
-Desde muy chico descubrí que me encantaba la música. Recuerdo las visitas a las tiendas de discos donde guardaba los pocos ahorros que tenía para comprar los últimos álbumes (aquellos tiempos). No fue hasta los 12 años que mi papá me regalo una guitarra española y ahí no pare de aprender y hacer música. Aprendí a tocar el bajo eléctrico, guitarra, teclado y lo que más disfruto es la producción; estar detrás de backstage, en mi espacio creando música.
-
-Sin intención de hacer publicidad en mi portafolio te dejo este [**enlace**](https://open.spotify.com/artist/1aBF34ZnXc9SHwvx0Rc0qK?si=dcVQPYUgTPeUG4TfR1ylqw) de mis producciones en el área de la música. 
+Desde muy chico descubrí que me encantaba la música. Recuerdo las visitas a las tiendas de discos donde guardaba los pocos ahorros que tenía para comprar los últimos álbumes (aquellos tiempos). No fue hasta los 12 años que mi papá me regalo una guitarra española y ahí no pare de aprender y hacer música. Aprendí a tocar el bajo eléctrico, guitarra, teclado y lo que más disfruto es la producción; estar detrás de backstage, en mi espacio creando música. Te dejo este [**enlace**](https://open.spotify.com/artist/1aBF34ZnXc9SHwvx0Rc0qK?si=dcVQPYUgTPeUG4TfR1ylqw) de mis producciones en el área de la música. 
 
 ### Contenido Visual y Fotografía
 
