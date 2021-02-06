@@ -1,13 +1,14 @@
-<div class="profile">
-    {{- with .Site.Params.profileMode }}
-    <div class="profile_inner">
-        <!-- {{- if .imageUrl}}<img src="{{ .imageUrl}}" alt="{{ .imageTitle | default "profile image" }}"
-            height="{{- .imageHeight | default 150 -}}" width="{{- .imageWidth | default 150 -}}" />{{- end}} -->
-        <!-- <h1>{{- .title | default $.Site.Title | markdownify -}} 👋</h1> -->
+{{- with $.Site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    
+    <!-- <header class="entry-header">
+        <h2>{{- .Title | markdownify }}</h2>
+    </header>
+    <section class="entry-content">
+        <p>{{- .Content | markdownify }}</p>
+    </section> -->
 
-        <!-- Lines added by me! -->
-
-        <div class="content-wrap">
+            <div class="content-wrap">
 
             <div class="content">
                 <!-- TITLE -->
@@ -27,23 +28,10 @@
             </div>
         </div>
 
-        <span>{{- .subtitle | markdownify -}}</span>
-        
+
+
+    <footer class="entry-footer">
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
-
-        {{- with .buttons }}
-        
-        
-
-
-        <!-- <div class="buttons">
-            {{- range . -}}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | humanize }}">
-                <span class="button-inner">{{ .name }}</span>
-            </a>
-            {{- end -}}
-        </div> -->
-        {{- end }}
-    </div>
-    {{- end}}
-</div>
+    </footer>
+</article>
+{{- end}}
