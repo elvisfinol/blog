@@ -7,6 +7,8 @@ summary: "sobremi"
 
 ¡Hola! Mi nombre es **Elvis Finol**. Nací hace 29 años en Maracaibo (Venezuela). Estudié Ingeniería en Electrónica Mención Automatización y Control de Procesos en la Universidad Rafael Belloso Chacín. En el 2015 decidí salir de mi país en busca de mejores oportunidades tanto para el crecimiento personal como profesional. Me mudé a la capital Argentina, la icónica Ciudad de Buenos Aires.
 
+> Marzo de 2021 --> nueva localización / Madrid, España. (Historia en desarrollo...✍️)
+
 ![Uspallata Mendoza, Argentina](https://paper-attachments.dropbox.com/s_AE1CE61074E27361AD465877CDA1B977F9847EF3F1ECFDFA4299DCE603938A56_1612554419208_photo_2021-02-05+12.21.04.jpeg)
 
 A pensar que mi título diga lo contrario, desde siempre me he desarrollado en al área de Sistemas. He extendido mis conocimientos en una amplia variedad de entornos (Infraestructura on Premise y Cloud). Día a día me enfrento a la resolución de problemas y a mantener tanto sistemas Productivos como DR; participando en proyectos que van desde la instalación de infraestructura, el desarrollo, las pruebas, hasta implementación y liberación de procesos productivos. Esto me ha llevado a generar una gran habilidad de trabajo bajo presión.
