@@ -8,13 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Apr 2021 18:36:20 +0200</lastBuildDate><atom:link href="https://elvisfinol.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Load Balancing [Concepts]</title>
+      <title>Load Balancing [Deep Dive]</title>
       <link>https://elvisfinol.com/posts/load-balancing-algorithms/</link>
       <pubDate>Mon, 05 Apr 2021 18:36:20 +0200</pubDate>
       
       <guid>https://elvisfinol.com/posts/load-balancing-algorithms/</guid>
-      <description>Table content  Concept How does it work Algorithms  Concept A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. It helps scale horizontally across an ever-increasing number of servers.
-How does it work  Define IP or DNS name for LB: Administrators define one IP address and/or DNS name for a given application, task, or website, to which all requests will come.</description>
+      <description>Table content  Concept The benefits of a Load Balancer How does it work Type of Load Balancer Load Balancer locations Algorithms  Concept A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. It helps scale horizontally across an ever-increasing number of servers.
+⇧ back to topThe benefits of a Load Balancer  Reduced the work-load on an individual server.</description>
     </item>
     
     <item>
