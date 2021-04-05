@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://elvisfinol.com/tags/deep-dive/</loc>
+    <lastmod>2021-04-05T18:36:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://elvisfinol.com/</loc>
+    <lastmod>2021-04-05T18:36:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/load-balancing/</loc>
     <lastmod>2021-04-05T18:36:20+02:00</lastmod>
   </url>
   
@@ -14,6 +24,11 @@
   
   <url>
     <loc>https://elvisfinol.com/posts/</loc>
+    <lastmod>2021-04-05T18:36:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/</loc>
     <lastmod>2021-04-05T18:36:20+02:00</lastmod>
   </url>
   
@@ -39,11 +54,6 @@
   
   <url>
     <loc>https://elvisfinol.com/tags/sysops/</loc>
-    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/tags/</loc>
     <lastmod>2021-01-28T16:00:43-03:00</lastmod>
   </url>
   

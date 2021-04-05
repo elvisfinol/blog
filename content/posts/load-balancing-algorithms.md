@@ -2,6 +2,7 @@
 title: "Load Balancing [Deep Dive]"
 date: 2021-04-05T18:36:20+02:00
 draft: false
+tags: ["load balancing", "deep-dive"]
 ---
 
 ![LB-diagram](https://avinetworks.com/wp-content/uploads/2018/11/server-load-balancing-diagram.png)
