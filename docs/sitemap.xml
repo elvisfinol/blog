@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://elvisfinol.com/tags/deep-dive/</loc>
-    <lastmod>2021-04-05T18:36:20+02:00</lastmod>
+    <loc>https://elvisfinol.com/tags/bash/</loc>
+    <lastmod>2021-04-08T20:57:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/posts/bash-in-minutes/</loc>
+    <lastmod>2021-04-08T20:57:53+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://elvisfinol.com/</loc>
+    <lastmod>2021-04-08T20:57:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/posts/</loc>
+    <lastmod>2021-04-08T20:57:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/</loc>
+    <lastmod>2021-04-08T20:57:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/tags/deep-dive/</loc>
     <lastmod>2021-04-05T18:36:20+02:00</lastmod>
   </url>
   
@@ -19,16 +39,6 @@
   
   <url>
     <loc>https://elvisfinol.com/posts/load-balancing-deep-dive/</loc>
-    <lastmod>2021-04-05T18:36:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/posts/</loc>
-    <lastmod>2021-04-05T18:36:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/tags/</loc>
     <lastmod>2021-04-05T18:36:20+02:00</lastmod>
   </url>
   
