@@ -1,5 +1,5 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Algorithms Pseudocode 🧬 | Elvis Finol | Website</title><meta name=keywords content><meta name=description content="SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper >= lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue < input[mid]) upper = mid - 1 else: low = mid + 1 } return false } LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] === searchValue) return true } return false } JUMP SEARCH jumpSearch(input, searchValue) { n = input."><meta name=author content="Elvis Finol"><link rel=canonical href=https://elvisfinol.com/posts/algorithms-pseudo-codes/><meta name=google-site-verification content="XYZabc"><link href=/assets/css/stylesheet.min.f2cb17b40576bc8a53f16b88ed61d09cfb30ba77ae49246e2db4ba1a76384afa.css integrity="sha256-8ssXtAV2vIpT8WuI7WHQnPswuneuSSRuLbS6GnY4Svo=" rel="preload stylesheet" as=style><link rel=icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.80.0"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-123-45','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><meta property="og:title" content="Algorithms Pseudocode 🧬"><meta property="og:description" content="SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper >= lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue < input[mid]) upper = mid - 1 else: low = mid + 1 } return false } LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] === searchValue) return true } return false } JUMP SEARCH jumpSearch(input, searchValue) { n = input."><meta property="og:type" content="article"><meta property="og:url" content="https://elvisfinol.com/posts/algorithms-pseudo-codes/"><meta property="og:image" content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:published_time" content="2021-04-15T10:35:15+02:00"><meta property="article:modified_time" content="2021-04-15T10:35:15+02:00"><meta property="og:site_name" content="Elvis Finol | Website"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="Algorithms Pseudocode 🧬"><meta name=twitter:description content="SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper >= lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue < input[mid]) upper = mid - 1 else: low = mid + 1 } return false } LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] === searchValue) return true } return false } JUMP SEARCH jumpSearch(input, searchValue) { n = input."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Algorithms Pseudocode 🧬","name":"Algorithms Pseudocode 🧬","description":"SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper \u0026amp;gt;= lower) { mid = (upper + lower) / 2 if (input[mid] == …","keywords":[],"articleBody":"SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper = lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] === searchValue) return true } return false } JUMP SEARCH jumpSearch(input, searchValue) { n = input.length jumpBy = Math.floor(Math.sqrt(n)) blockStart = 0 blockEnd = jumpBy // Look for the correct block while (input[blockEnd] = n) blockEnd = n - 1 // No block suitable, hence not found if (blockStart = n) return false } // Now do a linear search inside the block for (i=blockStart to i=blockEnd) { if (input[i] == searchValue) return true } return false } SORTING ALGORITHMS BUBBLE SORT for (index=0 to input.length-1) { for (j=0 to j input[j+1]) swap input[j+1] \u0026 input[j] } } IMPROVED BUBBLE SORT for (index=0 to input.length-1) { bool sorted = true for (j=0 to j input[j+1]) { swap input[j+1] \u0026 input[j] sorted = false } } // Stop, once the array is sorted if (sorted) return } INSERTION SORT for (i=0 to i=input.length-1) { int temp = input[i] boolean hasMoved = false boolean notPlaced = true for (j=i-1 to j=0) { if (input[j]  temp) { // Shift numbers till you find it’s right location input[j+1] = input[j] hasMoved = true } else { input[j+1] = temp notPlaced = false break } } // Edge case if(hasMoved \u0026 \u0026 notPlaced) input[0] = temp } SELECTION SORT # Adds sorted numbers to the right end of the array for (i=input.length-1 to i  0) { int maxIndex = 0 for (j=1 to j input[maxIndex]) { # Set index for largest element found till now maxIndex = j } } if (maxIndex != i) swap input[i] \u0026 input[maxIndex] } HEAP SORT sort() { int size = input.length for (int i=size/2 - 1 to 0) heapify(size, i) for (int i=size - 1 to 0) { swap input[i] \u0026 input[0] heapify(i, 0) } } heapify(int n, int i) { int largest = i int left = 2i + 1 int right = 2i + 2 // if left child is larger than root if (left QUICK SORT quicksort(int[] input, int left, int right) { if (right - left pivot) j-- if (i MERGE SORT merge(input, left, mid, right) { int len1 = mid - left + 1 int len2 = right - mid L - array of size len1 R - array of size len2 // Copy data to these arrays for (i=0 to i ","wordCount":"665","inLanguage":"en","datePublished":"2021-04-15T10:35:15+02:00","dateModified":"2021-04-15T10:35:15+02:00","author":{"@type":"Person","name":"Elvis Finol"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://elvisfinol.com/posts/algorithms-pseudo-codes/"},"publisher":{"@type":"Organization","name":"Elvis Finol | Website","logo":{"@type":"ImageObject","url":"https://elvisfinol.com/%3Clink%20/%20abs%20url%3E"}}}</script></head><body id=top><script>if(localStorage.getItem("pref-theme")==="dark"){document.body.classList.add('dark');}else if(localStorage.getItem("pref-theme")==="light"){document.body.classList.remove('dark')}else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.body.classList.add('dark');}</script><noscript><style type=text/css>.theme-toggle,.top-link{display:none}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://elvisfinol.com accesskey=h title="elvisfinol.com (Alt + H)">elvisfinol.com</a>
-<span class=logo-switches><span class=theme-toggle title="(Alt + T)"><a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></a></span></span></div><ul class=menu id=menu onscroll=menu_on_scroll()><li><a href=https://elvisfinol.com/sobremi/ title="Sobre Mi"><span>Sobre Mi</span></a></li><li><a href=https://elvisfinol.com/archive/ title=Blog><span>Blog</span></a></li><li><a href=https://elvisfinol.com/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://elvisfinol.com/search/ title=🔍><span>🔍</span></a></li></ul></nav><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.15.1/css/all.css integrity=sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp crossorigin=anonymous><link rel=preconnect href=https://fonts.gstatic.com><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&family=Rubik:wght@300;500;600&display=swap" rel=stylesheet></header><main class=main><article class=post-single><header class=post-header><h1 class=post-title>Algorithms Pseudocode 🧬</h1><div class=post-description></div><div class=post-meta>April 15, 2021&nbsp;·&nbsp;Elvis Finol</div></header><div class=post-content><h2 id=searching-algorithms>SEARCHING ALGORITHMS<a hidden class=anchor aria-hidden=true href=#searching-algorithms>#</a></h2><h4 id=binary-search>BINARY SEARCH<a hidden class=anchor aria-hidden=true href=#binary-search>#</a></h4><pre><code>binarySearch(input, searchValue) {
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Algorithms Pseudocode In Python 🧬 | Elvis Finol | Website</title><meta name=keywords content><meta name=description content="SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper >= lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue < input[mid]) upper = mid - 1 else: low = mid + 1 } return false } LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] == searchValue) return true } return false } JUMP SEARCH # Python3 code to implement Jump Search import math def jumpSearch( arr , x , n ): # Finding block size to be jumped step = math."><meta name=author content="Elvis Finol"><link rel=canonical href=https://elvisfinol.com/posts/algorithms-pseudo-codes/><meta name=google-site-verification content="XYZabc"><link href=/assets/css/stylesheet.min.f2cb17b40576bc8a53f16b88ed61d09cfb30ba77ae49246e2db4ba1a76384afa.css integrity="sha256-8ssXtAV2vIpT8WuI7WHQnPswuneuSSRuLbS6GnY4Svo=" rel="preload stylesheet" as=style><link rel=icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.80.0"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-123-45','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><meta property="og:title" content="Algorithms Pseudocode In Python 🧬"><meta property="og:description" content="SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper >= lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue < input[mid]) upper = mid - 1 else: low = mid + 1 } return false } LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] == searchValue) return true } return false } JUMP SEARCH # Python3 code to implement Jump Search import math def jumpSearch( arr , x , n ): # Finding block size to be jumped step = math."><meta property="og:type" content="article"><meta property="og:url" content="https://elvisfinol.com/posts/algorithms-pseudo-codes/"><meta property="og:image" content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:published_time" content="2021-04-15T10:35:15+02:00"><meta property="article:modified_time" content="2021-04-15T10:35:15+02:00"><meta property="og:site_name" content="Elvis Finol | Website"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="Algorithms Pseudocode In Python 🧬"><meta name=twitter:description content="SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper >= lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue < input[mid]) upper = mid - 1 else: low = mid + 1 } return false } LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] == searchValue) return true } return false } JUMP SEARCH # Python3 code to implement Jump Search import math def jumpSearch( arr , x , n ): # Finding block size to be jumped step = math."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Algorithms Pseudocode In Python 🧬","name":"Algorithms Pseudocode In Python 🧬","description":"SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper \u0026amp;gt;= lower) { mid = (upper + lower) / 2 if (input[mid] == …","keywords":[],"articleBody":"SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper = lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] == searchValue) return true } return false } JUMP SEARCH # Python3 code to implement Jump Search import math def jumpSearch( arr , x , n ): # Finding block size to be jumped step = math.sqrt(n) # Finding the block where element is # present (if it is present) prev = 0 while arr[int(min(step, n)-1)] = n: return -1 # Doing a linear search for x in # block beginning with prev. while arr[int(prev)] SORTING ALGORITHMS BUBBLE SORT # Python program for implementation of Bubble Sort def bubbleSort(arr): n = len(arr) # Traverse through all array elements for i in range(n-1): # range(n) also work but outer loop will repeat one time more than needed. # Last i elements are already in place for j in range(0, n-i-1): # traverse the array from 0 to n-i-1 # Swap if the element found is greater # than the next element if arr[j]  arr[j+1] : arr[j], arr[j+1] = arr[j+1], arr[j] # Driver code to test above arr = [64, 34, 25, 12, 22, 11, 90] bubbleSort(arr) print (\"Sorted array is:\") for i in range(len(arr)): print (\"%d\" %arr[i]), INSERTION SORT # Python program for implementation of Insertion Sort # Function to do insertion sort def insertionSort(arr): # Traverse through 1 to len(arr) for i in range(1, len(arr)): key = arr[i] # Move elements of arr[0..i-1], that are # greater than key, to one position ahead # of their current position j = i-1 while j =0 and key SELECTION SORT # Python program for implementation of Selection # Sort import sys A = [64, 25, 12, 22, 11] # Traverse through all array elements for i in range(len(A)): # Find the minimum element in remaining # unsorted array min_idx = i for j in range(i+1, len(A)): if A[min_idx]  A[j]: min_idx = j # Swap the found minimum element with # the first element\tA[i], A[min_idx] = A[min_idx], A[i] # Driver code to test above print (\"Sorted array\") for i in range(len(A)): print(\"%d\" %A[i]), HEAP SORT # Python program for implementation of heap Sort # To heapify subtree rooted at index i. # n is size of heap def heapify(arr, n, i): largest = i # Initialize largest as root l = 2 * i + 1\t# left = 2*i + 1 r = 2 * i + 2\t# right = 2*i + 2 # See if left child of root exists and is # greater than root if l QUICK SORT # Python program for implementation of Quicksort Sort # This function takes last element as pivot, places # the pivot element at its correct position in sorted # array, and places all smaller (smaller than pivot) # to left of pivot and all greater elements to right # of pivot def partition(arr, low, high): i = (low-1)\t# index of smaller element pivot = arr[high]\t# pivot for j in range(low, high): # If current element is smaller than or # equal to pivot if arr[j] Array to be sorted, # low -- Starting index, # high -- Ending index # Function to do Quick sort def quickSort(arr, low, high): if len(arr) == 1: return arr if low Python program for implementation of MergeSort Merges two subarrays of arr[]. First subarray is arr[l..m] Second subarray is arr[m+1..r] def merge(arr, l, m, r): n1 = m - l + 1 n2 = r- m\n# create temp arrays L = [0] * (n1) R = [0] * (n2) # Copy data to temp arrays L[] and R[] for i in range(0 , n1): L[i] = arr[l + i] for j in range(0 , n2): R[j] = arr[m + 1 + j] # Merge the temp arrays back into arr[l..r] i = 0\t# Initial index of first subarray j = 0\t# Initial index of second subarray k = l\t# Initial index of merged subarray while i  l is for left index and r is right index of the sub-array of arr to be sorted def mergeSort(arr,l,r): if l  # Same as (l+r)//2, but avoids overflow for # large l and h m = (l+(r-1))//2 # Sort first and second halves mergeSort(arr, l, m) mergeSort(arr, m+1, r) merge(arr, l, m, r)  Driver code to test above arr = [12, 11, 13, 5, 6, 7] n = len(arr) print (“Given array is”) for i in range(n): print (\"%d\" %arr[i]),\nmergeSort(arr,0,n-1) print (\"\\n\\nSorted array is\") for i in range(n): print (\"%d\" %arr[i]),\nThis code is contributed by Mohit Kumra ","wordCount":"1334","inLanguage":"en","datePublished":"2021-04-15T10:35:15+02:00","dateModified":"2021-04-15T10:35:15+02:00","author":{"@type":"Person","name":"Elvis Finol"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://elvisfinol.com/posts/algorithms-pseudo-codes/"},"publisher":{"@type":"Organization","name":"Elvis Finol | Website","logo":{"@type":"ImageObject","url":"https://elvisfinol.com/%3Clink%20/%20abs%20url%3E"}}}</script></head><body id=top><script>if(localStorage.getItem("pref-theme")==="dark"){document.body.classList.add('dark');}else if(localStorage.getItem("pref-theme")==="light"){document.body.classList.remove('dark')}else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.body.classList.add('dark');}</script><noscript><style type=text/css>.theme-toggle,.top-link{display:none}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://elvisfinol.com accesskey=h title="elvisfinol.com (Alt + H)">elvisfinol.com</a>
+<span class=logo-switches><span class=theme-toggle title="(Alt + T)"><a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></a></span></span></div><ul class=menu id=menu onscroll=menu_on_scroll()><li><a href=https://elvisfinol.com/sobremi/ title="Sobre Mi"><span>Sobre Mi</span></a></li><li><a href=https://elvisfinol.com/archive/ title=Blog><span>Blog</span></a></li><li><a href=https://elvisfinol.com/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://elvisfinol.com/search/ title=🔍><span>🔍</span></a></li></ul></nav><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.15.1/css/all.css integrity=sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp crossorigin=anonymous><link rel=preconnect href=https://fonts.gstatic.com><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&family=Rubik:wght@300;500;600&display=swap" rel=stylesheet></header><main class=main><article class=post-single><header class=post-header><h1 class=post-title>Algorithms Pseudocode In Python 🧬</h1><div class=post-description></div><div class=post-meta>April 15, 2021&nbsp;·&nbsp;Elvis Finol</div></header><div class=post-content><h2 id=searching-algorithms>SEARCHING ALGORITHMS<a hidden class=anchor aria-hidden=true href=#searching-algorithms>#</a></h2><h4 id=binary-search>BINARY SEARCH<a hidden class=anchor aria-hidden=true href=#binary-search>#</a></h4><pre><code>binarySearch(input, searchValue) {
     lower = 0
     upper = input.len - 1
 
@@ -17,198 +17,305 @@
 }
 </code></pre><h4 id=linear-search>LINEAR SEARCH<a hidden class=anchor aria-hidden=true href=#linear-search>#</a></h4><pre><code>linearSearch(input, searchValue) {
     for (i=0 to input.lenght - 1) {
-        if (input[i] === searchValue)
-        return true
-    }
-    return false
-}
-</code></pre><h4 id=jump-search>JUMP SEARCH<a hidden class=anchor aria-hidden=true href=#jump-search>#</a></h4><pre><code>jumpSearch(input, searchValue) {
-
-    n = input.length
-    jumpBy = Math.floor(Math.sqrt(n))
-
-    blockStart = 0
-    blockEnd = jumpBy
-
-    // Look for the correct block
-    while (input[blockEnd] &lt;= searchValue) {
-
-        blockStart = blockEnd
-        blockEnd += jumpBy
-
-        if (blockEnd &gt;= n)
-        blockEnd = n - 1
-
-        // No block suitable, hence not found
-        if (blockStart &gt;= n)
-        return false
-
-    }
-
-    // Now do a linear search inside the block
-    for (i=blockStart  to  i=blockEnd) {
-
         if (input[i] == searchValue)
         return true
-
     }
-
     return false
 }
-</code></pre><h5 id=sorting-algorithms>SORTING ALGORITHMS<a hidden class=anchor aria-hidden=true href=#sorting-algorithms>#</a></h5><h4 id=bubble-sort>BUBBLE SORT<a hidden class=anchor aria-hidden=true href=#bubble-sort>#</a></h4><pre><code>for (index=0 to input.length-1) {
-    for (j=0 to j &lt; input.length-1-index) {
-        if (input[j] &gt; input[j+1])
-        swap input[j+1] &amp; input[j]
-    }
-}
-</code></pre><h2 id=improved-bubble-sort>IMPROVED BUBBLE SORT<a hidden class=anchor aria-hidden=true href=#improved-bubble-sort>#</a></h2><pre><code>for (index=0 to input.length-1) {
-    bool sorted = true
-    for (j=0 to j &lt; input.length-1-index) {
-        if (input[j] &gt; input[j+1]) {
-            swap input[j+1] &amp; input[j]
-            sorted = false
-        }
-    }
-    // Stop, once the array is sorted
-    if (sorted)
-    return
-}
-</code></pre><h4 id=insertion-sort>INSERTION SORT<a hidden class=anchor aria-hidden=true href=#insertion-sort>#</a></h4><pre><code>for (i=0 to i=input.length-1) {
+</code></pre><h4 id=jump-search>JUMP SEARCH<a hidden class=anchor aria-hidden=true href=#jump-search>#</a></h4><pre><code># Python3 code to implement Jump Search
+import math
 
-    int temp = input[i]
-    boolean hasMoved = false
-    boolean notPlaced = true
+def jumpSearch( arr , x , n ):
+	
+	# Finding block size to be jumped
+	step = math.sqrt(n)
+	
+	# Finding the block where element is
+	# present (if it is present)
+	prev = 0
+	while arr[int(min(step, n)-1)] &lt; x:
+		prev = step
+		step += math.sqrt(n)
+		if prev &gt;= n:
+			return -1
+	
+	# Doing a linear search for x in
+	# block beginning with prev.
+	while arr[int(prev)] &lt; x:
+		prev += 1
+		
+		# If we reached next block or end
+		# of array, element is not present.
+		if prev == min(step, n):
+			return -1
+	
+	# If element is found
+	if arr[int(prev)] == x:
+		return prev
+	
+	return -1
 
-    for (j=i-1 to j=0) {
-        if (input[j] &gt; temp) {
-            // Shift numbers till you find it’s right location
-            input[j+1] = input[j]
-            hasMoved = true
-        } else {
-            input[j+1] = temp
-            notPlaced = false
-            break
-        }
-    }
+# Driver code to test function
+arr = [ 0, 1, 1, 2, 3, 5, 8, 13, 21,
+	34, 55, 89, 144, 233, 377, 610 ]
+x = 55
+n = len(arr)
 
-    // Edge case
-    if(hasMoved &amp; &amp; notPlaced)
-    input[0] = temp
-}
-</code></pre><h4 id=selection-sort>SELECTION SORT<a hidden class=anchor aria-hidden=true href=#selection-sort>#</a></h4><pre><code># Adds sorted numbers to the right end of the array
-for (i=input.length-1 to i &gt; 0) {
-    int maxIndex = 0
+# Find the index of 'x' using Jump Search
+index = jumpSearch(arr, x, n)
 
-    for (j=1 to j &lt;= i) {
+# Print the index where 'x' is located
+print(&quot;Number&quot; , x, &quot;is at index&quot; ,&quot;%.0f&quot;%index)
 
-        if (input[j] &gt; input[maxIndex]) {
-            # Set index for largest element found till now
-            maxIndex = j
-        }
-    }
-    if (maxIndex != i)
-    swap input[i] &amp; input[maxIndex]
-}
-</code></pre><h4 id=heap-sort>HEAP SORT<a hidden class=anchor aria-hidden=true href=#heap-sort>#</a></h4><pre><code>sort() {
+# This code is contributed by &quot;Sharad_Bhardwaj&quot;.
 
-    int size = input.length
+</code></pre><h2 id=sorting-algorithms>SORTING ALGORITHMS<a hidden class=anchor aria-hidden=true href=#sorting-algorithms>#</a></h2><h4 id=bubble-sort>BUBBLE SORT<a hidden class=anchor aria-hidden=true href=#bubble-sort>#</a></h4><pre><code># Python program for implementation of Bubble Sort
 
-    for (int i=size/2 - 1 to 0)
-    heapify(size, i)
+def bubbleSort(arr):
+	n = len(arr)
 
-    for (int i=size - 1 to 0) {
-        swap input[i] &amp; input[0]
-        heapify(i, 0)
-    }
-}
+	# Traverse through all array elements
+	for i in range(n-1):
+	# range(n) also work but outer loop will repeat one time more than needed.
 
-heapify(int n, int i) {
+		# Last i elements are already in place
+		for j in range(0, n-i-1):
 
-    int largest = i
-    int left = 2i + 1
-    int right = 2i + 2
+			# traverse the array from 0 to n-i-1
+			# Swap if the element found is greater
+			# than the next element
+			if arr[j] &gt; arr[j+1] :
+				arr[j], arr[j+1] = arr[j+1], arr[j]
 
-    // if left child is larger than root
-    if (left &lt; n &amp; &amp; input[largest] &lt; input[left])
-    largest = left
+# Driver code to test above
+arr = [64, 34, 25, 12, 22, 11, 90]
 
-    // if right child is larger than largest found
-    if (right &lt; n &amp; &amp; input[largest] &lt; input[right])
-    largest = right
+bubbleSort(arr)
 
-    // if the largest element is not root
-    if (largest != i) {
-        swap input[i] &amp; input[largest]
-        heapify(n, largest)
-    }
+print (&quot;Sorted array is:&quot;)
+for i in range(len(arr)):
+	print (&quot;%d&quot; %arr[i]),
 
-}
-</code></pre><h4 id=quick-sort>QUICK SORT<a hidden class=anchor aria-hidden=true href=#quick-sort>#</a></h4><pre><code>quicksort(int[] input, int left, int right) {
+</code></pre><h4 id=insertion-sort>INSERTION SORT<a hidden class=anchor aria-hidden=true href=#insertion-sort>#</a></h4><pre><code># Python program for implementation of Insertion Sort
 
-    if (right - left &lt;= 0)
-    return
+# Function to do insertion sort
+def insertionSort(arr):
 
-    int pivot = input[(left + right) / 2]
-    int i = left,  j = right
+	# Traverse through 1 to len(arr)
+	for i in range(1, len(arr)):
 
-    while (i &lt;= j) {
-        while (input[i] &lt; pivot)
-        i++
+		key = arr[i]
 
-        while (input[j] &gt; pivot)
-        j--
+		# Move elements of arr[0..i-1], that are
+		# greater than key, to one position ahead
+		# of their current position
+		j = i-1
+		while j &gt;=0 and key &lt; arr[j] :
+				arr[j+1] = arr[j]
+				j -= 1
+		arr[j+1] = key
 
-        if (i &lt;= j) {
-            swap input[i] &amp; input[j]
-            i++
-            j--
-        }
-    }
 
-    // Recursive calls
-    quicksort(input, left, i-1)
-    quicksort(input, i, right)
-}
-</code></pre><h4 id=merge-sort>MERGE SORT<a hidden class=anchor aria-hidden=true href=#merge-sort>#</a></h4><pre><code>merge(input, left, mid, right) {
+# Driver code to test above
+arr = [12, 11, 13, 5, 6]
+insertionSort(arr)
+print (&quot;Sorted array is:&quot;)
+for i in range(len(arr)):
+	print (&quot;%d&quot; %arr[i])
 
-    int len1 = mid - left + 1
-    int len2 = right - mid
-    L -&gt; array of size len1
-    R -&gt; array of size len2
+# This code is contributed by Mohit Kumra
 
-    // Copy data to these arrays
-    for (i=0 to i &lt; len1)
-    L[i] = input[left + i]
+</code></pre><h4 id=selection-sort>SELECTION SORT<a hidden class=anchor aria-hidden=true href=#selection-sort>#</a></h4><pre><code># Python program for implementation of Selection
+# Sort
+import sys
+A = [64, 25, 12, 22, 11]
 
-    for (i=0 to i &lt; len2)
-    R[i] = input[mid + i + 1]
+# Traverse through all array elements
+for i in range(len(A)):
+	
+	# Find the minimum element in remaining
+	# unsorted array
+	min_idx = i
+	for j in range(i+1, len(A)):
+		if A[min_idx] &gt; A[j]:
+			min_idx = j
+			
+	# Swap the found minimum element with
+	# the first element		
+	A[i], A[min_idx] = A[min_idx], A[i]
 
-    int i = 0, j = 0, k = left
+# Driver code to test above
+print (&quot;Sorted array&quot;)
+for i in range(len(A)):
+	print(&quot;%d&quot; %A[i]),
 
-    while (i &lt; len1 &amp; &amp; j &lt; len2) {
-        if (L[i] &lt;= R[j]) {
-            input[k] = L[i]
-            i++
-        } else {
-            input[k] = R[j]
-            j++
-        }
-        k++
-    }
+</code></pre><h4 id=heap-sort>HEAP SORT<a hidden class=anchor aria-hidden=true href=#heap-sort>#</a></h4><pre><code># Python program for implementation of heap Sort
 
-    // Fill the remaining numbers
-    while (i &lt; len1) {
-        input[k] = L[i]
-        i++
-        k++
-    }
-    while (j &lt; len2) {
-        input[k] = R[j]
-        j++
-        k++
-    }
-}
-</code></pre></div><footer class=post-footer></footer><div id=disqus_thread></div><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript></article></main><footer class=footer><span>&copy; 2021 <a href=https://elvisfinol.com>Elvis Finol | Website</a></span>
+# To heapify subtree rooted at index i.
+# n is size of heap
+def heapify(arr, n, i):
+	largest = i # Initialize largest as root
+	l = 2 * i + 1	 # left = 2*i + 1
+	r = 2 * i + 2	 # right = 2*i + 2
+
+	# See if left child of root exists and is
+	# greater than root
+	if l &lt; n and arr[i] &lt; arr[l]:
+		largest = l
+
+	# See if right child of root exists and is
+	# greater than root
+	if r &lt; n and arr[largest] &lt; arr[r]:
+		largest = r
+
+	# Change root, if needed
+	if largest != i:
+		arr[i],arr[largest] = arr[largest],arr[i] # swap
+
+		# Heapify the root.
+		heapify(arr, n, largest)
+
+# The main function to sort an array of given size
+def heapSort(arr):
+	n = len(arr)
+
+	# Build a maxheap.
+	# Since last parent will be at ((n//2)-1) we can start at that location.
+	for i in range(n // 2 - 1, -1, -1):
+		heapify(arr, n, i)
+
+	# One by one extract elements
+	for i in range(n-1, 0, -1):
+		arr[i], arr[0] = arr[0], arr[i] # swap
+		heapify(arr, i, 0)
+
+# Driver code to test above
+arr = [ 12, 11, 13, 5, 6, 7]
+heapSort(arr)
+n = len(arr)
+print (&quot;Sorted array is&quot;)
+for i in range(n):
+	print (&quot;%d&quot; %arr[i]),
+# This code is contributed by Mohit Kumra
+
+</code></pre><h4 id=quick-sort>QUICK SORT<a hidden class=anchor aria-hidden=true href=#quick-sort>#</a></h4><pre><code># Python program for implementation of Quicksort Sort
+
+# This function takes last element as pivot, places
+# the pivot element at its correct position in sorted
+# array, and places all smaller (smaller than pivot)
+# to left of pivot and all greater elements to right
+# of pivot
+
+
+def partition(arr, low, high):
+	i = (low-1)		 # index of smaller element
+	pivot = arr[high]	 # pivot
+
+	for j in range(low, high):
+
+		# If current element is smaller than or
+		# equal to pivot
+		if arr[j] &lt;= pivot:
+
+			# increment index of smaller element
+			i = i+1
+			arr[i], arr[j] = arr[j], arr[i]
+
+	arr[i+1], arr[high] = arr[high], arr[i+1]
+	return (i+1)
+
+# The main function that implements QuickSort
+# arr[] --&gt; Array to be sorted,
+# low --&gt; Starting index,
+# high --&gt; Ending index
+
+# Function to do Quick sort
+
+
+def quickSort(arr, low, high):
+	if len(arr) == 1:
+		return arr
+	if low &lt; high:
+
+		# pi is partitioning index, arr[p] is now
+		# at right place
+		pi = partition(arr, low, high)
+
+		# Separately sort elements before
+		# partition and after partition
+		quickSort(arr, low, pi-1)
+		quickSort(arr, pi+1, high)
+
+
+# Driver code to test above
+arr = [10, 7, 8, 9, 1, 5]
+n = len(arr)
+quickSort(arr, 0, n-1)
+print(&quot;Sorted array is:&quot;)
+for i in range(n):
+	print(&quot;%d&quot; % arr[i]),
+
+# This code is contributed by Mohit Kumra
+#This code in improved by https://github.com/anushkrishnav
+
+#### MERGE SORT
+</code></pre><h1 id=python-program-for-implementation-of-mergesort>Python program for implementation of MergeSort<a hidden class=anchor aria-hidden=true href=#python-program-for-implementation-of-mergesort>#</a></h1><h1 id=merges-two-subarrays-of-arr>Merges two subarrays of arr[].<a hidden class=anchor aria-hidden=true href=#merges-two-subarrays-of-arr>#</a></h1><h1 id=first-subarray-is-arrlm>First subarray is arr[l..m]<a hidden class=anchor aria-hidden=true href=#first-subarray-is-arrlm>#</a></h1><h1 id=second-subarray-is-arrm1r>Second subarray is arr[m+1..r]<a hidden class=anchor aria-hidden=true href=#second-subarray-is-arrm1r>#</a></h1><p>def merge(arr, l, m, r):
+n1 = m - l + 1
+n2 = r- m</p><pre><code># create temp arrays
+L = [0] * (n1)
+R = [0] * (n2)
+
+# Copy data to temp arrays L[] and R[]
+for i in range(0 , n1):
+    L[i] = arr[l + i]
+
+for j in range(0 , n2):
+    R[j] = arr[m + 1 + j]
+
+# Merge the temp arrays back into arr[l..r]
+i = 0	 # Initial index of first subarray
+j = 0	 # Initial index of second subarray
+k = l	 # Initial index of merged subarray
+
+while i &lt; n1 and j &lt; n2 :
+    if L[i] &lt;= R[j]:
+        arr[k] = L[i]
+        i += 1
+    else:
+        arr[k] = R[j]
+        j += 1
+    k += 1
+
+# Copy the remaining elements of L[], if there
+# are any
+while i &lt; n1:
+    arr[k] = L[i]
+    i += 1
+    k += 1
+
+# Copy the remaining elements of R[], if there
+# are any
+while j &lt; n2:
+    arr[k] = R[j]
+    j += 1
+    k += 1
+</code></pre><h1 id=l-is-for-left-index-and-r-is-right-index-of-the>l is for left index and r is right index of the<a hidden class=anchor aria-hidden=true href=#l-is-for-left-index-and-r-is-right-index-of-the>#</a></h1><h1 id=sub-array-of-arr-to-be-sorted>sub-array of arr to be sorted<a hidden class=anchor aria-hidden=true href=#sub-array-of-arr-to-be-sorted>#</a></h1><p>def mergeSort(arr,l,r):
+if l &lt; r:</p><pre><code>    # Same as (l+r)//2, but avoids overflow for
+    # large l and h
+    m = (l+(r-1))//2
+
+    # Sort first and second halves
+    mergeSort(arr, l, m)
+    mergeSort(arr, m+1, r)
+    merge(arr, l, m, r)
+</code></pre><h1 id=driver-code-to-test-above>Driver code to test above<a hidden class=anchor aria-hidden=true href=#driver-code-to-test-above>#</a></h1><p>arr = [12, 11, 13, 5, 6, 7]
+n = len(arr)
+print (&ldquo;Given array is&rdquo;)
+for i in range(n):
+print ("%d" %arr[i]),</p><p>mergeSort(arr,0,n-1)
+print ("\n\nSorted array is")
+for i in range(n):
+print ("%d" %arr[i]),</p><h1 id=this-code-is-contributed-by-mohit-kumra>This code is contributed by Mohit Kumra<a hidden class=anchor aria-hidden=true href=#this-code-is-contributed-by-mohit-kumra>#</a></h1><pre><code></code></pre></div><footer class=post-footer></footer><div id=disqus_thread></div><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript></article></main><footer class=footer><span>&copy; 2021 <a href=https://elvisfinol.com>Elvis Finol | Website</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo Framework</a></span>
 <span>&#183;</span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></button></a>

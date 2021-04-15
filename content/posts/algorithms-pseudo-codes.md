@@ -1,5 +1,5 @@
 ---
-title: "Algorithms Pseudocode 🧬"
+title: "Algorithms Pseudocode In Python 🧬"
 date: 2021-04-15T10:35:15+02:00
 draft: false
 ---
@@ -30,7 +30,7 @@ binarySearch(input, searchValue) {
 ```
 linearSearch(input, searchValue) {
     for (i=0 to input.lenght - 1) {
-        if (input[i] === searchValue)
+        if (input[i] == searchValue)
         return true
     }
     return false
@@ -39,220 +39,341 @@ linearSearch(input, searchValue) {
 
 #### JUMP SEARCH
 ```
-jumpSearch(input, searchValue) {
+# Python3 code to implement Jump Search
+import math
 
-    n = input.length
-    jumpBy = Math.floor(Math.sqrt(n))
+def jumpSearch( arr , x , n ):
+	
+	# Finding block size to be jumped
+	step = math.sqrt(n)
+	
+	# Finding the block where element is
+	# present (if it is present)
+	prev = 0
+	while arr[int(min(step, n)-1)] < x:
+		prev = step
+		step += math.sqrt(n)
+		if prev >= n:
+			return -1
+	
+	# Doing a linear search for x in
+	# block beginning with prev.
+	while arr[int(prev)] < x:
+		prev += 1
+		
+		# If we reached next block or end
+		# of array, element is not present.
+		if prev == min(step, n):
+			return -1
+	
+	# If element is found
+	if arr[int(prev)] == x:
+		return prev
+	
+	return -1
 
-    blockStart = 0
-    blockEnd = jumpBy
+# Driver code to test function
+arr = [ 0, 1, 1, 2, 3, 5, 8, 13, 21,
+	34, 55, 89, 144, 233, 377, 610 ]
+x = 55
+n = len(arr)
 
-    // Look for the correct block
-    while (input[blockEnd] <= searchValue) {
+# Find the index of 'x' using Jump Search
+index = jumpSearch(arr, x, n)
 
-        blockStart = blockEnd
-        blockEnd += jumpBy
+# Print the index where 'x' is located
+print("Number" , x, "is at index" ,"%.0f"%index)
 
-        if (blockEnd >= n)
-        blockEnd = n - 1
+# This code is contributed by "Sharad_Bhardwaj".
 
-        // No block suitable, hence not found
-        if (blockStart >= n)
-        return false
-
-    }
-
-    // Now do a linear search inside the block
-    for (i=blockStart  to  i=blockEnd) {
-
-        if (input[i] == searchValue)
-        return true
-
-    }
-
-    return false
-}
 ```
 
-##### SORTING ALGORITHMS #####
+## SORTING ALGORITHMS 
 
 #### BUBBLE SORT
 ```
-for (index=0 to input.length-1) {
-    for (j=0 to j < input.length-1-index) {
-        if (input[j] > input[j+1])
-        swap input[j+1] & input[j]
-    }
-}
-```
+# Python program for implementation of Bubble Sort
 
-## IMPROVED BUBBLE SORT
-```
-for (index=0 to input.length-1) {
-    bool sorted = true
-    for (j=0 to j < input.length-1-index) {
-        if (input[j] > input[j+1]) {
-            swap input[j+1] & input[j]
-            sorted = false
-        }
-    }
-    // Stop, once the array is sorted
-    if (sorted)
-    return
-}
+def bubbleSort(arr):
+	n = len(arr)
+
+	# Traverse through all array elements
+	for i in range(n-1):
+	# range(n) also work but outer loop will repeat one time more than needed.
+
+		# Last i elements are already in place
+		for j in range(0, n-i-1):
+
+			# traverse the array from 0 to n-i-1
+			# Swap if the element found is greater
+			# than the next element
+			if arr[j] > arr[j+1] :
+				arr[j], arr[j+1] = arr[j+1], arr[j]
+
+# Driver code to test above
+arr = [64, 34, 25, 12, 22, 11, 90]
+
+bubbleSort(arr)
+
+print ("Sorted array is:")
+for i in range(len(arr)):
+	print ("%d" %arr[i]),
+
 ```
 
 #### INSERTION SORT
 ```
-for (i=0 to i=input.length-1) {
+# Python program for implementation of Insertion Sort
 
-    int temp = input[i]
-    boolean hasMoved = false
-    boolean notPlaced = true
+# Function to do insertion sort
+def insertionSort(arr):
 
-    for (j=i-1 to j=0) {
-        if (input[j] > temp) {
-            // Shift numbers till you find it’s right location
-            input[j+1] = input[j]
-            hasMoved = true
-        } else {
-            input[j+1] = temp
-            notPlaced = false
-            break
-        }
-    }
+	# Traverse through 1 to len(arr)
+	for i in range(1, len(arr)):
 
-    // Edge case
-    if(hasMoved & & notPlaced)
-    input[0] = temp
-}
+		key = arr[i]
+
+		# Move elements of arr[0..i-1], that are
+		# greater than key, to one position ahead
+		# of their current position
+		j = i-1
+		while j >=0 and key < arr[j] :
+				arr[j+1] = arr[j]
+				j -= 1
+		arr[j+1] = key
+
+
+# Driver code to test above
+arr = [12, 11, 13, 5, 6]
+insertionSort(arr)
+print ("Sorted array is:")
+for i in range(len(arr)):
+	print ("%d" %arr[i])
+
+# This code is contributed by Mohit Kumra
+
 ```
 
 #### SELECTION SORT
 ```
-# Adds sorted numbers to the right end of the array
-for (i=input.length-1 to i > 0) {
-    int maxIndex = 0
+# Python program for implementation of Selection
+# Sort
+import sys
+A = [64, 25, 12, 22, 11]
 
-    for (j=1 to j <= i) {
+# Traverse through all array elements
+for i in range(len(A)):
+	
+	# Find the minimum element in remaining
+	# unsorted array
+	min_idx = i
+	for j in range(i+1, len(A)):
+		if A[min_idx] > A[j]:
+			min_idx = j
+			
+	# Swap the found minimum element with
+	# the first element		
+	A[i], A[min_idx] = A[min_idx], A[i]
 
-        if (input[j] > input[maxIndex]) {
-            # Set index for largest element found till now
-            maxIndex = j
-        }
-    }
-    if (maxIndex != i)
-    swap input[i] & input[maxIndex]
-}
+# Driver code to test above
+print ("Sorted array")
+for i in range(len(A)):
+	print("%d" %A[i]),
+
 ```
 
 #### HEAP SORT
 ```
-sort() {
+# Python program for implementation of heap Sort
 
-    int size = input.length
+# To heapify subtree rooted at index i.
+# n is size of heap
+def heapify(arr, n, i):
+	largest = i # Initialize largest as root
+	l = 2 * i + 1	 # left = 2*i + 1
+	r = 2 * i + 2	 # right = 2*i + 2
 
-    for (int i=size/2 - 1 to 0)
-    heapify(size, i)
+	# See if left child of root exists and is
+	# greater than root
+	if l < n and arr[i] < arr[l]:
+		largest = l
 
-    for (int i=size - 1 to 0) {
-        swap input[i] & input[0]
-        heapify(i, 0)
-    }
-}
+	# See if right child of root exists and is
+	# greater than root
+	if r < n and arr[largest] < arr[r]:
+		largest = r
 
-heapify(int n, int i) {
+	# Change root, if needed
+	if largest != i:
+		arr[i],arr[largest] = arr[largest],arr[i] # swap
 
-    int largest = i
-    int left = 2i + 1
-    int right = 2i + 2
+		# Heapify the root.
+		heapify(arr, n, largest)
 
-    // if left child is larger than root
-    if (left < n & & input[largest] < input[left])
-    largest = left
+# The main function to sort an array of given size
+def heapSort(arr):
+	n = len(arr)
 
-    // if right child is larger than largest found
-    if (right < n & & input[largest] < input[right])
-    largest = right
+	# Build a maxheap.
+	# Since last parent will be at ((n//2)-1) we can start at that location.
+	for i in range(n // 2 - 1, -1, -1):
+		heapify(arr, n, i)
 
-    // if the largest element is not root
-    if (largest != i) {
-        swap input[i] & input[largest]
-        heapify(n, largest)
-    }
+	# One by one extract elements
+	for i in range(n-1, 0, -1):
+		arr[i], arr[0] = arr[0], arr[i] # swap
+		heapify(arr, i, 0)
 
-}
+# Driver code to test above
+arr = [ 12, 11, 13, 5, 6, 7]
+heapSort(arr)
+n = len(arr)
+print ("Sorted array is")
+for i in range(n):
+	print ("%d" %arr[i]),
+# This code is contributed by Mohit Kumra
+
 ```
 
 #### QUICK SORT
 ```
-quicksort(int[] input, int left, int right) {
+# Python program for implementation of Quicksort Sort
 
-    if (right - left <= 0)
-    return
+# This function takes last element as pivot, places
+# the pivot element at its correct position in sorted
+# array, and places all smaller (smaller than pivot)
+# to left of pivot and all greater elements to right
+# of pivot
 
-    int pivot = input[(left + right) / 2]
-    int i = left,  j = right
 
-    while (i <= j) {
-        while (input[i] < pivot)
-        i++
+def partition(arr, low, high):
+	i = (low-1)		 # index of smaller element
+	pivot = arr[high]	 # pivot
 
-        while (input[j] > pivot)
-        j--
+	for j in range(low, high):
 
-        if (i <= j) {
-            swap input[i] & input[j]
-            i++
-            j--
-        }
-    }
+		# If current element is smaller than or
+		# equal to pivot
+		if arr[j] <= pivot:
 
-    // Recursive calls
-    quicksort(input, left, i-1)
-    quicksort(input, i, right)
-}
-```
+			# increment index of smaller element
+			i = i+1
+			arr[i], arr[j] = arr[j], arr[i]
+
+	arr[i+1], arr[high] = arr[high], arr[i+1]
+	return (i+1)
+
+# The main function that implements QuickSort
+# arr[] --> Array to be sorted,
+# low --> Starting index,
+# high --> Ending index
+
+# Function to do Quick sort
+
+
+def quickSort(arr, low, high):
+	if len(arr) == 1:
+		return arr
+	if low < high:
+
+		# pi is partitioning index, arr[p] is now
+		# at right place
+		pi = partition(arr, low, high)
+
+		# Separately sort elements before
+		# partition and after partition
+		quickSort(arr, low, pi-1)
+		quickSort(arr, pi+1, high)
+
+
+# Driver code to test above
+arr = [10, 7, 8, 9, 1, 5]
+n = len(arr)
+quickSort(arr, 0, n-1)
+print("Sorted array is:")
+for i in range(n):
+	print("%d" % arr[i]),
+
+# This code is contributed by Mohit Kumra
+#This code in improved by https://github.com/anushkrishnav
 
 #### MERGE SORT
 ```
-merge(input, left, mid, right) {
+# Python program for implementation of MergeSort
 
-    int len1 = mid - left + 1
-    int len2 = right - mid
-    L -> array of size len1
-    R -> array of size len2
+# Merges two subarrays of arr[].
+# First subarray is arr[l..m]
+# Second subarray is arr[m+1..r]
+def merge(arr, l, m, r):
+	n1 = m - l + 1
+	n2 = r- m
 
-    // Copy data to these arrays
-    for (i=0 to i < len1)
-    L[i] = input[left + i]
+	# create temp arrays
+	L = [0] * (n1)
+	R = [0] * (n2)
 
-    for (i=0 to i < len2)
-    R[i] = input[mid + i + 1]
+	# Copy data to temp arrays L[] and R[]
+	for i in range(0 , n1):
+		L[i] = arr[l + i]
 
-    int i = 0, j = 0, k = left
+	for j in range(0 , n2):
+		R[j] = arr[m + 1 + j]
 
-    while (i < len1 & & j < len2) {
-        if (L[i] <= R[j]) {
-            input[k] = L[i]
-            i++
-        } else {
-            input[k] = R[j]
-            j++
-        }
-        k++
-    }
+	# Merge the temp arrays back into arr[l..r]
+	i = 0	 # Initial index of first subarray
+	j = 0	 # Initial index of second subarray
+	k = l	 # Initial index of merged subarray
 
-    // Fill the remaining numbers
-    while (i < len1) {
-        input[k] = L[i]
-        i++
-        k++
-    }
-    while (j < len2) {
-        input[k] = R[j]
-        j++
-        k++
-    }
-}
+	while i < n1 and j < n2 :
+		if L[i] <= R[j]:
+			arr[k] = L[i]
+			i += 1
+		else:
+			arr[k] = R[j]
+			j += 1
+		k += 1
+
+	# Copy the remaining elements of L[], if there
+	# are any
+	while i < n1:
+		arr[k] = L[i]
+		i += 1
+		k += 1
+
+	# Copy the remaining elements of R[], if there
+	# are any
+	while j < n2:
+		arr[k] = R[j]
+		j += 1
+		k += 1
+
+# l is for left index and r is right index of the
+# sub-array of arr to be sorted
+def mergeSort(arr,l,r):
+	if l < r:
+
+		# Same as (l+r)//2, but avoids overflow for
+		# large l and h
+		m = (l+(r-1))//2
+
+		# Sort first and second halves
+		mergeSort(arr, l, m)
+		mergeSort(arr, m+1, r)
+		merge(arr, l, m, r)
+
+
+# Driver code to test above
+arr = [12, 11, 13, 5, 6, 7]
+n = len(arr)
+print ("Given array is")
+for i in range(n):
+	print ("%d" %arr[i]),
+
+mergeSort(arr,0,n-1)
+print ("\n\nSorted array is")
+for i in range(n):
+	print ("%d" %arr[i]),
+
+# This code is contributed by Mohit Kumra
+
 ```
