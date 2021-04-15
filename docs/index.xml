@@ -6,7 +6,16 @@
     <description>Recent content on Elvis Finol | Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Apr 2021 20:57:53 +0200</lastBuildDate><atom:link href="https://elvisfinol.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 10:35:15 +0200</lastBuildDate><atom:link href="https://elvisfinol.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithms Pseudocode 🧬</title>
+      <link>https://elvisfinol.com/posts/algorithms-pseudo-codes/</link>
+      <pubDate>Thu, 15 Apr 2021 10:35:15 +0200</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/algorithms-pseudo-codes/</guid>
+      <description>SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper &amp;gt;= lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue &amp;lt; input[mid]) upper = mid - 1 else: low = mid + 1 } return false } LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] === searchValue) return true } return false } JUMP SEARCH jumpSearch(input, searchValue) { n = input.</description>
+    </item>
+    
     <item>
       <title>BASH in minutes</title>
       <link>https://elvisfinol.com/posts/bash-in-minutes/</link>

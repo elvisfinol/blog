@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://elvisfinol.com/posts/algorithms-pseudo-codes/</loc>
+    <lastmod>2021-04-15T10:35:15+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/</loc>
+    <lastmod>2021-04-15T10:35:15+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elvisfinol.com/posts/</loc>
+    <lastmod>2021-04-15T10:35:15+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://elvisfinol.com/tags/bash/</loc>
     <lastmod>2021-04-08T20:57:53+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://elvisfinol.com/posts/bash-in-minutes/</loc>
-    <lastmod>2021-04-08T20:57:53+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/</loc>
-    <lastmod>2021-04-08T20:57:53+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://elvisfinol.com/posts/</loc>
     <lastmod>2021-04-08T20:57:53+02:00</lastmod>
   </url>
   
