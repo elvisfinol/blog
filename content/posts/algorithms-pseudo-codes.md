@@ -84,7 +84,6 @@ index = jumpSearch(arr, x, n)
 # Print the index where 'x' is located
 print("Number" , x, "is at index" ,"%.0f"%index)
 
-# This code is contributed by "Sharad_Bhardwaj".
 
 ```
 
@@ -118,7 +117,6 @@ bubbleSort(arr)
 print ("Sorted array is:")
 for i in range(len(arr)):
 	print ("%d" %arr[i]),
-
 ```
 
 #### INSERTION SORT
@@ -150,8 +148,6 @@ print ("Sorted array is:")
 for i in range(len(arr)):
 	print ("%d" %arr[i])
 
-# This code is contributed by Mohit Kumra
-
 ```
 
 #### SELECTION SORT
@@ -179,7 +175,6 @@ for i in range(len(A)):
 print ("Sorted array")
 for i in range(len(A)):
 	print("%d" %A[i]),
-
 ```
 
 #### HEAP SORT
@@ -231,7 +226,6 @@ n = len(arr)
 print ("Sorted array is")
 for i in range(n):
 	print ("%d" %arr[i]),
-# This code is contributed by Mohit Kumra
 
 ```
 
@@ -293,9 +287,8 @@ quickSort(arr, 0, n-1)
 print("Sorted array is:")
 for i in range(n):
 	print("%d" % arr[i]),
+```
 
-# This code is contributed by Mohit Kumra
-#This code in improved by https://github.com/anushkrishnav
 
 #### MERGE SORT
 ```
@@ -373,7 +366,4 @@ mergeSort(arr,0,n-1)
 print ("\n\nSorted array is")
 for i in range(n):
 	print ("%d" %arr[i]),
-
-# This code is contributed by Mohit Kumra
-
 ```
