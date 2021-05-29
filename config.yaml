@@ -1,7 +1,7 @@
 # Site Info
 baseURL: "https://elvisfinol.com"
 languageCode: "en-us"
-title: "Elvis Finol | Website"
+title: "EF | Personal Website"
 theme: "PaperMod"
 
 #Enable comments by entering your disqus shortname
