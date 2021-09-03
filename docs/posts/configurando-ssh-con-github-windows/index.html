@@ -1,22 +1,149 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Tutorial - Configurando SSH con GitHub (Windows) | EF | Personal Website</title><meta name=keywords content="ssh,español,step-by-step"><meta name=description content="Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>Tutorial - Configurando SSH con GitHub (Windows) | EF | Personal Website</title>
+<meta name=keywords content="ssh,español,step-by-step">
+<meta name=description content="Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
 Comandos Paso 1: Generar llave SSH
 Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:
 $ ssh-keygen -t rsa -b 4096 -C &#34;ejemplo@ejemplo.com&#34;
-(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)"><meta name=author content="Elvis Finol"><link rel=canonical href=https://elvisfinol.com/posts/configurando-ssh-con-github-windows/><meta name=google-site-verification content="XYZabc"><link href=/assets/css/stylesheet.min.f2cb17b40576bc8a53f16b88ed61d09cfb30ba77ae49246e2db4ba1a76384afa.css integrity="sha256-8ssXtAV2vIpT8WuI7WHQnPswuneuSSRuLbS6GnY4Svo=" rel="preload stylesheet" as=style><link rel=icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.80.0"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-123-45','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><meta property="og:title" content="Tutorial - Configurando SSH con GitHub (Windows)"><meta property="og:description" content="Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
+(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)">
+<meta name=author content="Elvis Finol">
+<link rel=canonical href=https://elvisfinol.com/posts/configurando-ssh-con-github-windows/>
+<meta name=google-site-verification content="XYZabc">
+<link href=/assets/css/stylesheet.min.72c5537a84e1eac995205a6ec180d93f960c921ce9cbc82f74f4d5f521dbfa22.css integrity="sha256-csVTeoTh6smVIFpuwYDZP5YMkhzpy8gvdPTV9SHb+iI=" rel="preload stylesheet" as=style>
+<link rel=icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=icon type=image/png sizes=16x16 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=icon type=image/png sizes=32x32 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=apple-touch-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=mask-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.88.0">
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-123-45','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+<meta property="og:title" content="Tutorial - Configurando SSH con GitHub (Windows)">
+<meta property="og:description" content="Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
 Comandos Paso 1: Generar llave SSH
 Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:
 $ ssh-keygen -t rsa -b 4096 -C &#34;ejemplo@ejemplo.com&#34;
-(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)"><meta property="og:type" content="article"><meta property="og:url" content="https://elvisfinol.com/posts/configurando-ssh-con-github-windows/"><meta property="og:image" content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:published_time" content="2021-01-15T12:20:50-03:00"><meta property="article:modified_time" content="2021-01-15T12:20:50-03:00"><meta property="og:site_name" content="Elvis Finol | Website"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="Tutorial - Configurando SSH con GitHub (Windows)"><meta name=twitter:description content="Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
+(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://elvisfinol.com/posts/configurando-ssh-con-github-windows/">
+<meta property="og:image" content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta property="article:published_time" content="2021-01-15T12:20:50-03:00">
+<meta property="article:modified_time" content="2021-01-15T12:20:50-03:00"><meta property="og:site_name" content="Elvis Finol | Website">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name=twitter:title content="Tutorial - Configurando SSH con GitHub (Windows)">
+<meta name=twitter:description content="Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
 Comandos Paso 1: Generar llave SSH
 Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:
 $ ssh-keygen -t rsa -b 4096 -C &#34;ejemplo@ejemplo.com&#34;
-(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Tutorial - Configurando SSH con GitHub (Windows)","name":"Tutorial - Configurando SSH con GitHub (Windows)","description":"Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y …","keywords":["ssh","español","step-by-step"],"articleBody":"Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.\nComandos Paso 1: Generar llave SSH\nAsegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:\n$ ssh-keygen -t rsa -b 4096 -C \"ejemplo@ejemplo.com\"\n(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)\nPaso 2: Uso de llave ** Ahora que la llave esta generada, vamos a utilizarla! Primero debemos iniciar el agente de SSH ejecutando:\n$ eval $(ssh-agent -s)\nUna vez iniciado el agente, vamos a agregar la llave que hemos generado. Ten en cuenta que si seleccionas un path diferente al default, debes cambiarlo en el comando:\n$ ssh-add ~/.ssh/id_rsa\n****Paso 3: Agregar llave SSH en GitHub\nAhora que tenemos la llave ssh configurada en nuestra PC, procedemos agregarla en GitHub. Para ello puedes ejecutar este comando para copiarla y luego pegarla en GitHub.\n$ clip Ve a las Settings en tu GitHub, en el sidebar haz click en “SSH and GPG Keys”\nHaz click en “New SSH Key”\nEn title puedes colocar la descripción, por ejemplo “Mi computador personal” y seguidamente vas a pegar tu llave en “Key”.\nLuego haces click en “Add SSH key”, te pedirá las credenciales de tu cuenta en GitHub. Al llegar a este punto tu llave ha sido agregada y puedes empezar a hacer push desde tu repositorio remoto a GitHub. 🙂\n","wordCount":"250","inLanguage":"en","datePublished":"2021-01-15T12:20:50-03:00","dateModified":"2021-01-15T12:20:50-03:00","author":{"@type":"Person","name":"Elvis Finol"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://elvisfinol.com/posts/configurando-ssh-con-github-windows/"},"publisher":{"@type":"Organization","name":"EF | Personal Website","logo":{"@type":"ImageObject","url":"https://elvisfinol.com/%3Clink%20/%20abs%20url%3E"}}}</script></head><body id=top><script>if(localStorage.getItem("pref-theme")==="dark"){document.body.classList.add('dark');}else if(localStorage.getItem("pref-theme")==="light"){document.body.classList.remove('dark')}else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.body.classList.add('dark');}</script><noscript><style type=text/css>.theme-toggle,.top-link{display:none}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://elvisfinol.com accesskey=h title="elvisfinol.com (Alt + H)">elvisfinol.com</a>
-<span class=logo-switches><span class=theme-toggle title="(Alt + T)"><a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></a></span></span></div><ul class=menu id=menu onscroll=menu_on_scroll()><li><a href=https://elvisfinol.com/sobremi/ title="Sobre Mi"><span>Sobre Mi</span></a></li><li><a href=https://elvisfinol.com/archive/ title=Blog><span>Blog</span></a></li><li><a href=https://elvisfinol.com/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://elvisfinol.com/search/ title=🔍><span>🔍</span></a></li></ul></nav><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.15.1/css/all.css integrity=sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp crossorigin=anonymous><link rel=preconnect href=https://fonts.gstatic.com><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&family=Rubik:wght@300;500;600&display=swap" rel=stylesheet></header><main class=main><article class=post-single><header class=post-header><h1 class=post-title>Tutorial - Configurando SSH con GitHub (Windows)</h1><div class=post-description></div><div class=post-meta>January 15, 2021&nbsp;·&nbsp;Elvis Finol</div></header><div class=post-content><p>Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.</p><h2 id=comandos>Comandos<a hidden class=anchor aria-hidden=true href=#comandos>#</a></h2><p><strong>Paso 1: Generar llave SSH</strong></p><p>Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:</p><p><code>$ ssh-keygen -t rsa -b 4096 -C "ejemplo@ejemplo.com"</code></p><p><em>(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)</em></p><p><strong>Paso 2: Uso de llave</strong>
+(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Tutorial - Configurando SSH con GitHub (Windows)","name":"Tutorial - Configurando SSH con GitHub (Windows)","description":"Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y …","keywords":["ssh","español","step-by-step"],"articleBody":"Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.\nComandos Paso 1: Generar llave SSH\nAsegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:\n$ ssh-keygen -t rsa -b 4096 -C \"ejemplo@ejemplo.com\"\n(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)\nPaso 2: Uso de llave ** Ahora que la llave esta generada, vamos a utilizarla! Primero debemos iniciar el agente de SSH ejecutando:\n$ eval $(ssh-agent -s)\nUna vez iniciado el agente, vamos a agregar la llave que hemos generado. Ten en cuenta que si seleccionas un path diferente al default, debes cambiarlo en el comando:\n$ ssh-add ~/.ssh/id_rsa\n****Paso 3: Agregar llave SSH en GitHub\nAhora que tenemos la llave ssh configurada en nuestra PC, procedemos agregarla en GitHub. Para ello puedes ejecutar este comando para copiarla y luego pegarla en GitHub.\n$ clip Ve a las Settings en tu GitHub, en el sidebar haz click en “SSH and GPG Keys”\nHaz click en “New SSH Key”\nEn title puedes colocar la descripción, por ejemplo “Mi computador personal” y seguidamente vas a pegar tu llave en “Key”.\nLuego haces click en “Add SSH key”, te pedirá las credenciales de tu cuenta en GitHub. Al llegar a este punto tu llave ha sido agregada y puedes empezar a hacer push desde tu repositorio remoto a GitHub. 🙂\n","wordCount":"250","inLanguage":"en","datePublished":"2021-01-15T12:20:50-03:00","dateModified":"2021-01-15T12:20:50-03:00","author":{"@type":"Person","name":"Elvis Finol"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://elvisfinol.com/posts/configurando-ssh-con-github-windows/"},"publisher":{"@type":"Organization","name":"EF | Personal Website","logo":{"@type":"ImageObject","url":"https://elvisfinol.com/%3Clink%20/%20abs%20url%3E"}}}</script>
+</head>
+<body id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<noscript>
+<style type=text/css>.theme-toggle,.top-link{display:none}</style>
+</noscript>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=https://elvisfinol.com accesskey=h title="elvisfinol.com (Alt + H)">elvisfinol.com</a>
+<span class=logo-switches>
+<span class=theme-toggle title="(Alt + T)">
+<a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</a>
+</span>
+</span>
+</div>
+<ul class=menu id=menu onscroll=menu_on_scroll()>
+<li>
+<a href=https://elvisfinol.com/sobremi/ title="Sobre Mi">
+<span>Sobre Mi</span>
+</a>
+</li>
+<li>
+<a href=https://elvisfinol.com/archive/ title=Blog>
+<span>Blog</span>
+</a>
+</li>
+<li>
+<a href=https://elvisfinol.com/tags/ title=Tags>
+<span>Tags</span>
+</a>
+</li>
+<li>
+<a href=https://elvisfinol.com/search/ title=🔍>
+<span>🔍</span>
+</a>
+</li></ul>
+</nav>
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.15.1/css/all.css integrity=sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp crossorigin=anonymous>
+<link rel=preconnect href=https://fonts.gstatic.com>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&family=Rubik:wght@300;500;600&display=swap" rel=stylesheet>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<h1 class=post-title>
+Tutorial - Configurando SSH con GitHub (Windows)
+</h1>
+<div class=post-description>
+</div>
+<div class=post-meta>
+January 15, 2021&nbsp;·&nbsp;Elvis Finol
+</div>
+</header>
+<div class=post-content>
+<p>Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.</p>
+<h2 id=comandos>Comandos<a hidden class=anchor aria-hidden=true href=#comandos>#</a></h2>
+<p><strong>Paso 1: Generar llave SSH</strong></p>
+<p>Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:</p>
+<p><code>$ ssh-keygen -t rsa -b 4096 -C "ejemplo@ejemplo.com"</code></p>
+<p><em>(NO olvides reemplazar el email “ejemplo@ejemplo.com” por tu email real)</em></p>
+<p><strong>Paso 2: Uso de llave</strong>
 **
-Ahora que la llave esta generada, vamos a utilizarla! Primero debemos iniciar el agente de SSH ejecutando:</p><p><code>$ eval $(ssh-agent -s)</code></p><p>Una vez iniciado el agente, vamos a agregar la llave que hemos generado. Ten en cuenta que si seleccionas un path diferente al default, debes cambiarlo en el comando:</p><p><code>$ ssh-add ~/.ssh/id_rsa</code></p><p>****<strong>Paso 3: Agregar llave SSH en GitHub</strong></p><p>Ahora que tenemos la llave ssh configurada en nuestra PC, procedemos agregarla en GitHub. Para ello puedes ejecutar este comando para copiarla y luego pegarla en GitHub.</p><p><code>$ clip &lt; ~/.ssh/id_rsa.pub</code></p><p>Ve a las <strong>Settings</strong> en tu GitHub, en el sidebar haz click en <strong>“SSH and GPG Keys”</strong></p><p>Haz click en “New SSH Key”</p><p><img src=https://docs.github.com/assets/images/help/settings/ssh-add-ssh-key.png alt="SSH Key button"></p><p>En title puedes colocar la descripción, por ejemplo “Mi computador personal” y seguidamente vas a pegar tu llave en “Key”.</p><p><img src=https://docs.github.com/assets/images/help/settings/ssh-key-paste.png alt="The key field"></p><p>Luego haces click en “Add SSH key”, te pedirá las credenciales de tu cuenta en GitHub. Al llegar a este punto tu llave ha sido agregada y puedes empezar a hacer push desde tu repositorio remoto a GitHub. 🙂</p></div><footer class=post-footer><ul class=post-tags><li><a href=https://elvisfinol.com/tags/ssh/>ssh</a></li><li><a href=https://elvisfinol.com/tags/espa%C3%B1ol/>español</a></li><li><a href=https://elvisfinol.com/tags/step-by-step/>step-by-step</a></li></ul></footer><div id=disqus_thread></div><script>(function(){var d=document,s=d.createElement('script');s.src='https://elvisfinol.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript></article></main><footer class=footer><span>&copy; 2021 <a href=https://elvisfinol.com>EF | Personal Website</a></span>
+Ahora que la llave esta generada, vamos a utilizarla! Primero debemos iniciar el agente de SSH ejecutando:</p>
+<p><code>$ eval $(ssh-agent -s)</code></p>
+<p>Una vez iniciado el agente, vamos a agregar la llave que hemos generado. Ten en cuenta que si seleccionas un path diferente al default, debes cambiarlo en el comando:</p>
+<p><code>$ ssh-add ~/.ssh/id_rsa</code></p>
+<p>****<strong>Paso 3: Agregar llave SSH en GitHub</strong></p>
+<p>Ahora que tenemos la llave ssh configurada en nuestra PC, procedemos agregarla en GitHub. Para ello puedes ejecutar este comando para copiarla y luego pegarla en GitHub.</p>
+<p><code>$ clip &lt; ~/.ssh/id_rsa.pub</code></p>
+<p>Ve a las <strong>Settings</strong> en tu GitHub, en el sidebar haz click en <strong>“SSH and GPG Keys”</strong></p>
+<p>Haz click en “New SSH Key”</p>
+<p><img src=https://docs.github.com/assets/images/help/settings/ssh-add-ssh-key.png alt="SSH Key button"></p>
+<p>En title puedes colocar la descripción, por ejemplo “Mi computador personal” y seguidamente vas a pegar tu llave en “Key”.</p>
+<p><img src=https://docs.github.com/assets/images/help/settings/ssh-key-paste.png alt="The key field"></p>
+<p>Luego haces click en “Add SSH key”, te pedirá las credenciales de tu cuenta en GitHub. Al llegar a este punto tu llave ha sido agregada y puedes empezar a hacer push desde tu repositorio remoto a GitHub. 🙂</p>
+</div>
+<footer class=post-footer>
+<ul class=post-tags>
+<li><a href=https://elvisfinol.com/tags/ssh/>ssh</a></li>
+<li><a href=https://elvisfinol.com/tags/espa%C3%B1ol/>español</a></li>
+<li><a href=https://elvisfinol.com/tags/step-by-step/>step-by-step</a></li>
+</ul>
+</footer><div id=disqus_thread></div>
+<script>(function(){var a=document,b=a.createElement('script');b.src='https://elvisfinol.disqus.com/embed.js',b.setAttribute('data-timestamp',+new Date),(a.head||a.body).appendChild(b)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+</article>
+</main><footer class=footer>
+<span>&copy; 2021 <a href=https://elvisfinol.com>EF | Personal Website</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo Framework</a></span>
-<span>&#183;</span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></button></a>
-<script defer src=/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w=" onload=hljs.initHighlightingOnLoad();></script><script>window.onload=function(){if(localStorage.getItem("menu-scroll-position")){document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position");}}
-document.querySelectorAll('a[href^="#"]').forEach(anchor=>{anchor.addEventListener("click",function(e){e.preventDefault();var id=this.getAttribute("href").substr(1);if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({behavior:"smooth"});}else{document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();}
-if(id==="top"){history.replaceState(null,null," ");}else{history.replaceState(null,null,`#${id}`);}});});var mybutton=document.getElementById("top-link");window.onscroll=function(){if(document.body.scrollTop>800||document.documentElement.scrollTop>800){mybutton.style.visibility="visible";mybutton.style.opacity="1";}else{mybutton.style.visibility="hidden";mybutton.style.opacity="0";}};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft);}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{if(document.body.className.includes("dark")){document.body.classList.remove('dark');localStorage.setItem("pref-theme",'light');}else{document.body.classList.add('dark');localStorage.setItem("pref-theme",'dark');}})</script></body></html>
+<span>&#183;</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)">
+<button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</button>
+</a>
+<script defer src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<script>window.onload=function(){localStorage.getItem("menu-scroll-position")&&(document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position"))},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.replaceState(null,null,`#${a}`)})});var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft)}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+</body>
+</html>
