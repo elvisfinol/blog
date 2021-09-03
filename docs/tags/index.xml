@@ -2,161 +2,161 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on EF | Personal Website</title>
-    <link>https://elvisfinol.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on EF | Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Apr 2021 20:57:53 +0200</lastBuildDate><atom:link href="https://elvisfinol.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Apr 2021 20:57:53 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bash</title>
-      <link>https://elvisfinol.com/tags/bash/</link>
+      <link>/tags/bash/</link>
       <pubDate>Thu, 08 Apr 2021 20:57:53 +0200</pubDate>
       
-      <guid>https://elvisfinol.com/tags/bash/</guid>
+      <guid>/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deep-dive</title>
-      <link>https://elvisfinol.com/tags/deep-dive/</link>
+      <link>/tags/deep-dive/</link>
       <pubDate>Mon, 05 Apr 2021 18:36:20 +0200</pubDate>
       
-      <guid>https://elvisfinol.com/tags/deep-dive/</guid>
+      <guid>/tags/deep-dive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>load balancing</title>
-      <link>https://elvisfinol.com/tags/load-balancing/</link>
+      <link>/tags/load-balancing/</link>
       <pubDate>Mon, 05 Apr 2021 18:36:20 +0200</pubDate>
       
-      <guid>https://elvisfinol.com/tags/load-balancing/</guid>
+      <guid>/tags/load-balancing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>alb</title>
-      <link>https://elvisfinol.com/tags/alb/</link>
+      <link>/tags/alb/</link>
       <pubDate>Thu, 28 Jan 2021 16:00:43 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/alb/</guid>
+      <guid>/tags/alb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aws</title>
-      <link>https://elvisfinol.com/tags/aws/</link>
+      <link>/tags/aws/</link>
       <pubDate>Thu, 28 Jan 2021 16:00:43 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/aws/</guid>
+      <guid>/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cheatsheet</title>
-      <link>https://elvisfinol.com/tags/cheatsheet/</link>
+      <link>/tags/cheatsheet/</link>
       <pubDate>Thu, 28 Jan 2021 16:00:43 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/cheatsheet/</guid>
+      <guid>/tags/cheatsheet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sysops</title>
-      <link>https://elvisfinol.com/tags/sysops/</link>
+      <link>/tags/sysops/</link>
       <pubDate>Thu, 28 Jan 2021 16:00:43 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/sysops/</guid>
+      <guid>/tags/sysops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ec2</title>
-      <link>https://elvisfinol.com/tags/ec2/</link>
+      <link>/tags/ec2/</link>
       <pubDate>Thu, 28 Jan 2021 12:51:07 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/ec2/</guid>
+      <guid>/tags/ec2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>how-to</title>
-      <link>https://elvisfinol.com/tags/how-to/</link>
+      <link>/tags/how-to/</link>
       <pubDate>Thu, 28 Jan 2021 12:51:07 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/how-to/</guid>
+      <guid>/tags/how-to/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://elvisfinol.com/tags/ssh/</link>
+      <link>/tags/ssh/</link>
       <pubDate>Thu, 28 Jan 2021 12:51:07 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/ssh/</guid>
+      <guid>/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloudwatch</title>
-      <link>https://elvisfinol.com/tags/cloudwatch/</link>
+      <link>/tags/cloudwatch/</link>
       <pubDate>Fri, 22 Jan 2021 12:24:45 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/cloudwatch/</guid>
+      <guid>/tags/cloudwatch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>step-by-step</title>
-      <link>https://elvisfinol.com/tags/step-by-step/</link>
+      <link>/tags/step-by-step/</link>
       <pubDate>Fri, 22 Jan 2021 12:24:45 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/step-by-step/</guid>
+      <guid>/tags/step-by-step/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://elvisfinol.com/tags/linux/</link>
+      <link>/tags/linux/</link>
       <pubDate>Thu, 21 Jan 2021 12:14:18 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/linux/</guid>
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo-framework</title>
-      <link>https://elvisfinol.com/tags/hugo-framework/</link>
+      <link>/tags/hugo-framework/</link>
       <pubDate>Wed, 20 Jan 2021 11:25:47 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/hugo-framework/</guid>
+      <guid>/tags/hugo-framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>solved</title>
-      <link>https://elvisfinol.com/tags/solved/</link>
+      <link>/tags/solved/</link>
       <pubDate>Wed, 20 Jan 2021 11:25:47 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/solved/</guid>
+      <guid>/tags/solved/</guid>
       <description></description>
     </item>
     
     <item>
       <title>español</title>
-      <link>https://elvisfinol.com/tags/espa%C3%B1ol/</link>
+      <link>/tags/espa%C3%B1ol/</link>
       <pubDate>Fri, 15 Jan 2021 12:20:50 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/espa%C3%B1ol/</guid>
+      <guid>/tags/espa%C3%B1ol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>https://elvisfinol.com/tags/css/</link>
+      <link>/tags/css/</link>
       <pubDate>Mon, 20 Jul 2020 16:41:21 -0300</pubDate>
       
-      <guid>https://elvisfinol.com/tags/css/</guid>
+      <guid>/tags/css/</guid>
       <description></description>
     </item>
     
