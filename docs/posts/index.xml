@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on EF | Personal Website</title>
-    <link>/posts/</link>
+    <link>https://elvisfinol.github.io/blog/posts/</link>
     <description>Recent content in Posts on EF | Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Apr 2021 10:35:15 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 10:35:15 +0200</lastBuildDate><atom:link href="https://elvisfinol.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algorithms Pseudocode In Python 🧬</title>
-      <link>/posts/algorithms-pseudo-codes/</link>
+      <link>https://elvisfinol.github.io/blog/posts/algorithms-pseudo-codes/</link>
       <pubDate>Thu, 15 Apr 2021 10:35:15 +0200</pubDate>
       
-      <guid>/posts/algorithms-pseudo-codes/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/algorithms-pseudo-codes/</guid>
       <description>SEARCHING ALGORITHMS BINARY SEARCH binarySearch(input, searchValue) { lower = 0 upper = input.len - 1 white(upper &amp;gt;= lower) { mid = (upper + lower) / 2 if (input[mid] == searchValue) return True elif (searchValue &amp;lt; input[mid]) upper = mid - 1 else: low = mid + 1 } return false } LINEAR SEARCH linearSearch(input, searchValue) { for (i=0 to input.lenght - 1) { if (input[i] == searchValue) return true } return false } JUMP SEARCH # Python3 code to implement Jump Search import math def jumpSearch( arr , x , n ): # Finding block size to be jumped step = math.</description>
     </item>
     
     <item>
       <title>BASH in minutes</title>
-      <link>/posts/bash-in-minutes/</link>
+      <link>https://elvisfinol.github.io/blog/posts/bash-in-minutes/</link>
       <pubDate>Thu, 08 Apr 2021 20:57:53 +0200</pubDate>
       
-      <guid>/posts/bash-in-minutes/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/bash-in-minutes/</guid>
       <description>Bash is a shell program. A shell program is typically an executable binary that takes commands that you type and (once you hit return), translates those commands into (ultimately) system calls to the Operating System API.
  Note: A binary is a file that contains the instructions for a program, ie it is a ‘program’ file, rather than a ‘text’ file, or an ‘application’ file (such as a Word document).</description>
     </item>
     
     <item>
       <title>Load Balancing [Deep Dive]</title>
-      <link>/posts/load-balancing-deep-dive/</link>
+      <link>https://elvisfinol.github.io/blog/posts/load-balancing-deep-dive/</link>
       <pubDate>Mon, 05 Apr 2021 18:36:20 +0200</pubDate>
       
-      <guid>/posts/load-balancing-deep-dive/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/load-balancing-deep-dive/</guid>
       <description>Table content  Concept The benefits of a Load Balancer How does it work Type of Load Balancer Load Balancer locations Algorithms  Concept A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. It helps scale horizontally across an ever-increasing number of servers.
 ⇧ back to topThe benefits of a Load Balancer  Reduced the work-load on an individual server.</description>
     </item>
     
     <item>
       <title>[CHEAT SHEET 📒] - AWS Application Load Balancer Error Codes</title>
-      <link>/posts/aws-loadbalancer-error-codes/</link>
+      <link>https://elvisfinol.github.io/blog/posts/aws-loadbalancer-error-codes/</link>
       <pubDate>Thu, 28 Jan 2021 16:00:43 -0300</pubDate>
       
-      <guid>/posts/aws-loadbalancer-error-codes/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/aws-loadbalancer-error-codes/</guid>
       <description>The following information can help you troubleshoot issues with your Application Load Balancer.
 Successful request: Code 200 ✅ Unsuccessfull at client site: 4XX code ❌  Error 400: Bad Request Error 401: Unauthorized Error 403: Forbidden Error 405: Method not allowed Error 408: Request timeout Error 413: Payload too large Error 414: URI too long Error 460: Client close connection Error 463: X-Forwarded For header with &amp;gt; 30 IP (Similar to malformed request)  Unsuccessfull at server site: 5XX code ❌  Error 500: Internal server error would mean some error on the ELB itseft Error 501: Not Implemented Error 502 : Bad Gateway Error 503: Service Unavailable Error 504: Gateway timeout, probably an issue within the server Error 505: Version not supported Error 561: Unauthorized  references https://docs.</description>
     </item>
     
     <item>
       <title>[How-to] I lost my SSH key for EC2! Steps to get into your instance back</title>
-      <link>/posts/aws-tutorial-method-to-recover-ssh-key/</link>
+      <link>https://elvisfinol.github.io/blog/posts/aws-tutorial-method-to-recover-ssh-key/</link>
       <pubDate>Thu, 28 Jan 2021 12:51:07 -0300</pubDate>
       
-      <guid>/posts/aws-tutorial-method-to-recover-ssh-key/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/aws-tutorial-method-to-recover-ssh-key/</guid>
       <description>Here you will find several methods to access your EC2 if you lost you SSH key
 If the instance is EBS backed:  Stop the instance, detach the root volume Attach the root volume to another instance as a data volume Modify the ~/.ssh/authorized_keys file with your new key Move the the volume back to the stopped instance Start the instance and you can SSH into it again  If the instance is EBS (new method 🧙):  Run the AWSSupport-ResetAccess automation document in SSM  Instance Store backed EC2:  You cannot stop the instance (otherwise data is lost) - AWS recommends termination Use Session Manager access and edit the ~/.</description>
     </item>
     
     <item>
       <title>Tutorial - How to install CloudWatch Agent on EC2 Instances?</title>
-      <link>/posts/how-to-install-cloudwatch-agent-on-ec2/</link>
+      <link>https://elvisfinol.github.io/blog/posts/how-to-install-cloudwatch-agent-on-ec2/</link>
       <pubDate>Fri, 22 Jan 2021 12:24:45 -0300</pubDate>
       
-      <guid>/posts/how-to-install-cloudwatch-agent-on-ec2/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/how-to-install-cloudwatch-agent-on-ec2/</guid>
       <description>Before start please install Apache HTTP Server on the instance &amp;gt; following the “yum install httpd” command and create a simple index.html file under path /var/www/html/index.html
 After that, start httpd agent an validate accessing over the public DNS, you should see your “Hello World”. If you see that on your browser this means that your server is running properly.
 Remember we will catch the following logs. So we need to put both path on the CloudWatch wizard later.</description>
@@ -69,10 +69,10 @@ Remember we will catch the following logs. So we need to put both path on the Cl
     
     <item>
       <title>[CHEAT SHEET 📒] - My Linux Terminal</title>
-      <link>/posts/my-linux-terminal-cheatsheet/</link>
+      <link>https://elvisfinol.github.io/blog/posts/my-linux-terminal-cheatsheet/</link>
       <pubDate>Thu, 21 Jan 2021 12:14:18 -0300</pubDate>
       
-      <guid>/posts/my-linux-terminal-cheatsheet/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/my-linux-terminal-cheatsheet/</guid>
       <description>Hey there! Here you will find this cheat sheet which I prepared to show, all linux commands which I use to day a day, in my actual role as System Engineer.
 Table content  Help Users Network Files-Folders Remote  More coming soon! Stay tuned&amp;hellip;
  Permissions Editors Differences Packages Compressor   Help Help commands
@@ -81,10 +81,10 @@ Table content  Help Users Network Files-Folders Remote  More coming soon! Stay t
     
     <item>
       <title>[Solved] How to fix the error found no layout file for HTML for page in Hugo?</title>
-      <link>/posts/how-to-fix-layout-no-found-in-hugo/</link>
+      <link>https://elvisfinol.github.io/blog/posts/how-to-fix-layout-no-found-in-hugo/</link>
       <pubDate>Wed, 20 Jan 2021 11:25:47 -0300</pubDate>
       
-      <guid>/posts/how-to-fix-layout-no-found-in-hugo/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/how-to-fix-layout-no-found-in-hugo/</guid>
       <description>You have a theme you added as a git submodule and you recently re-cloned your project. In order to fix this, your submodule needs to be re-downloaded as well.
 Run the following commands:
 git submodule init   git submodule update   hugo server   Then your project will load without errors.</description>
@@ -92,10 +92,10 @@ git submodule init   git submodule update   hugo server   Then your project will
     
     <item>
       <title>Tutorial - Configurando SSH con GitHub (Windows)</title>
-      <link>/posts/configurando-ssh-con-github-windows/</link>
+      <link>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</link>
       <pubDate>Fri, 15 Jan 2021 12:20:50 -0300</pubDate>
       
-      <guid>/posts/configurando-ssh-con-github-windows/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</guid>
       <description>Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
 Comandos Paso 1: Generar llave SSH
 Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:
@@ -105,10 +105,10 @@ $ ssh-keygen -t rsa -b 4096 -C &amp;quot;ejemplo@ejemplo.com&amp;quot;
     
     <item>
       <title>CSS Tools &amp; Resources🌈</title>
-      <link>/posts/css-tools/</link>
+      <link>https://elvisfinol.github.io/blog/posts/css-tools/</link>
       <pubDate>Mon, 20 Jul 2020 16:41:21 -0300</pubDate>
       
-      <guid>/posts/css-tools/</guid>
+      <guid>https://elvisfinol.github.io/blog/posts/css-tools/</guid>
       <description>Frameworks, guides and several tools to help you improve your writing CSS.
 Table content  Frameworks Tools Preprocessors Reset and Normalize Design Inspiration Illustrations Placeholder Games Icons  Frameworks🎨 CSS framework gives web developers a basic structure, which includes grid, interactive UI patterns, web typography, tooltips, buttons, form elements, icons. This structure helps web developers to start quickly and efficiently when they are designing a website or web applications.
  awsm.</description>

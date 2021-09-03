@@ -2,102 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/algorithms-pseudo-codes/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/algorithms-pseudo-codes/</loc>
     <lastmod>2021-04-15T10:35:15+02:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://elvisfinol.github.io/blog/</loc>
     <lastmod>2021-04-15T10:35:15+02:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/</loc>
     <lastmod>2021-04-15T10:35:15+02:00</lastmod>
   </url><url>
-    <loc>/tags/bash/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/bash/</loc>
     <lastmod>2021-04-08T20:57:53+02:00</lastmod>
   </url><url>
-    <loc>/posts/bash-in-minutes/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/bash-in-minutes/</loc>
     <lastmod>2021-04-08T20:57:53+02:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/</loc>
     <lastmod>2021-04-08T20:57:53+02:00</lastmod>
   </url><url>
-    <loc>/tags/deep-dive/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/deep-dive/</loc>
     <lastmod>2021-04-05T18:36:20+02:00</lastmod>
   </url><url>
-    <loc>/tags/load-balancing/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/load-balancing/</loc>
     <lastmod>2021-04-05T18:36:20+02:00</lastmod>
   </url><url>
-    <loc>/posts/load-balancing-deep-dive/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/load-balancing-deep-dive/</loc>
     <lastmod>2021-04-05T18:36:20+02:00</lastmod>
   </url><url>
-    <loc>/posts/aws-loadbalancer-error-codes/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/aws-loadbalancer-error-codes/</loc>
     <lastmod>2021-01-28T16:00:43-03:00</lastmod>
   </url><url>
-    <loc>/tags/alb/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/alb/</loc>
     <lastmod>2021-01-28T16:00:43-03:00</lastmod>
   </url><url>
-    <loc>/tags/aws/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/aws/</loc>
     <lastmod>2021-01-28T16:00:43-03:00</lastmod>
   </url><url>
-    <loc>/tags/cheatsheet/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/cheatsheet/</loc>
     <lastmod>2021-01-28T16:00:43-03:00</lastmod>
   </url><url>
-    <loc>/tags/sysops/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/sysops/</loc>
     <lastmod>2021-01-28T16:00:43-03:00</lastmod>
   </url><url>
-    <loc>/posts/aws-tutorial-method-to-recover-ssh-key/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/aws-tutorial-method-to-recover-ssh-key/</loc>
     <lastmod>2021-01-28T12:51:07-03:00</lastmod>
   </url><url>
-    <loc>/tags/ec2/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/ec2/</loc>
     <lastmod>2021-01-28T12:51:07-03:00</lastmod>
   </url><url>
-    <loc>/tags/how-to/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/how-to/</loc>
     <lastmod>2021-01-28T12:51:07-03:00</lastmod>
   </url><url>
-    <loc>/tags/ssh/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/ssh/</loc>
     <lastmod>2021-01-28T12:51:07-03:00</lastmod>
   </url><url>
-    <loc>/tags/cloudwatch/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/cloudwatch/</loc>
     <lastmod>2021-01-22T12:24:45-03:00</lastmod>
   </url><url>
-    <loc>/tags/step-by-step/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/step-by-step/</loc>
     <lastmod>2021-01-22T12:24:45-03:00</lastmod>
   </url><url>
-    <loc>/posts/how-to-install-cloudwatch-agent-on-ec2/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/how-to-install-cloudwatch-agent-on-ec2/</loc>
     <lastmod>2021-01-22T12:24:45-03:00</lastmod>
   </url><url>
-    <loc>/posts/my-linux-terminal-cheatsheet/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/my-linux-terminal-cheatsheet/</loc>
     <lastmod>2021-01-21T12:14:18-03:00</lastmod>
   </url><url>
-    <loc>/tags/linux/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/linux/</loc>
     <lastmod>2021-01-21T12:14:18-03:00</lastmod>
   </url><url>
-    <loc>/posts/how-to-fix-layout-no-found-in-hugo/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/how-to-fix-layout-no-found-in-hugo/</loc>
     <lastmod>2021-01-20T11:25:47-03:00</lastmod>
   </url><url>
-    <loc>/tags/hugo-framework/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/hugo-framework/</loc>
     <lastmod>2021-01-20T11:25:47-03:00</lastmod>
   </url><url>
-    <loc>/tags/solved/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/solved/</loc>
     <lastmod>2021-01-20T11:25:47-03:00</lastmod>
   </url><url>
-    <loc>/tags/espa%C3%B1ol/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/espa%C3%B1ol/</loc>
     <lastmod>2021-01-15T12:20:50-03:00</lastmod>
   </url><url>
-    <loc>/posts/configurando-ssh-con-github-windows/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/configurando-ssh-con-github-windows/</loc>
     <lastmod>2021-01-15T12:20:50-03:00</lastmod>
   </url><url>
-    <loc>/tags/css/</loc>
+    <loc>https://elvisfinol.github.io/blog/tags/css/</loc>
     <lastmod>2020-07-20T16:41:21-03:00</lastmod>
   </url><url>
-    <loc>/posts/css-tools/</loc>
+    <loc>https://elvisfinol.github.io/blog/posts/css-tools/</loc>
     <lastmod>2020-07-20T16:41:21-03:00</lastmod>
   </url><url>
-    <loc>/archive/</loc>
+    <loc>https://elvisfinol.github.io/blog/archive/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://elvisfinol.github.io/blog/categories/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>https://elvisfinol.github.io/blog/search/</loc>
   </url><url>
-    <loc>/sobremi/</loc>
+    <loc>https://elvisfinol.github.io/blog/sobremi/</loc>
   </url>
 </urlset>
