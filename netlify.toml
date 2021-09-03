@@ -5,4 +5,4 @@
 [build.environment]
   HUGO_VERSION = "0.88.0"
   HUGO_THEME = "PaperMod"
-  HUGO_BASEURL = "https://priceless-noether-abd2cd.netlify.app"
+  HUGO_BASEURL = "/"

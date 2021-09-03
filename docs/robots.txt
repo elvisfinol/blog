@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://priceless-noether-abd2cd.netlify.app/sitemap.xml

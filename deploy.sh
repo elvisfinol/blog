@@ -4,7 +4,7 @@ vared -p "Enter commit message: " -c message
 
 printf "\e[33m\nBuuilding project...\e[39m\n"
 
-hugo -d docs
+hugo
 
 printf "\e[33m\nPushing to elvis.finol.github.io repository...\e[39m\n"
 
