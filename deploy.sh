@@ -12,6 +12,6 @@ git add .
 
 git commit -m "$message"
 
-git push origin master
+git push origin main
 
 printf "\e[33m\nSuccessfully deployed!\e[39m\n"
