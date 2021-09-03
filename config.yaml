@@ -7,9 +7,6 @@ theme: "PaperMod"
 #Enable comments by entering your disqus shortname
 disqusShortname: elvisfinol
 
-params:
-    comments: true
-
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -18,110 +15,110 @@ buildExpired: false
 googleAnalytics: UA-123-45
 
 minify:
-    disableXML: true
-    minifyOutput: true
+  disableXML: true
+  minifyOutput: true
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Elvis Finol | Website
-    description: "ExampleSite description"
-    author: Elvis Finol    
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Elvis Finol | Website
+  description: "ExampleSite description"
+  author: Elvis Finol
 
-    images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["<link or path of image for opengraph, twitter-cards>"]
 
-    ShowReadingTime: false
-    ShowShareButtons: false
-    comments: true
-    defaultTheme: auto
-    disableThemeToggle: false
-    disableSpecial1stPost: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  comments: true
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: false
 
-    assets:
-        # disableHLJS: true # to disable highlightjs
-        # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+  assets:
+    # disableHLJS: true # to disable highlightjs
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
 
-    label:
-        text: "elvisfinol.com"
-        # icon: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Rubik_cube.png/600px-Rubik_cube.png
-        iconHeight: 35
+  label:
+    text: "elvisfinol.com"
+    # icon: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Rubik_cube.png/600px-Rubik_cube.png
+    iconHeight: 35
 
-    # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: Hello!
-        imageUrl: "https://images.unsplash.com/photo-1580777361964-27e9cdd2f838?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
-            - name: Sobre Mi
-              url: sobremi
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Hello!
+    imageUrl: "https://images.unsplash.com/photo-1580777361964-27e9cdd2f838?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+      - name: Sobre Mi
+        url: sobremi
 
-    # home-info mode
-    homeInfoParams:
-        Title: "Hello \U0001F44B"
-        Content: Llevo +5 años trabajando en el área de Sistemas. Soy un apasionado por las nuevas tecnologias. Tengo la curiosidad de investigar y la disciplina de estudiar constantemente. Disfruto mucho del proceso de crear y generar valor.
+  # home-info mode
+  homeInfoParams:
+    Title: "Hello \U0001F44B"
+    Content: Llevo +5 años trabajando en el área de Sistemas. Soy un apasionado por las nuevas tecnologias. Tengo la curiosidad de investigar y la disciplina de estudiar constantemente. Disfruto mucho del proceso de crear y generar valor.
 
-    socialIcons:
-        - name: email
-          url: "mailto:e.finol@gmail.com"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/elvisfinol/"
-        - name: github
-          url: "https://github.com/elvisfinol"
+  socialIcons:
+    - name: email
+      url: "mailto:e.finol@gmail.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/elvisfinol/"
+    - name: github
+      url: "https://github.com/elvisfinol"
 
-    analytics:
-        google:
-            SiteVerificationTag: "XYZabc"
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
 
-    cover:
-        hidden: true # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
 
-    # for search
-    # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 # Menu feature
 menu:
-    main: 
-        - identifier: archive
-          name: Blog
-          url: /archive/
-          weight: 20
-        - identifier: tags
-          name: Tags
-          url: /tags/
-          weight: 30
-        - identified: sobremi
-          name: Sobre Mi
-          url: /sobremi/
-          weight: 10
-        - identified: search
-          name: 🔍
-          url: /search/
-          weight: 40
+  main:
+    - identifier: archive
+      name: Blog
+      url: /archive/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identified: sobremi
+      name: Sobre Mi
+      url: /sobremi/
+      weight: 10
+    - identified: search
+      name: 🔍
+      url: /search/
+      weight: 40
 
 # Search feature
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
