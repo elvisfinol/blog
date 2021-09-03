@@ -40,4 +40,4 @@ En el 2019, Mica y yo decidimos crear **Vive Simple** un espacio en [**Youtube**
 
 ### ¡Escríbeme! 📥
 
-No dudes en contactarme si consideras que puedo ser de valor en tu negocio. ¡Nos vemos y gracias por visitar este espacio!
+No dudes en contactarme si consideras que puedo ser de valor en tu negocio. ¡Nos vemos y gracias por visitar este espacio!👋
