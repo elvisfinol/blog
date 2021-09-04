@@ -27,7 +27,7 @@
     line-height: 36px;
     background: var(--primary);
     border-radius: calc(36px / 2);
-    padding: 16px
+    padding: 16px;
 }
 
 .pagination .next {
