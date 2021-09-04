@@ -37,11 +37,13 @@ Copy the script and save it on your machine as hugo_latest.sh
     echo ''
     echo '🎉🎉🎉 Happy Hugo-ing! 🎉🎉🎉
 
-Open the Terminal on you macOS, locate the file and run the script:
+Open the Terminal on you macOS, locate the file and run the script: 
 
     ./hugo_latest.sh
 
-Wait until it finish, it may take a while and validate the HUGO version running the following command:
+> Do not forget run "chmod" to give read permission
+
+Wait until it finish, it may take a while. Validate the HUGO version running the following command:
 
     hugo version
     hugo v0.88.0-ACC5EB5B+extended darwin/amd64 BuildDate=2021-09-02T09:27:28Z VendorInfo=gohugoio
