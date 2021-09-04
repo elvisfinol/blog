@@ -14,3 +14,5 @@ fields:
 - type: text
   name: author
   label: author
+pages:
+- content/posts/script-to-install-hugo-latest-version-for-macos.md
