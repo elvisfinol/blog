@@ -2,10 +2,10 @@
 author = "Elvis Finol"
 date = 2021-09-04T10:00:00Z
 tags = ["script"]
-title = "Script to update HUGO to latest version on macOS"
+title = "Script to install/update HUGO on your macOS"
 
 +++
-You can use this script to get the latest version of static site generator "HUGO".
+You can use this script to install/update HUGO (static site generator) on your macOS
 
 **Steps**
 
