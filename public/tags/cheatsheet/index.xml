@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cheatsheet on EF | Personal Website</title>
-    <link>https://priceless-noether-abd2cd.netlify.app/tags/cheatsheet/</link>
+    <link>https://elvisfinol.com/tags/cheatsheet/</link>
     <description>Recent content in cheatsheet on EF | Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jan 2021 16:00:43 -0300</lastBuildDate><atom:link href="https://priceless-noether-abd2cd.netlify.app/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jan 2021 16:00:43 -0300</lastBuildDate><atom:link href="https://elvisfinol.com/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[CHEAT SHEET 📒] - AWS Application Load Balancer Error Codes</title>
-      <link>https://priceless-noether-abd2cd.netlify.app/posts/aws-loadbalancer-error-codes/</link>
+      <link>https://elvisfinol.com/posts/aws-loadbalancer-error-codes/</link>
       <pubDate>Thu, 28 Jan 2021 16:00:43 -0300</pubDate>
       
-      <guid>https://priceless-noether-abd2cd.netlify.app/posts/aws-loadbalancer-error-codes/</guid>
+      <guid>https://elvisfinol.com/posts/aws-loadbalancer-error-codes/</guid>
       <description>The following information can help you troubleshoot issues with your Application Load Balancer.
 Successful request: Code 200 ✅ Unsuccessfull at client site: 4XX code ❌  Error 400: Bad Request Error 401: Unauthorized Error 403: Forbidden Error 405: Method not allowed Error 408: Request timeout Error 413: Payload too large Error 414: URI too long Error 460: Client close connection Error 463: X-Forwarded For header with &amp;gt; 30 IP (Similar to malformed request)  Unsuccessfull at server site: 5XX code ❌  Error 500: Internal server error would mean some error on the ELB itseft Error 501: Not Implemented Error 502 : Bad Gateway Error 503: Service Unavailable Error 504: Gateway timeout, probably an issue within the server Error 505: Version not supported Error 561: Unauthorized  references https://docs.</description>
     </item>
     
     <item>
       <title>[CHEAT SHEET 📒] - My Linux Terminal</title>
-      <link>https://priceless-noether-abd2cd.netlify.app/posts/my-linux-terminal-cheatsheet/</link>
+      <link>https://elvisfinol.com/posts/my-linux-terminal-cheatsheet/</link>
       <pubDate>Thu, 21 Jan 2021 12:14:18 -0300</pubDate>
       
-      <guid>https://priceless-noether-abd2cd.netlify.app/posts/my-linux-terminal-cheatsheet/</guid>
+      <guid>https://elvisfinol.com/posts/my-linux-terminal-cheatsheet/</guid>
       <description>Hey there! Here you will find this cheat sheet which I prepared to show, all linux commands which I use to day a day, in my actual role as System Engineer.
 Table content  Help Users Network Files-Folders Remote  More coming soon! Stay tuned&amp;hellip;
  Permissions Editors Differences Packages Compressor   Help Help commands

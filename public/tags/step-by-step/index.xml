@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>step-by-step on EF | Personal Website</title>
-    <link>https://priceless-noether-abd2cd.netlify.app/tags/step-by-step/</link>
+    <link>https://elvisfinol.com/tags/step-by-step/</link>
     <description>Recent content in step-by-step on EF | Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jan 2021 12:24:45 -0300</lastBuildDate><atom:link href="https://priceless-noether-abd2cd.netlify.app/tags/step-by-step/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 12:24:45 -0300</lastBuildDate><atom:link href="https://elvisfinol.com/tags/step-by-step/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorial - How to install CloudWatch Agent on EC2 Instances?</title>
-      <link>https://priceless-noether-abd2cd.netlify.app/posts/how-to-install-cloudwatch-agent-on-ec2/</link>
+      <link>https://elvisfinol.com/posts/how-to-install-cloudwatch-agent-on-ec2/</link>
       <pubDate>Fri, 22 Jan 2021 12:24:45 -0300</pubDate>
       
-      <guid>https://priceless-noether-abd2cd.netlify.app/posts/how-to-install-cloudwatch-agent-on-ec2/</guid>
+      <guid>https://elvisfinol.com/posts/how-to-install-cloudwatch-agent-on-ec2/</guid>
       <description>Before start please install Apache HTTP Server on the instance &amp;gt; following the “yum install httpd” command and create a simple index.html file under path /var/www/html/index.html
 After that, start httpd agent an validate accessing over the public DNS, you should see your “Hello World”. If you see that on your browser this means that your server is running properly.
 Remember we will catch the following logs. So we need to put both path on the CloudWatch wizard later.</description>
@@ -20,10 +20,10 @@ Remember we will catch the following logs. So we need to put both path on the Cl
     
     <item>
       <title>Tutorial - Configurando SSH con GitHub (Windows)</title>
-      <link>https://priceless-noether-abd2cd.netlify.app/posts/configurando-ssh-con-github-windows/</link>
+      <link>https://elvisfinol.com/posts/configurando-ssh-con-github-windows/</link>
       <pubDate>Fri, 15 Jan 2021 12:20:50 -0300</pubDate>
       
-      <guid>https://priceless-noether-abd2cd.netlify.app/posts/configurando-ssh-con-github-windows/</guid>
+      <guid>https://elvisfinol.com/posts/configurando-ssh-con-github-windows/</guid>
       <description>Al utilizar el protocolo SSH, puedes conectar y autenticar a servidores remotos y servicios. La ventaja para el caso de GitHub es que no necesitas suministrar “username” y “personal token” en cada deploy.
 Comandos Paso 1: Generar llave SSH
 Asegúrate que Git Bash esta abierto. Para generar una llave SSH ejecuta este comando:
