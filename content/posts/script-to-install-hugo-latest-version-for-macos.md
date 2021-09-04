@@ -9,7 +9,7 @@ You can use this script to get the latest version of static site generator "HUGO
 
 **Steps**
 
-1. Copy the script and save it on your machine as hugo_latest.sh
+Copy the script and save it on your machine as hugo_latest.sh
 
     # hugo_latest.sh
     # Find the latest Hugo from GitHub
@@ -35,14 +35,15 @@ You can use this script to get the latest version of static site generator "HUGO
     echo '👉 Current Version' $(hugo version)
     
     echo ''
-    echo '🎉🎉🎉 Happy Huging! 🎉🎉🎉
+    echo '🎉🎉🎉 Happy Hugo-ing! 🎉🎉🎉
 
-2. Open the Terminal on you macOS, locate the file and run the script:
+Open the Terminal on you macOS, locate the file and run the script:
 
-       ./hugo_latest.sh
-3. Wait until it finish, it may take a while
-4. Validate the HUGO version running the following command:
+    ./hugo_latest.sh
 
-       hugo version
-       hugo v0.88.0-ACC5EB5B+extended darwin/amd64 BuildDate=2021-09-02T09:27:28Z VendorInfo=gohugoio
-5. Done! :)
+Wait until it finish, it may take a while and validate the HUGO version running the following command:
+
+    hugo version
+    hugo v0.88.0-ACC5EB5B+extended darwin/amd64 BuildDate=2021-09-02T09:27:28Z VendorInfo=gohugoio
+
+Done! :)
