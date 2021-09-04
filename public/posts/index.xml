@@ -6,7 +6,19 @@
     <description>Recent content in Posts on EF | Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Apr 2021 10:35:15 +0200</lastBuildDate><atom:link href="https://elvisfinol.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Sep 2021 10:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Script to install/update HUGO on your macOS</title>
+      <link>https://elvisfinol.com/posts/script-to-install-hugo-latest-version-for-macos/</link>
+      <pubDate>Sat, 04 Sep 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/script-to-install-hugo-latest-version-for-macos/</guid>
+      <description>You can use this script to install/update HUGO (static site generator) on your macOS
+Steps
+Copy the script and save it on your machine as hugo_latest.sh
+# hugo_latest.sh # Find the latest Hugo from GitHub echo &#39;🐹 Starting Hugo Install / Update 🐹&#39; echo &#39; Note: Please be sure to have curl and grep installed&#39; echo &#39;&#39; url=$(curl -s &amp;quot;https://api.github.com/repositories/11180687/releases/latest&amp;quot; | grep -o &#39;https://.*hugo_extended.*_macOS-64bit.tar.gz&#39;) echo &#39;✅ Found latest version&#39; curl -s $url -L -o hugo_latest.</description>
+    </item>
+    
     <item>
       <title>Algorithms Pseudocode In Python 🧬</title>
       <link>https://elvisfinol.com/posts/algorithms-pseudo-codes/</link>
@@ -54,6 +66,17 @@ Successful request: Code 200 ✅ Unsuccessfull at client site: 4XX code ❌  Err
       <guid>https://elvisfinol.com/posts/aws-tutorial-method-to-recover-ssh-key/</guid>
       <description>Here you will find several methods to access your EC2 if you lost you SSH key
 If the instance is EBS backed:  Stop the instance, detach the root volume Attach the root volume to another instance as a data volume Modify the ~/.ssh/authorized_keys file with your new key Move the the volume back to the stopped instance Start the instance and you can SSH into it again  If the instance is EBS (new method 🧙):  Run the AWSSupport-ResetAccess automation document in SSM  Instance Store backed EC2:  You cannot stop the instance (otherwise data is lost) - AWS recommends termination Use Session Manager access and edit the ~/.</description>
+    </item>
+    
+    <item>
+      <title>Managing EC2 Instances at scale - System Manager (SSM)</title>
+      <link>https://elvisfinol.com/posts/aws-system-manager/</link>
+      <pubDate>Sat, 23 Jan 2021 21:00:03 -0300</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/aws-system-manager/</guid>
+      <description>How does it works AWS System Manager?
+ AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and enables you to automate operational tasks across your AWS resources.
+ Table content  Overview Features Documents Syntax Run Command Patch Manager Inventory State Manager Agent  Overview  Helps you manage your EC2 and On-Premise systems at scale.</description>
     </item>
     
     <item>

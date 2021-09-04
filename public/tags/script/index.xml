@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>script on EF | Personal Website</title>
+    <link>https://elvisfinol.com/tags/script/</link>
+    <description>Recent content in script on EF | Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Sep 2021 10:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/tags/script/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Script to install/update HUGO on your macOS</title>
+      <link>https://elvisfinol.com/posts/script-to-install-hugo-latest-version-for-macos/</link>
+      <pubDate>Sat, 04 Sep 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/script-to-install-hugo-latest-version-for-macos/</guid>
+      <description>You can use this script to install/update HUGO (static site generator) on your macOS
+Steps
+Copy the script and save it on your machine as hugo_latest.sh
+# hugo_latest.sh # Find the latest Hugo from GitHub echo &#39;🐹 Starting Hugo Install / Update 🐹&#39; echo &#39; Note: Please be sure to have curl and grep installed&#39; echo &#39;&#39; url=$(curl -s &amp;quot;https://api.github.com/repositories/11180687/releases/latest&amp;quot; | grep -o &#39;https://.*hugo_extended.*_macOS-64bit.tar.gz&#39;) echo &#39;✅ Found latest version&#39; curl -s $url -L -o hugo_latest.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,247 @@
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>Managing EC2 Instances at scale - System Manager (SSM) | EF | Personal Website</title>
+<meta name=keywords content>
+<meta name=description content="How does it works AWS System Manager?
+ AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and enables you to automate operational tasks across your AWS resources.
+ Table content  Overview Features Documents Syntax Run Command Patch Manager Inventory State Manager Agent  Overview  Helps you manage your EC2 and On-Premise systems at scale.">
+<meta name=author content="Elvis Finol">
+<link rel=canonical href=https://elvisfinol.com/posts/aws-system-manager/>
+<meta name=google-site-verification content="XYZabc">
+<link href=/assets/css/stylesheet.min.6bafc5801aa802fa12ddca9a2baae8c7b935fc5c1e0988a01996b5e225aa02ce.css integrity="sha256-a6/FgBqoAvoS3cqaK6rox7k1/FweCYigGZa14iWqAs4=" rel="preload stylesheet" as=style>
+<link rel=icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=icon type=image/png sizes=16x16 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=icon type=image/png sizes=32x32 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=apple-touch-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=mask-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.88.0">
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-123-45','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+<meta property="og:title" content="Managing EC2 Instances at scale - System Manager (SSM)">
+<meta property="og:description" content="How does it works AWS System Manager?
+ AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and enables you to automate operational tasks across your AWS resources.
+ Table content  Overview Features Documents Syntax Run Command Patch Manager Inventory State Manager Agent  Overview  Helps you manage your EC2 and On-Premise systems at scale.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://elvisfinol.com/posts/aws-system-manager/">
+<meta property="og:image" content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta property="article:published_time" content="2021-01-23T21:00:03-03:00">
+<meta property="article:modified_time" content="2021-01-23T21:00:03-03:00"><meta property="og:site_name" content="Elvis Finol | Website">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name=twitter:title content="Managing EC2 Instances at scale - System Manager (SSM)">
+<meta name=twitter:description content="How does it works AWS System Manager?
+ AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and enables you to automate operational tasks across your AWS resources.
+ Table content  Overview Features Documents Syntax Run Command Patch Manager Inventory State Manager Agent  Overview  Helps you manage your EC2 and On-Premise systems at scale.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Managing EC2 Instances at scale - System Manager (SSM)","name":"Managing EC2 Instances at scale - System Manager (SSM)","description":"How does it works AWS System Manager?\n AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you …","keywords":[],"articleBody":"How does it works AWS System Manager?\n AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and enables you to automate operational tasks across your AWS resources.\n Table content  Overview Features Documents Syntax Run Command Patch Manager Inventory State Manager Agent  Overview  Helps you manage your EC2 and On-Premise systems at scale. Get operation insights about the state of you infraestructure. Easily detect problems. Patching automation for enhanced compliance. Works for both Windows and Linux OS. Integrated with CloudWatch metrics / dashboards. Integrated with AWS Config.  ⇧ back to topFeatures  Resource Groups  Create, view or manage logical group of resources thanks to tags. Allow creation of logical groups of resources such as:  Applications. Different layers of an applicaton stack. Production versus development environments.   Regional service (you need to create diffente resource groups if you are operating in differente regions). Works with EC2, S3, DynamoDB, Lambda and many more.   Insights:  Insights Dashboard. Invertory: discovery and audit the software installed. Compliance.   Parameter Store Action:  Automation (shut down EC2, create AMIs). Run Command. Session Manager. Patch Manager. Maintenance Windows. State Manager: define and maintaining configuration of OS and applications.    ⇧ back to topDocuments Syntax  You define parameters and actions. Can be apply to State Manager, Patch Manager, Automation, Run Command and Parameter Store. Can be YAML or JSON:  DirectoryType: type: String description: \"(Required) The directory type to launch.\" default: AwsMad allowedValues: - AdConnector - AwsMad - SimpleAd \"DirectoryType\": { \"type\": \"String\", \"description\": \"(Required) The directory type to launch.\", \"default\": \"AwsMad\", \"allowedValues\": [ \"AdConnector\", \"AwsMad\", \"SimpleAd\" ] } ⇧ back to topRun Command  helps perform on-demand changes like updating applications or running Linux shell scripts and Windows PowerShell commands on a target set of dozens or hundreds of instances. Execute a document (script) or just run a command Run command across multiple instances (using resource groups) Rate Control / Error Control Integrated with IAM \u0026 CloudTrial No need for SSH Results in the console  ⇧ back to topPatch Manager  Inventory = List Software on an instance Inventory + Run Command = Patch Software Patch Manager + Maintenance Window = Patch OS helps automate process of patching managed instances with both security related and other types of updates. helps apply patches for both operating systems and applications. (On Windows Server, application support is limited to updates for Microsoft applications.) enables scanning of instances for missing patches and applies them individually or to large groups of instances by using EC2 instance tags. uses patch baselines, which can include rules for auto-approving patches within days of their release, as well as a list of approved and rejected patches. helps install security patches on a regular basis by scheduling patching to run as a Systems Manager maintenance window task.  ⇧ back to topInventory  provides visibility into your Amazon EC2 and on-premises computing environment collect metadata from the managed instances about applications, files, components, patches, and more on your managed instances  ⇧ back to topState Manager  helps automate the process of keeping the managed instances in a defined state. helps ensure that the instances are bootstrapped with specific software at startup, joined to a Windows domain (Windows instances only), or patched with specific software updates.  ⇧ back to topAgent  is software that can be installed and configured on an EC2 instance, an on-premises server, or a virtual machine (VM). makes it possible for Systems Manager to update, manage, and configure these resources. must be installed on each instance to use with Systems Manager. usually comes preinstalled with lot of Amazon Machine Images (AMIs), while it must be installed manually on other AMIs, and on on-premises servers and virtual machines for your hybrid environment.  ⇧ back to top","wordCount":"629","inLanguage":"en","datePublished":"2021-01-23T21:00:03-03:00","dateModified":"2021-01-23T21:00:03-03:00","author":{"@type":"Person","name":"Elvis Finol"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://elvisfinol.com/posts/aws-system-manager/"},"publisher":{"@type":"Organization","name":"EF | Personal Website","logo":{"@type":"ImageObject","url":"https://elvisfinol.com/%3Clink%20/%20abs%20url%3E"}}}</script>
+</head>
+<body id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<noscript>
+<style type=text/css>.theme-toggle,.top-link{display:none}</style>
+</noscript>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=https://elvisfinol.com accesskey=h title="elvisfinol.com (Alt + H)">elvisfinol.com</a>
+<span class=logo-switches>
+<span class=theme-toggle title="(Alt + T)">
+<a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</a>
+</span>
+</span>
+</div>
+<ul class=menu id=menu onscroll=menu_on_scroll()>
+<li>
+<a href=https://elvisfinol.com/sobremi/ title="Sobre Mi">
+<span>Sobre Mi</span>
+</a>
+</li>
+<li>
+<a href=https://elvisfinol.com/archive/ title=Blog>
+<span>Blog</span>
+</a>
+</li>
+<li>
+<a href=https://elvisfinol.com/tags/ title=Tags>
+<span>Tags</span>
+</a>
+</li>
+<li>
+<a href=https://elvisfinol.com/search/ title=🔍>
+<span>🔍</span>
+</a>
+</li></ul>
+</nav>
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.15.1/css/all.css integrity=sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp crossorigin=anonymous>
+<link rel=preconnect href=https://fonts.gstatic.com>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&family=Rubik:wght@300;500;600&display=swap" rel=stylesheet>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<h1 class=post-title>
+Managing EC2 Instances at scale - System Manager (SSM)
+</h1>
+<div class=post-description>
+</div>
+<div class=post-meta>
+January 23, 2021&nbsp;·&nbsp;Elvis Finol
+</div>
+</header>
+<div class=post-content>
+<p><em>How does it works AWS System Manager?</em></p>
+<blockquote>
+<p>AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and enables you to automate operational tasks across your AWS resources.</p>
+</blockquote>
+<h2 id=table-content>Table content<a hidden class=anchor aria-hidden=true href=#table-content>#</a></h2>
+<ul>
+<li><a href=#overview>Overview</a></li>
+<li><a href=#features>Features</a></li>
+<li><a href=#documents-syntax>Documents Syntax</a></li>
+<li><a href=#run-command>Run Command</a></li>
+<li><a href=#patch-manager>Patch Manager</a></li>
+<li><a href=#inventory>Inventory</a></li>
+<li><a href=#state-manager>State Manager</a></li>
+<li><a href=#agent>Agent</a></li>
+</ul>
+<h2 id=overview>Overview<a hidden class=anchor aria-hidden=true href=#overview>#</a></h2>
+<ul>
+<li>Helps you manage your <strong>EC2</strong> and <strong>On-Premise</strong> systems at scale.</li>
+<li>Get operation insights about the state of you infraestructure.</li>
+<li>Easily detect problems.</li>
+<li>Patching automation for enhanced compliance.</li>
+<li>Works for both Windows and Linux OS.</li>
+<li>Integrated with CloudWatch metrics / dashboards.</li>
+<li>Integrated with AWS Config.</li>
+</ul>
+<p><a href=#table-content>⇧ back to top</a></p>
+<h2 id=features>Features<a hidden class=anchor aria-hidden=true href=#features>#</a></h2>
+<ul>
+<li>Resource Groups
+<ul>
+<li>Create, view or manage logical group of resources thanks to <strong>tags</strong>.</li>
+<li>Allow creation of logical groups of resources such as:
+<ul>
+<li>Applications.</li>
+<li>Different layers of an applicaton stack.</li>
+<li>Production versus development environments.</li>
+</ul>
+</li>
+<li>Regional service (you need to create diffente resource groups if you are operating in differente regions).</li>
+<li>Works with EC2, S3, DynamoDB, Lambda and many more.</li>
+</ul>
+</li>
+<li>Insights:
+<ul>
+<li>Insights Dashboard.</li>
+<li>Invertory: discovery and audit the software installed.</li>
+<li>Compliance.</li>
+</ul>
+</li>
+<li>Parameter Store</li>
+<li>Action:
+<ul>
+<li>Automation (shut down EC2, create AMIs).</li>
+<li>Run Command.</li>
+<li>Session Manager.</li>
+<li>Patch Manager.</li>
+<li>Maintenance Windows.</li>
+<li>State Manager: define and maintaining configuration of OS and applications.</li>
+</ul>
+</li>
+</ul>
+<p><a href=#table-content>⇧ back to top</a></p>
+<h2 id=documents-syntax>Documents Syntax<a hidden class=anchor aria-hidden=true href=#documents-syntax>#</a></h2>
+<ul>
+<li>You define parameters and actions.</li>
+<li>Can be apply to <em>State Manager</em>, <em>Patch Manager</em>, <em>Automation</em>, <em>Run Command</em> and <em>Parameter Store</em>.</li>
+<li>Can be YAML or JSON:</li>
+</ul>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#f92672>DirectoryType</span>:
+  <span style=color:#f92672>type</span>: <span style=color:#ae81ff>String</span>
+  <span style=color:#f92672>description</span>: <span style=color:#e6db74>&#34;(Required) The directory type to launch.&#34;</span>
+  <span style=color:#f92672>default</span>: <span style=color:#ae81ff>AwsMad</span>
+  <span style=color:#f92672>allowedValues</span>:
+  - <span style=color:#ae81ff>AdConnector</span>
+  - <span style=color:#ae81ff>AwsMad</span>
+  - <span style=color:#ae81ff>SimpleAd</span>
+</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=color:#e6db74>&#34;DirectoryType&#34;</span><span style=color:#960050;background-color:#1e0010>:</span> {
+  <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;String&#34;</span>,
+  <span style=color:#f92672>&#34;description&#34;</span>: <span style=color:#e6db74>&#34;(Required) The directory type to launch.&#34;</span>,
+  <span style=color:#f92672>&#34;default&#34;</span>: <span style=color:#e6db74>&#34;AwsMad&#34;</span>,
+  <span style=color:#f92672>&#34;allowedValues&#34;</span>: [
+    <span style=color:#e6db74>&#34;AdConnector&#34;</span>,
+    <span style=color:#e6db74>&#34;AwsMad&#34;</span>,
+    <span style=color:#e6db74>&#34;SimpleAd&#34;</span>
+  ]
+}
+</code></pre></div><p><a href=#table-content>⇧ back to top</a></p>
+<h2 id=run-command>Run Command<a hidden class=anchor aria-hidden=true href=#run-command>#</a></h2>
+<ul>
+<li>helps perform on-demand changes like updating applications or running Linux shell scripts and Windows PowerShell commands on a target set of dozens or hundreds of instances.</li>
+<li>Execute a document (script) or just run a command</li>
+<li>Run command across multiple instances (using resource groups)</li>
+<li>Rate Control / Error Control</li>
+<li>Integrated with IAM & CloudTrial</li>
+<li>No need for SSH</li>
+<li>Results in the console</li>
+</ul>
+<p><a href=#table-content>⇧ back to top</a></p>
+<h2 id=patch-manager>Patch Manager<a hidden class=anchor aria-hidden=true href=#patch-manager>#</a></h2>
+<ul>
+<li>Inventory => List Software on an instance</li>
+<li>Inventory + Run Command => Patch Software</li>
+<li>Patch Manager + Maintenance Window => Patch OS</li>
+<li>helps automate process of patching managed instances with both security related and other types of updates.</li>
+<li>helps apply patches for both operating systems and applications. <strong>(On Windows Server, application support is limited to updates for Microsoft applications.)</strong></li>
+<li>enables scanning of instances for missing patches and applies them individually or to large groups of instances by using EC2 instance tags.</li>
+<li>uses <em>patch baselines</em>, which can include rules for auto-approving patches within days of their release, as well as a list of approved and rejected patches.</li>
+<li>helps install security patches on a regular basis by scheduling patching to run as a Systems Manager maintenance window task.</li>
+</ul>
+<p><a href=#table-content>⇧ back to top</a></p>
+<h2 id=inventory>Inventory<a hidden class=anchor aria-hidden=true href=#inventory>#</a></h2>
+<ul>
+<li>provides visibility into your Amazon EC2 and on-premises computing environment</li>
+<li>collect <em>metadata</em> from the managed instances about applications, files, components, patches, and more on your managed instances</li>
+</ul>
+<p><a href=#table-content>⇧ back to top</a></p>
+<h2 id=state-manager>State Manager<a hidden class=anchor aria-hidden=true href=#state-manager>#</a></h2>
+<ul>
+<li>helps automate the process of keeping the managed instances in a defined state.</li>
+<li>helps ensure that the instances are bootstrapped with specific software at startup, joined to a Windows domain (Windows instances only), or patched with specific software updates.</li>
+</ul>
+<p><a href=#table-content>⇧ back to top</a></p>
+<h2 id=agent>Agent<a hidden class=anchor aria-hidden=true href=#agent>#</a></h2>
+<ul>
+<li>is software that can be installed and configured on an EC2 instance, an on-premises server, or a virtual machine (VM).</li>
+<li>makes it possible for Systems Manager to update, manage, and configure these resources.</li>
+<li>must be installed on each instance to use with Systems Manager.</li>
+<li>usually comes preinstalled with lot of Amazon Machine Images (AMIs), while it must be installed manually on other AMIs, and on on-premises servers and virtual machines for your hybrid environment.</li>
+</ul>
+<p><a href=#table-content>⇧ back to top</a></p>
+</div>
+<footer class=post-footer>
+</footer><div id=disqus_thread></div>
+<script>(function(){var a=document,b=a.createElement('script');b.src='https://elvisfinol.disqus.com/embed.js',b.setAttribute('data-timestamp',+new Date),(a.head||a.body).appendChild(b)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+</article>
+</main><footer class=footer>
+<span>&copy; 2021 <a href=https://elvisfinol.com>EF | Personal Website</a></span>
+<span>&#183;</span>
+<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo Framework</a></span>
+<span>&#183;</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)">
+<button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</button>
+</a>
+<script defer src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<script>window.onload=function(){localStorage.getItem("menu-scroll-position")&&(document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position"))},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.replaceState(null,null,`#${a}`)})});var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft)}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+</body>
+</html>
