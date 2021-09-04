@@ -2,7 +2,7 @@
 author = "Elvis Finol"
 date = 2021-09-04T10:00:00Z
 tags = ["script"]
-title = "Script to update HUGO to latest version for macOS"
+title = "Script to update HUGO to latest version on macOS"
 
 +++
 You can use this script to get the latest version of static site generator "HUGO".
@@ -35,7 +35,7 @@ You can use this script to get the latest version of static site generator "HUGO
     echo '👉 Current Version' $(hugo version)
     
     echo ''
-    echo '🎉🎉🎉 Happy Hugo-ing! 🎉🎉🎉
+    echo '🎉🎉🎉 Happy Huging! 🎉🎉🎉
 
 2. Open the Terminal on you macOS, locate the file and run the script:
 
