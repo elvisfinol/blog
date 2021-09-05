@@ -75,4 +75,7 @@ title = "DevOps Concepts"
 **What does Continuous Delivery and Continuous Deployment look like?**
 
 * Each version of the code goes through a series of states, such as automated build, automated testing and manual acceptance testing. The result of this process is an artifact or package that is able to be deployed
-* 
+* When the decision is made to deploy, the deployment is automated. What the automated deployment looks like depends on the architecture, but no matter what the architecture is, the deployment is automated
+* If a deployment causes a problem, it is quickly and reliably rolled back using and automated process
+* Rollbacks aren't a big deal because the developers can redeploy a fixed version as soon as they have one available
+* No one grips their desk in fear during a deployment, even if the deployment does cause a problem
