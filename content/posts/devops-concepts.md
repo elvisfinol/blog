@@ -13,14 +13,14 @@ title = "DevOps Concepts"
 
 ## Build Automation
 
-##### **What is Build Automation?**
+### **What is Build Automation?**
 
 * **Build automation**: automation of the process of preparing code for deployment to a live environment
 * Depending on what languages are used, code needs to be compiled, linted, minified, transformed, unit tested, etc.
 * Build automation means taking these steps and doing them in a consistent, automated way using a script or tool
 * The tools of build automation often differ depending on what programming languages and frameworks are used, but they have one thing in common: **automation**!
 
-##### **What does Build Automation look like?**
+### **What does Build Automation look like?**
 
 * Usually, build automation looks like running a command-line tool that builds code using configuration files and/or scripts that are treated as part of the source code
 * Build automation is independent of an IDE
@@ -28,7 +28,7 @@ title = "DevOps Concepts"
 * As much as possible, build automation should be agnostic of the configuration of the machine that it is build on
 * Your code should be able to build on someone else's machine the same way it builds on yours
 
-##### **Why do Build Automation?**
+### **Why do Build Automation?**
 
 * **Fast** - Automation handle tasks that would otherwise need to be done manually
 * **Consistency** - The build happens the same way every time, removing problems and confusion that happen with manual builds
@@ -38,14 +38,14 @@ title = "DevOps Concepts"
 
 ## Continuous Integration
 
-##### **What is Continuous Integration?**
+### **What is Continuous Integration?**
 
 * Continuous Integration (CI): the practice of frequently merging code done by developers
 * Traditionally,  developers would work separately, perhaps for weeks at a time, and the merge all their work together at the end in one large effort
 * CI means merging constantly thought out the day, usually with the execution of automated tests to detect any problems caused by the merge
 * Merging all the time could be a lot of work, so to avoid that it should be automated
 
-##### **What does Continuous Integration look like?**
+### **What does Continuous Integration look like?**
 
 * Continuous integration is usually done with the help of a CI server
 * When a developer commits a code change, the CI server sees the change and automatically perform the build, also executing automated tests
@@ -53,7 +53,7 @@ title = "DevOps Concepts"
 * If there is any problem with the build, the CI server immediately and automatically notifies the developers
 * If anyone commits code that "breaks the build" they are responsible for fixing the problem or rolling back their changes immediately so that other developers can continue working
 
-##### **Why do Continuous Integration?**
+### **Why do Continuous Integration?**
 
 * **Early detection** of certain types of bugs - If code doesn't compile or an automated test fails, the developers are notified and can fix it immediately. The sooner these bugs are detected, the easier they are to fix
 * **Eliminate the scramble** to integrate just before a big release - The code is constantly merged, so there is no need to do a big merge at the end
@@ -63,13 +63,13 @@ title = "DevOps Concepts"
 
 ## Continuous Delivery and Continuous Deployment
 
-##### **What is Continuous Delivery?**
+### **What is Continuous Delivery?**
 
 * Continuous Delivery (CD): the practice of continuously maintaining code in a deployable state
 * Regardless of whether or not the decision is made to deploy, the code is always in a state that is able to be deployed
 * Some terms Continuous Delivery and Continuous Deployment interchangeably, or simply use the abbreviation CD
 
-##### **What is Continuous Deployment?**
+### **What is Continuous Deployment?**
 
 * Continuous Deployment: the practice of frequently deploying small code changes to production
 * Continuous Delivery is keeping the code in a deployable state. Continuous Delivery is actually doing the deployment frequently
@@ -77,7 +77,7 @@ title = "DevOps Concepts"
 * There is no standard for how often you should deploy, but in general the more often you deploy the better
 * With Continuous Deployment, deployments to production are routine and commonplace. They are not a big, scary event
 
-##### **What does Continuous Delivery and Continuous Deployment look like?**
+### **What does Continuous Delivery and Continuous Deployment look like?**
 
 * Each version of the code goes through a series of states, such as automated build, automated testing and manual acceptance testing. The result of this process is an artifact or package that is able to be deployed
 * When the decision is made to deploy, the deployment is automated. What the automated deployment looks like depends on the architecture, but no matter what the architecture is, the deployment is automated
@@ -85,7 +85,7 @@ title = "DevOps Concepts"
 * Rollbacks aren't a big deal because the developers can redeploy a fixed version as soon as they have one available
 * No one grips their desk in fear during a deployment, even if the deployment does cause a problem
 
-##### **Why do Continuous Delivery and Continuous Deployment?**
+### **Why do Continuous Delivery and Continuous Deployment?**
 
 * **Faster time-to-market** - Get features into the hands of customers more quickly rather than waiting for a lengthy deployment process that doesn't happen often
 * **Fewer problems caused by the deployment process** - Since the deployment process is frequently used, any problems with the process are mo easily discovered
@@ -95,7 +95,7 @@ title = "DevOps Concepts"
 
 ## Infrastructure as Code
 
-##### **What is Infrastructure as Code?**
+### **What is Infrastructure as Code?**
 
 * Infrastructure as Code (IaC): manage and provision infrastructure through code and automation
 * With infrastructure as code, instead of doing things manually, you use automation and code to create and change
@@ -105,7 +105,7 @@ title = "DevOps Concepts"
   * Containers
   * Other infrastructure
 
-##### **What does infrastructure as code look like?**
+### **What does infrastructure as code look like?**
 
 * Without infrastructure as code, you might:
   * SSH into a host
@@ -116,7 +116,7 @@ title = "DevOps Concepts"
   * Use an automation tool to enact the changes defined in the code and/or configuration files
 * With Infrastructure as code, provisioning new resources and changing existing resources are both done through automation
 
-##### **Why do infrastructure as code?**
+### **Why do infrastructure as code?**
 
 * **Consistency** in creation and management of resources - The same automation will run the same way every time
 * **Reusability** - Code can be used to make the same change consistently across multiple hosts and can be used again in the future
