@@ -6,8 +6,6 @@ tags = []
 title = "DevOps Concepts"
 
 +++
-Build Automation
-
 **What is Build Automation?**
 
 * **Build automation**: automation of the process of preparing code for deployment to a live environment
