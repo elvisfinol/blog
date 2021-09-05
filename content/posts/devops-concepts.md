@@ -79,3 +79,11 @@ title = "DevOps Concepts"
 * If a deployment causes a problem, it is quickly and reliably rolled back using and automated process
 * Rollbacks aren't a big deal because the developers can redeploy a fixed version as soon as they have one available
 * No one grips their desk in fear during a deployment, even if the deployment does cause a problem
+
+**Why do Continuous Delivery and Continuous Deployment?**
+
+* Faster time-to-market - Get features into the hands of customers more quickly rather than waiting for a lengthy deployment process that doesn't happen often 
+* Fewer problems caused by the deployment process - Since the deployment process is frequently used, any problems with the process are mo easily discovered
+*  Lower risk - The more changes are deployed at once, the higher the risk. Frequent deployments of only a few changes are less risky
+* Reliable rollbacks - Robust automation means rollbacks are a reliable way to ensure stability for customers, and rollback don't hurt developers because they can roll forward with a fix as soon as they have one
+* Fearless deployments - Robust automation plus the ability to rollback quickly means deployments are commonplace, everyday events rather than big, scary events
