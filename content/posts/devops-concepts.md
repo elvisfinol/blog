@@ -92,3 +92,26 @@ title = "DevOps Concepts"
 * Lower risk - The more changes are deployed at once, the higher the risk. Frequent deployments of only a few changes are less risky
 * Reliable rollbacks - Robust automation means rollbacks are a reliable way to ensure stability for customers, and rollback don't hurt developers because they can roll forward with a fix as soon as they have one
 * Fearless deployments - Robust automation plus the ability to rollback quickly means deployments are commonplace, everyday events rather than big, scary events
+
+### Infrastructure as Code
+
+**What is Infrastructure as Code?**
+
+* Infrastructure as Code (IaC): manage and provision infrastructure through code and automation
+* With infrastructure as code, instead of doing things manually, you use automation and code to create and change 
+  * Servers
+  * Instances
+  * Environments
+  * Containers
+  * Other infrastructure
+
+**What does infrastructure as code look like?**
+
+* Without infrastructure as code, you might:
+  * SSH into a host
+  * Issues a series of commands to perform the change
+* With infrastructure as code:
+  * Change some code or configuration files that can be used with an automation tool to perform changes
+  * Commit them to source control
+  * Use an automation tool to enact the changes defined in the code and/or configuration files
+* With Infrastructure as code, provisioning new resources and changing existing resources are both done through automation
