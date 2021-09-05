@@ -6,7 +6,7 @@ tags = ["devops"]
 title = "DevOps Concepts"
 
 +++
-#### Build Automation
+### Build Automation
 
 **What is Build Automation?**
 
@@ -31,7 +31,7 @@ title = "DevOps Concepts"
 * **Portable** - The build can be done the same way on any machine. Anyone on the team can be build on their machine, as well as on a shared build server. Building code doesn't depend on specific people or machines
 * **Reliable** - There will be fewer problems caused by bad builds
 
-#### Continuous Integration
+### Continuous Integration
 
 **What is Continuous Integration?**
 
@@ -50,6 +50,8 @@ title = "DevOps Concepts"
 
 **Why do Continuous Integration?**
 
-* **Early detection** of certain types of bugs - if code doesn't compile or an automated test fails, the developers are notified and can fix it immediately. The sooner these bugs are detected, the easier they are to fix
-* **Eliminate the scramble** to integrate just before a big release - the code is constantly merged, so there is no need to do a big merge at the end
-* 
+* **Early detection** of certain types of bugs - If code doesn't compile or an automated test fails, the developers are notified and can fix it immediately. The sooner these bugs are detected, the easier they are to fix
+* **Eliminate the scramble** to integrate just before a big release - The code is constantly merged, so there is no need to do a big merge at the end
+* Make **frequent releases** possible - Code is always in a state that can be deployed to production
+* Makes **continuous testing** possible - Since the code can always be run, QA testers can get their hands on it all throughout the development process, not just at the end
+* Encourages **good coding practices** - Frequent commits encourages simple, modular code
