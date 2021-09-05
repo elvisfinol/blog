@@ -5,6 +5,12 @@ tags = ["devops"]
 title = "DevOps Concepts"
 
 +++
+![](https://miro.medium.com/max/874/1*_eJaw96xLBR-xEzlwbTOyw.png)
+
+### **What is DevOps?**
+
+**DevOps** is a set of practices that combines software development (_Dev_) and IT operations (_Ops_). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality
+
 ### Build Automation
 
 **What is Build Automation?**
