@@ -15,4 +15,5 @@ fields:
   name: author
   label: author
 pages:
+- content/posts/devops-concepts.md
 - content/posts/script-to-install-hugo-latest-version-for-macos.md
