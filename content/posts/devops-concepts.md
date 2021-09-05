@@ -55,3 +55,24 @@ title = "DevOps Concepts"
 * Make **frequent releases** possible - Code is always in a state that can be deployed to production
 * Makes **continuous testing** possible - Since the code can always be run, QA testers can get their hands on it all throughout the development process, not just at the end
 * Encourages **good coding practices** - Frequent commits encourages simple, modular code
+
+### Continuous Delivery and Continuous Deployment
+
+**What is Continuous Delivery?**
+
+* Continuous Delivery (CD): the practice of continuously maintaining code in a deployable state
+* Regardless of whether or not the decision is made to deploy, the code is always in a state that is able to be deployed
+* Some terms Continuous Delivery and Continuous Deployment interchangeably, or simply use the abbreviation CD
+
+**What is Continuous Deployment?**
+
+* Continuous Deployment: the practice of frequently deploying small code changes to production
+* Continuous Delivery is keeping the code in a deployable state. Continuous Delivery is actually doing the deployment frequently
+* Some companies that do Continuous Deployment deploy to production multiple times a day
+* There is no standard for how often you should deploy, but in general the more often you deploy the better
+* With Continuous Deployment, deployments to production are routine and commonplace. They are not a big, scary event
+
+**What does Continuous Delivery and Continuous Deployment look like?**
+
+* Each version of the code goes through a series of states, such as automated build, automated testing and manual acceptance testing. The result of this process is an artifact or package that is able to be deployed
+* 
