@@ -87,8 +87,8 @@ title = "DevOps Concepts"
 
 **Why do Continuous Delivery and Continuous Deployment?**
 
-* Faster time-to-market - Get features into the hands of customers more quickly rather than waiting for a lengthy deployment process that doesn't happen often 
+* Faster time-to-market - Get features into the hands of customers more quickly rather than waiting for a lengthy deployment process that doesn't happen often
 * Fewer problems caused by the deployment process - Since the deployment process is frequently used, any problems with the process are mo easily discovered
-*  Lower risk - The more changes are deployed at once, the higher the risk. Frequent deployments of only a few changes are less risky
+* Lower risk - The more changes are deployed at once, the higher the risk. Frequent deployments of only a few changes are less risky
 * Reliable rollbacks - Robust automation means rollbacks are a reliable way to ensure stability for customers, and rollback don't hurt developers because they can roll forward with a fix as soon as they have one
 * Fearless deployments - Robust automation plus the ability to rollback quickly means deployments are commonplace, everyday events rather than big, scary events
