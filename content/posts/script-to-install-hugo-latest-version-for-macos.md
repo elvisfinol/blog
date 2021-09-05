@@ -5,6 +5,8 @@ tags = ["script"]
 title = "Script to install/update HUGO on your macOS"
 
 +++
+![](https://desarrolloweb.com/media/101/hugo-featured.jpg)
+
 You can use this script to install/update HUGO (static site generator) on your macOS
 
 **Steps**
@@ -37,7 +39,7 @@ Copy the script and save it on your machine as hugo_latest.sh
     echo ''
     echo '🎉🎉🎉 Happy Hugo-ing! 🎉🎉🎉
 
-Open the Terminal on you macOS, locate the file and run the script: 
+Open the Terminal on you macOS, locate the file and run the script:
 
     ./hugo_latest.sh
 
