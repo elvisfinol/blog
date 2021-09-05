@@ -7,11 +7,11 @@ title = "DevOps Concepts"
 +++
 ![](https://miro.medium.com/max/874/1*_eJaw96xLBR-xEzlwbTOyw.png)
 
-### **What is DevOps?**
+## **What is DevOps?**
 
 **DevOps** is a set of practices that combines software development (_Dev_) and IT operations (_Ops_). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
 
-### Build Automation
+## Build Automation
 
 ##### **What is Build Automation?**
 
@@ -36,7 +36,7 @@ title = "DevOps Concepts"
 * **Portable** - The build can be done the same way on any machine. Anyone on the team can be build on their machine, as well as on a shared build server. Building code doesn't depend on specific people or machines
 * **Reliable** - There will be fewer problems caused by bad builds
 
-### Continuous Integration
+## Continuous Integration
 
 ##### **What is Continuous Integration?**
 
@@ -61,7 +61,7 @@ title = "DevOps Concepts"
 * Makes **continuous testing** possible - Since the code can always be run, QA testers can get their hands on it all throughout the development process, not just at the end
 * Encourages **good coding practices** - Frequent commits encourages simple, modular code
 
-### Continuous Delivery and Continuous Deployment
+## Continuous Delivery and Continuous Deployment
 
 ##### **What is Continuous Delivery?**
 
@@ -93,12 +93,12 @@ title = "DevOps Concepts"
 * **Reliable rollbacks** - Robust automation means rollbacks are a reliable way to ensure stability for customers, and rollback don't hurt developers because they can roll forward with a fix as soon as they have one
 * **Fearless deployments** - Robust automation plus the ability to rollback quickly means deployments are commonplace, everyday events rather than big, scary events
 
-### Infrastructure as Code
+## Infrastructure as Code
 
 ##### **What is Infrastructure as Code?**
 
 * Infrastructure as Code (IaC): manage and provision infrastructure through code and automation
-* With infrastructure as code, instead of doing things manually, you use automation and code to create and change 
+* With infrastructure as code, instead of doing things manually, you use automation and code to create and change
   * Servers
   * Instances
   * Environments
