@@ -133,3 +133,12 @@ title = "DevOps Concepts"
 * Changes always need to happen - configuration management is about doing them in a maintainable way
 * Configuration management allows you to minimize configuration drift - the small changes that accumulate over time and make systems different from one another and harder to manage
 * Infrastructure as Code is very beneficial for configuration management
+
+### What does Configuration Management look like?
+
+* You need to upgrade a software package on a bunch of servers:
+  * Without good configuration management, you log into each server and perform the upgrade. However, this can lead to a lot of problems. Perhaps one server was missed due to poor documentation, or perhaps something doesn’t work while the versions are temporarily mismatched between servers, causing a lot of downtime while you do the upgrade 
+  * With good configuration management, you define the new version of the software package in a configuration file or tool and automatically roll out the change to all the servers
+* Configuration Management is about managing your configuration somewhere outside the servers themselves
+
+### Why do Configuration Management?
