@@ -4,7 +4,7 @@
 
 .post-title {
     margin-bottom: 2px;
-    font-size: 40px;
+    font-size: 30px;
     transform: translateX(-2px)
 }
 
@@ -196,8 +196,8 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
-    font-size: .78em;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.2em;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px

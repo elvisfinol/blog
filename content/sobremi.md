@@ -5,7 +5,7 @@ url: "/sobremi"
 summary: "sobremi"
 ---
 
-¡Hola! Mi nombre es **Elvis Finol**. Nací hace 29 años en Maracaibo (Venezuela). Estudié Ingeniería en Electrónica Mención Automatización y Control de Procesos en la Universidad Rafael Belloso Chacín. En el 2015 decidí salir de mi país en busca de mejores oportunidades tanto para el crecimiento personal como profesional. Me mudé a la capital Argentina, la icónica Ciudad de Buenos Aires.
+¡Hola! Mi nombre es **Elvis Finol**. Nací hace 30 años en Maracaibo (Venezuela). Estudié Ingeniería en Electrónica Mención Automatización y Control de Procesos en la Universidad Rafael Belloso Chacín. En el 2015 decidí salir de mi país en busca de mejores oportunidades tanto para el crecimiento personal como profesional. Me mudé a la capital Argentina, la icónica Ciudad de Buenos Aires.
 
 > Marzo de 2021 --> nueva localización / Madrid, España. (Historia en desarrollo...✍️)
 
