@@ -137,7 +137,7 @@ title = "DevOps Concepts"
 ### What does Configuration Management look like?
 
 * You need to upgrade a software package on a bunch of servers:
-  * Without good configuration management, you log into each server and perform the upgrade. However, this can lead to a lot of problems. Perhaps one server was missed due to poor documentation, or perhaps something doesn’t work while the versions are temporarily mismatched between servers, causing a lot of downtime while you do the upgrade 
+  * Without good configuration management, you log into each server and perform the upgrade. However, this can lead to a lot of problems. Perhaps one server was missed due to poor documentation, or perhaps something doesn’t work while the versions are temporarily mismatched between servers, causing a lot of downtime while you do the upgrade
   * With good configuration management, you define the new version of the software package in a configuration file or tool and automatically roll out the change to all the servers
 * Configuration Management is about managing your configuration somewhere outside the servers themselves
 
@@ -147,3 +147,35 @@ title = "DevOps Concepts"
 * **Insight** - With good configuration management, you can know about the state of all pieces of a large and complex infrastructure
 * **Maintainability** - A more maintainable infrastructure is easier to change in a stable way
 * **Less configuration drift** - It is easier to keep a standard configuration across a multitude of hosts
+
+## Orchestration
+
+### What is Orchestration?
+
+* Automation that supports processes and workflows, such as provisioning resources
+
+
+* With Orchestration, managing a complex infrastructure is less like being a builder and more like conducting an orchestra
+* Instead of going out and creating a piece of infrastructure, the conductor simply signals what needs to be done and be orchestra performs it:
+  * The conductor does not need to control every detail
+  * The musicions (automation) are able to perfrom their piece with only a little bit of guidance
+
+### What does Orchestration look like?
+
+* **Here is an example:**
+  * A customer requests more resources for a web service that is about to see a heavy increase in usage due to a planned marketing effort
+  * Instead of manually standing up new nodes, operations enginieers use an orchestration tool to request five more nodes to support the service
+  * A few minutes later, the tool has five new nodes are up and running
+* **A much cooler example:**
+  * A monitoring tool detects an increased load on the service
+  * An orchestration tool responds to this by spinning up additional resources to handle the load
+  * When the load decreases again, the tool spins the additional resources back down, freeing them up to be used by something else
+  * All of this happens while the engineer is getting coffee
+
+### Why do Orchestration?
+
+* **Scalability** - Resources can be quickly increased or decreased to meet changing needs
+* **Stability** - Automation tools can automatically respond to fix problems before users see them
+* **Save time** - Certain tasks and workflows can be automated, freeing up engineers' time
+* **Selt-service** - Orchestration can be used to offer resources to customers in a seft-service fashion
+* **Granular insight into resource usage** - Orchestration tools give greater insight into how many resources are being used by what software, services or customers
