@@ -51,6 +51,8 @@ I propose a three tier web application architecture (Web/Presentation, App/Logic
  9. Finally, at the Data tier I select a generic database. Could be a Relational or NoSQL. Not every database fits every business. If you have a schema define and data integrity is essential for you, go with [SQL database](https://aws.amazon.com/rds/?nc1=h_ls). In case, your data has no schema define, no need for joins or complex transactions and scale faster a [NoSQL database](https://aws.amazon.com/dynamodb/?trk=ps_a134p000006gXuVAAU&trkCampaign=acq_paid_search_brand&sc_channel=PS&sc_campaign=acquisition_LATAMO&sc_publisher=Google&sc_category=Database&sc_country=LATAMO&sc_geo=LATAM&sc_outcome=acq&sc_detail=dynamo%20database&sc_content=DynamoDB_e&sc_matchtype=e&sc_segment=490481979011&sc_medium=ACQ-P%7CPS-GO%7CBrand%7CDesktop%7CSU%7CDatabase%7CDynamoDB%7CLATAMO%7CEN%7CText&s_kwcid=AL!4422!3!490481979011!e!!g!!dynamo%20database&ef_id=CjwKCAjwy42FBhB2EiwAJY0yQl2W3Am5tc8t-q10XX5GvNrbgpRHTOJVvgu18KV7fnvxC-8yxwn3IBoCQVUQAvD_BwE:G:s&s_kwcid=AL!4422!3!490481979011!e!!g!!dynamo%20database) would fit better.
 10. For costs, create a billing alarm based on your monthly budget. I would recommend use [AWS budget](https://aws.amazon.com/aws-cost-management/aws-budgets/?nc1=h_ls) to define custom budgets that alert you when your costs or usage exceed and use [AWS Cost Explorer](https://aws.amazon.com/es/aws-cost-management/aws-cost-explorer/) to manage your costs and usage over time providing fine-grained billing to understand your costs.
 
+![](https://elvisfinol-website-bucket.s3.eu-west-1.amazonaws.com/short-term.png)
+
 **c) Optionally, propose high level alternative solution(s) for the longer term as their web application becomes more successful.**
 
  1. Considering the short term architecture, I proposed keeping the three tier and launching infrastructure on 2 AWS Availability zones. To provide high availability. In case of issues you can route to your healthy AZ.
@@ -64,3 +66,5 @@ I propose a three tier web application architecture (Web/Presentation, App/Logic
  9. For monitoring your complete stack (applications, infrastructure, and services) and centralize your logging solution, use CloudWatch. It also helps you to understand the infrastructure.
 10. Use [S3 (Object storage solution service](https://aws.amazon.com/s3/?nc1=h_ls)) so all the logs will be saved in one place for investigation if something fail. S3 has several storage classes, to rotate logs and reduce costs.
 11. Use [IAM](https://aws.amazon.com/iam/?nc1=h_ls) to control who is authenticated (signed in) and authorized (has permissions) to use resources. You will gain granular control and enhanced security.
+
+![](https://elvisfinol-website-bucket.s3.eu-west-1.amazonaws.com/long-term.png)
