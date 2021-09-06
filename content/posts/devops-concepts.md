@@ -1,7 +1,6 @@
 +++
 author = "Elvis Finol"
 date = 2021-09-04T22:00:00Z
-draft = true
 tags = ["devops"]
 title = "DevOps Concepts"
 
@@ -211,3 +210,29 @@ title = "DevOps Concepts"
 * **Better root cause analysis** - The more data you have, the easier it is to determine the root cause of a problem
 * **Visibility across teams** - Good monitoring tools give useful data to both developers and operations people about the performance of code in production
 * **Automated response** - Monitoring data can be used alongside orchestration to provide 
+
+## Microservices
+
+### What are Microservices?
+
+* A microservice architecture breaks an application up into a collection of small loosely-coupled services
+* Traditionally, apps used a monolithic architecture, In a monolithic architecture, all features and services are part of one large application
+* Microservices are small: each microservice implements only a small piece of an application's overall functionality
+* Microservices are loosely coupled: Different microservices interact with each other using stable and well-defined APIs. this means that they are independent of one another
+
+### What do microservices look like?
+
+* For example, a pet shop application might have:
+  * A pet inventory service
+  * A customer details service
+  * An authentication service
+  * A pet adoption request service
+  * A payment processing service
+* Each of these is its own codebase and separate running process (or processes). They can all be build, deployed, and scaled separately
+
+### Why use Microservices?
+
+* **Modularity** - Microservices encourage modularity. In monolithic apps, individual pieces become tightly coupled, and complexity grows. Eventually, It's very hard to change anything without breaking something
+* **Technological flexibility** - You don't need to use the same languages and technologies for every part of the app. You can use the best tool for each job
+* **Optimized scalability** - You can scale individual parts of the app based upon resources usage and load. With monolithic, you have to scale up the entire application, even if only one aspect of the service actually needs to be scaled
+* **Microservices aren't always the best choice. For small, simpler apps a monilith might be easier to manage**
