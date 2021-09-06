@@ -6,7 +6,26 @@
     <description>Recent content in Posts on EF | Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Sep 2021 10:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 22:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Solutions Architect - Assignment for the loop!</title>
+      <link>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</link>
+      <pubDate>Sun, 05 Sep 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</guid>
+      <description>In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won&amp;rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative.</description>
+    </item>
+    
+    <item>
+      <title>DevOps Concepts</title>
+      <link>https://elvisfinol.com/posts/devops-concepts/</link>
+      <pubDate>Sat, 04 Sep 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/devops-concepts/</guid>
+      <description>What is DevOps? DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
+Build Automation What is Build Automation?  Build automation: automation of the process of preparing code for deployment to a live environment Depending on what languages are used, code needs to be compiled, linted, minified, transformed, unit tested, etc.</description>
+    </item>
+    
     <item>
       <title>Script to install/update HUGO on your macOS</title>
       <link>https://elvisfinol.com/posts/script-to-install-hugo-latest-version-for-macos/</link>

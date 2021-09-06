@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud Formation on EF | Personal Website</title>
+    <link>https://elvisfinol.com/tags/cloud-formation/</link>
+    <description>Recent content in Cloud Formation on EF | Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Sep 2021 22:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/tags/cloud-formation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Solutions Architect - Assignment for the loop!</title>
+      <link>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</link>
+      <pubDate>Sun, 05 Sep 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</guid>
+      <description>In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won&amp;rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative.</description>
+    </item>
+    
+  </channel>
+</rss>

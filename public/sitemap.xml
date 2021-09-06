@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://elvisfinol.com/tags/aws/</loc>
+    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</loc>
+    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/tags/cloud-formation/</loc>
+    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://elvisfinol.com/</loc>
-    <lastmod>2021-09-04T10:00:00+00:00</lastmod>
+    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/posts/</loc>
-    <lastmod>2021-09-04T10:00:00+00:00</lastmod>
+    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/tags/</loc>
+    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/tags/devops/</loc>
+    <lastmod>2021-09-04T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/posts/devops-concepts/</loc>
+    <lastmod>2021-09-04T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/tags/script/</loc>
     <lastmod>2021-09-04T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/posts/script-to-install-hugo-latest-version-for-macos/</loc>
-    <lastmod>2021-09-04T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://elvisfinol.com/tags/</loc>
     <lastmod>2021-09-04T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/posts/algorithms-pseudo-codes/</loc>
@@ -39,9 +54,6 @@
     <lastmod>2021-01-28T16:00:43-03:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/tags/alb/</loc>
-    <lastmod>2021-01-28T16:00:43-03:00</lastmod>
-  </url><url>
-    <loc>https://elvisfinol.com/tags/aws/</loc>
     <lastmod>2021-01-28T16:00:43-03:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/tags/cheatsheet/</loc>

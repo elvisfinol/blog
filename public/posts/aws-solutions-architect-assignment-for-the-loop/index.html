@@ -1,0 +1,179 @@
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>AWS Solutions Architect - Assignment for the loop! | EF | Personal Website</title>
+<meta name=keywords content="Cloud Formation,AWS">
+<meta name=description content="In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won&rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative.">
+<meta name=author content="Elvis Finol">
+<link rel=canonical href=https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/>
+<meta name=google-site-verification content="XYZabc">
+<link href=/assets/css/stylesheet.min.d72bbefa6316ff4af776e5fcec6b0e00a01c7fcc700eedae955f4f0fcf0279b9.css integrity="sha256-1yu++mMW/0r3duX87GsOAKAcf8xwDu2ulV9PD88Cebk=" rel="preload stylesheet" as=style>
+<link rel=icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=icon type=image/png sizes=16x16 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=icon type=image/png sizes=32x32 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=apple-touch-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<link rel=mask-icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.88.0">
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-123-45','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+<meta property="og:title" content="AWS Solutions Architect - Assignment for the loop!">
+<meta property="og:description" content="In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won&rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/">
+<meta property="og:image" content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta property="article:published_time" content="2021-09-05T22:00:00+00:00">
+<meta property="article:modified_time" content="2021-09-05T22:00:00+00:00"><meta property="og:site_name" content="Elvis Finol | Website">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://elvisfinol.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name=twitter:title content="AWS Solutions Architect - Assignment for the loop!">
+<meta name=twitter:description content="In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won&rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"AWS Solutions Architect - Assignment for the loop!","name":"AWS Solutions Architect - Assignment for the loop!","description":"In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my …","keywords":["Cloud Formation","AWS"],"articleBody":"In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won’t upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative. Imagine that this is for a customer, so effort yourself. If you have any question, email me.\n Good Luck and do your best!\n Context So far your customer has launched an AWS Elastic Load Balancer (ELB) and an Amazon Elastic Compute Cloud (EC2) instance acting as the web server. Both are deployed in a Virtual Private Cloud (VPC) on AWS. While your customer’s initial deployment aims to present a static web page to its users (demo.html located in the document root of the web server), the end solution should continue to be suitable for generating dynamic responses (your customer is currently developing the application). The customer is not sure about their future direction or requirements and are looking to you to provide expert guidance despite the ambiguity.\nYou are contacted and asked to:\na) Troubleshoot the implementation by doing the minimum amount of work required to make the website operational. Your customer expects detailed written troubleshooting instructions or scripts for the in-house team.\nStep by step to find the problem\n Verify the topology used on the CloudFormation template Verify VPC/EC2 configuration  IGW is associated with the VPC? Yes Route tables are associate with the instance subnets? Yes Does the instance have Public IP associated? Yes Validate Instance status checks. OK   Verify Elastic Load Balancer configuration  Is the instance attached to the ELB? Yes Does ELB is pointing to the correct AZ? No, changes applied How is the health check configured (Validate ping target details) changes applied   Verify Inbound/outbound rules configured on SecurityGroups  Does the ELB SG have rules configured? No, changes applied Does the APP SG have rules configured? No, changes applied    b) Propose short term changes you could help them implement to improve the availability, security, reliability, cost and performance before the project goes into production. Your customer expects you to explain the business and technical benefits of your proposals, with artifacts such as a design or architecture document and diagrams.\nReviewing the Cloud Formation stack you have provided; These recommendations will help you to easy scale your application, having workloads reliable, built-in security and highly available, taking consideration on costs. You will find a few new AWS services in this proposal, however, will explain all advantages and main purposes.\nI propose a three tier web application architecture (Web/Presentation, App/Logic and Data separately). Each tier will be independent of the other tiers, so updates or changes can be carried out without affecting the application as a whole.\n First entry service I recommend Route53 for DNS Resolution to connects user requests to AWS infrastructure. You do not have to pay upfront fees and pay just for what you use, you will be charged for the amount resolved queries. For more information, see https://aws.amazon.com/route53/pricing/?nc1=h_ls Each Route53 health check can monitor a specified resource of your architecture, being able to trigger an email alarm, so you be always up to date if something failed. The NACLs (Network Access Control List) on your template has default configuration allowing inbound/outbound to all type of traffic. So define the type of requests your app will receive and always ensure you do not use a wide range of ports or overly permissions to NACLs during configuration. Use NACLs in combination with your Security Groups inside your VPC to reinforce the security. As the entry point of your VPC there is an Application Load Balancer to route all requests at the application layer of your web server locate in the public subnet. ALB perform health checks and guarantee all petitions will be delegated only to the healthy instance. Also adding a security layer to your instances due it restricts the web servers accessible only via the ALB. Configure your ALB to listen only HTTPS instead of HTTP for secure purpose. Make sure to change your web server configuration and configure your SSL/TLS certificate. I recommend add an auto-scaling group (minimum 1 instance running) to your Web Server to protect the instance from interruptions, ensuring the minimum number of instances and responds to changes in load by scaling the instance pool appropriately. If your user requests increase, your web server can scale automatically and servers will manage the increase load. Same recommendation on your private subnet that your app tier (under development) will be deployed. Auto-scaling group will manage the scalability on those servers. You can try with spot instances (to reduce costs) at the logic tier until you define your workload and the integration with your Presentation Layer. Finally, at the Data tier I select a generic database. Could be a Relational or NoSQL. Not every database fits every business. If you have a schema define and data integrity is essential for you, go with SQL database. In case, your data has no schema define, no need for joins or complex transactions and scale faster a NoSQL database would fit better. For costs, create a billing alarm based on your monthly budget. I would recommend use AWS budget to define custom budgets that alert you when your costs or usage exceed and use AWS Cost Explorer to manage your costs and usage over time providing fine-grained billing to understand your costs.  c) Optionally, propose high level alternative solution(s) for the longer term as their web application becomes more successful.\n Considering the short term architecture, I proposed keeping the three tier and launching infrastructure on 2 AWS Availability zones. To provide high availability. In case of issues you can route to your healthy AZ. I would recommend adding CDN like CloudFront to cache the static website content from your web server (Presentation layer). Also, CloudFront will offer you low latency, high transfer speeds and security capabilities. You do not have to pass all the internet route, instead you are entering through the AWS backbone. In front of the CloudFront I suggest using a Web Application Firewall (AWS WAF) to filter malicious requests and protect from DDoS attacks. I would add an extra ALB to distribute load for your Web tier, and your App tier solution. It may give you an extra cost however you decouple your app reducing dependencies between and allow you to can scale faster. In the long run would be better. As mentioned above on short term (Web Server and App Servers), will keep the use of auto-scaling to automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. In case of high demand your compute resources will adapt to the amount of requests. For example, you could scale based on CPU usage. For more information, see https://aws.amazon.com/es/autoscaling/features/ You could use EBS volumes for your EC2 instances and perform snapshots monthly to keep you OS backup. For the Data tier, if you use relational database like RDS you can set up Multi AZ with auto-failover or use Aurora which is a MySQL and PostgreSQL-compatible relational database built for the cloud and is highly available by nature. In case of a NoSQL database I would recommend DynamoDB providing speed, scalability and synchronously replication across availability zones. For monitoring your complete stack (applications, infrastructure, and services) and centralize your logging solution, use CloudWatch. It also helps you to understand the infrastructure. Use S3 (Object storage solution service) so all the logs will be saved in one place for investigation if something fail. S3 has several storage classes, to rotate logs and reduce costs. Use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources. You will gain granular control and enhanced security.  ","wordCount":"1316","inLanguage":"en","datePublished":"2021-09-05T22:00:00Z","dateModified":"2021-09-05T22:00:00Z","author":{"@type":"Person","name":"Elvis Finol"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/"},"publisher":{"@type":"Organization","name":"EF | Personal Website","logo":{"@type":"ImageObject","url":"https://elvisfinol.com/%3Clink%20/%20abs%20url%3E"}}}</script>
+</head>
+<body id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<noscript>
+<style type=text/css>.theme-toggle,.top-link{display:none}</style>
+</noscript>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=https://elvisfinol.com accesskey=h title="🔶 (Alt + H)">🔶</a>
+<span class=logo-switches>
+<span class=theme-toggle title="(Alt + T)">
+<a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</a>
+</span>
+</span>
+</div>
+<ul class=menu id=menu onscroll=menu_on_scroll()>
+<li>
+<a href=https://elvisfinol.com/sobremi/ title="Sobre Mi">
+<span>Sobre Mi</span>
+</a>
+</li>
+<li>
+<a href=https://elvisfinol.com/archive/ title=Blog>
+<span>Blog</span>
+</a>
+</li>
+<li>
+<a href=https://elvisfinol.com/tags/ title=Tags>
+<span>Tags</span>
+</a>
+</li>
+<li>
+<a href=https://elvisfinol.com/search/ title=🔍>
+<span>🔍</span>
+</a>
+</li></ul>
+</nav>
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.15.1/css/all.css integrity=sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp crossorigin=anonymous>
+<link rel=preconnect href=https://fonts.gstatic.com>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&family=Rubik:wght@300;500;600&display=swap" rel=stylesheet>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<h1 class=post-title>
+AWS Solutions Architect - Assignment for the loop!
+</h1>
+<div class=post-description>
+</div>
+<div class=post-meta>
+September 5, 2021&nbsp;·&nbsp;Elvis Finol
+</div>
+</header>
+<div class=post-content>
+<p>In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won&rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative. <strong>Imagine that this is for a customer, so effort yourself.</strong> If you have any question, email me.</p>
+<blockquote>
+<p>Good Luck and do your best!</p>
+</blockquote>
+<h3 id=context><strong>Context</strong><a hidden class=anchor aria-hidden=true href=#context>#</a></h3>
+<p>So far your customer has launched an AWS Elastic Load Balancer (ELB) and an Amazon Elastic Compute Cloud (EC2) instance acting as the web server. Both are deployed in a Virtual Private Cloud (VPC) on AWS. While your customer&rsquo;s initial deployment aims to present a static web page to its users (demo.html located in the document root of the web server), the end solution should continue to be suitable for generating dynamic responses (your customer is currently developing the application). The customer is not sure about their future direction or requirements and are looking to you to provide expert guidance despite the ambiguity.</p>
+<p>You are contacted and asked to:</p>
+<p><strong>a) Troubleshoot the implementation by doing the minimum amount of work required to make the website operational. Your customer expects detailed written troubleshooting instructions or scripts for the in-house team.</strong></p>
+<p><strong>Step by step to find the problem</strong></p>
+<ol>
+<li>Verify the topology used on the CloudFormation template</li>
+<li>Verify VPC/EC2 configuration
+<ol>
+<li>IGW is associated with the VPC? <strong>Yes</strong></li>
+<li>Route tables are associate with the instance subnets? <strong>Yes</strong></li>
+<li>Does the instance have Public IP associated? <strong>Yes</strong></li>
+<li>Validate Instance status checks. <strong>OK</strong></li>
+</ol>
+</li>
+<li>Verify Elastic Load Balancer configuration
+<ol>
+<li>Is the instance attached to the ELB? <strong>Yes</strong></li>
+<li>Does ELB is pointing to the correct AZ? <strong>No, changes applied</strong></li>
+<li>How is the health check configured (Validate ping target details) <strong>changes applied</strong></li>
+</ol>
+</li>
+<li>Verify Inbound/outbound rules configured on SecurityGroups
+<ol>
+<li>Does the ELB SG have rules configured? <strong>No, changes applied</strong></li>
+<li>Does the APP SG have rules configured? <strong>No, changes applied</strong></li>
+</ol>
+</li>
+</ol>
+<p><strong>b) Propose short term changes you could help them implement to improve the availability, security, reliability, cost and performance before the project goes into production. Your customer expects you to explain the business and technical benefits of your proposals, with artifacts such as a design or architecture document and diagrams.</strong></p>
+<p>Reviewing the Cloud Formation stack you have provided; These recommendations will help you to easy scale your application, having workloads reliable, built-in security and highly available, taking consideration on costs. You will find a few new AWS services in this proposal, however, will explain all advantages and main purposes.</p>
+<p>I propose a three tier web application architecture (Web/Presentation, App/Logic and Data separately). Each tier will be independent of the other tiers, so updates or changes can be carried out without affecting the application as a whole.</p>
+<ol>
+<li>First entry service I recommend Route53 for DNS Resolution to connects user requests to AWS infrastructure. You do not have to pay upfront fees and pay just for what you use, you will be charged for the amount resolved queries. For more information, see <a href="https://aws.amazon.com/route53/pricing/?nc1=h_ls" title="https://aws.amazon.com/route53/pricing/?nc1=h_ls">https://aws.amazon.com/route53/pricing/?nc1=h_ls</a></li>
+<li>Each Route53 health check can monitor a specified resource of your architecture, being able to trigger an email alarm, so you be always up to date if something failed.</li>
+<li>The NACLs (Network Access Control List) on your template has default configuration allowing inbound/outbound to all type of traffic. So define the type of requests your app will receive and always ensure you do not use a wide range of ports or overly permissions to NACLs during configuration.</li>
+<li>Use NACLs in combination with your Security Groups inside your VPC to reinforce the security.</li>
+<li>As the entry point of your VPC there is an Application Load Balancer to route all requests at the application layer of your web server locate in the public subnet. ALB perform health checks and guarantee all petitions will be delegated only to the healthy instance. Also adding a security layer to your instances due it restricts the web servers accessible only via the ALB.</li>
+<li>Configure your ALB to listen only HTTPS instead of HTTP for secure purpose. Make sure to change your web server configuration and configure your SSL/TLS certificate.</li>
+<li>I recommend add an auto-scaling group (minimum 1 instance running) to your Web Server to protect the instance from interruptions, ensuring the minimum number of instances and responds to changes in load by scaling the instance pool appropriately. If your user requests increase, your web server can scale automatically and servers will manage the increase load.</li>
+<li>Same recommendation on your private subnet that your app tier (under development) will be deployed. Auto-scaling group will manage the scalability on those servers. You can try with spot instances (to reduce costs) at the logic tier until you define your workload and the integration with your Presentation Layer.</li>
+<li>Finally, at the Data tier I select a generic database. Could be a Relational or NoSQL. Not every database fits every business. If you have a schema define and data integrity is essential for you, go with <a href="https://aws.amazon.com/rds/?nc1=h_ls">SQL database</a>. In case, your data has no schema define, no need for joins or complex transactions and scale faster a <a href="https://aws.amazon.com/dynamodb/?trk=ps_a134p000006gXuVAAU&trkCampaign=acq_paid_search_brand&sc_channel=PS&sc_campaign=acquisition_LATAMO&sc_publisher=Google&sc_category=Database&sc_country=LATAMO&sc_geo=LATAM&sc_outcome=acq&sc_detail=dynamo%20database&sc_content=DynamoDB_e&sc_matchtype=e&sc_segment=490481979011&sc_medium=ACQ-P%7CPS-GO%7CBrand%7CDesktop%7CSU%7CDatabase%7CDynamoDB%7CLATAMO%7CEN%7CText&s_kwcid=AL!4422!3!490481979011!e!!g!!dynamo%20database&ef_id=CjwKCAjwy42FBhB2EiwAJY0yQl2W3Am5tc8t-q10XX5GvNrbgpRHTOJVvgu18KV7fnvxC-8yxwn3IBoCQVUQAvD_BwE:G:s&s_kwcid=AL!4422!3!490481979011!e!!g!!dynamo%20database">NoSQL database</a> would fit better.</li>
+<li>For costs, create a billing alarm based on your monthly budget. I would recommend use <a href="https://aws.amazon.com/aws-cost-management/aws-budgets/?nc1=h_ls">AWS budget</a> to define custom budgets that alert you when your costs or usage exceed and use <a href=https://aws.amazon.com/es/aws-cost-management/aws-cost-explorer/>AWS Cost Explorer</a> to manage your costs and usage over time providing fine-grained billing to understand your costs.</li>
+</ol>
+<p><img src=https://elvisfinol-website-bucket.s3.eu-west-1.amazonaws.com/short-term.png alt></p>
+<p><strong>c) Optionally, propose high level alternative solution(s) for the longer term as their web application becomes more successful.</strong></p>
+<ol>
+<li>Considering the short term architecture, I proposed keeping the three tier and launching infrastructure on 2 AWS Availability zones. To provide high availability. In case of issues you can route to your healthy AZ.</li>
+<li>I would recommend adding CDN like <a href="https://aws.amazon.com/cloudfront/?nc1=h_ls">CloudFront</a> to cache the static website content from your web server (Presentation layer). Also, CloudFront will offer you low latency, high transfer speeds and security capabilities. You do not have to pass all the internet route, instead you are entering through the AWS backbone.</li>
+<li>In front of the CloudFront I suggest using a <a href="https://aws.amazon.com/waf/?nc1=h_ls">Web Application Firewall</a> (AWS WAF) to filter malicious requests and protect from DDoS attacks.</li>
+<li>I would add an extra ALB to distribute load for your Web tier, and your App tier solution. It may give you an extra cost however you decouple your app reducing dependencies between and allow you to can scale faster. In the long run would be better.</li>
+<li>As mentioned above on short term (Web Server and App Servers), will keep the use of auto-scaling to automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. In case of high demand your compute resources will adapt to the amount of requests. For example, you could scale based on CPU usage. For more information, see <a href=https://aws.amazon.com/es/autoscaling/features/ title=https://aws.amazon.com/es/autoscaling/features/>https://aws.amazon.com/es/autoscaling/features/</a></li>
+<li>You could use EBS volumes for your EC2 instances and perform snapshots monthly to keep you OS backup.</li>
+<li>For the Data tier, if you use relational database like RDS you can set up Multi AZ with auto-failover or use <a href="https://aws.amazon.com/rds/aurora/?nc1=h_ls&aurora-whats-new.sort-by=item.additionalFields.postDateTime&aurora-whats-new.sort-order=desc">Aurora</a> which is a MySQL and PostgreSQL-compatible relational database built for the cloud and is highly available by nature.</li>
+<li>In case of a NoSQL database I would recommend <a href="https://aws.amazon.com/dynamodb/?trk=ps_a134p000006gXuVAAU&trkCampaign=acq_paid_search_brand&sc_channel=PS&sc_campaign=acquisition_LATAMO&sc_publisher=Google&sc_category=Database&sc_country=LATAMO&sc_geo=LATAM&sc_outcome=acq&sc_detail=dynamo%20database&sc_content=DynamoDB_e&sc_matchtype=e&sc_segment=490481979011&sc_medium=ACQ-P%7CPS-GO%7CBrand%7CDesktop%7CSU%7CDatabase%7CDynamoDB%7CLATAMO%7CEN%7CText&s_kwcid=AL!4422!3!490481979011!e!!g!!dynamo%20database&ef_id=CjwKCAjwy42FBhB2EiwAJY0yQl2W3Am5tc8t-q10XX5GvNrbgpRHTOJVvgu18KV7fnvxC-8yxwn3IBoCQVUQAvD_BwE:G:s&s_kwcid=AL!4422!3!490481979011!e!!g!!dynamo%20database">DynamoDB</a> providing speed, scalability and synchronously replication across availability zones.</li>
+<li>For monitoring your complete stack (applications, infrastructure, and services) and centralize your logging solution, use CloudWatch. It also helps you to understand the infrastructure.</li>
+<li>Use <a href="https://aws.amazon.com/s3/?nc1=h_ls">S3 (Object storage solution service</a>) so all the logs will be saved in one place for investigation if something fail. S3 has several storage classes, to rotate logs and reduce costs.</li>
+<li>Use <a href="https://aws.amazon.com/iam/?nc1=h_ls">IAM</a> to control who is authenticated (signed in) and authorized (has permissions) to use resources. You will gain granular control and enhanced security.</li>
+</ol>
+<p><img src=https://elvisfinol-website-bucket.s3.eu-west-1.amazonaws.com/long-term.png alt></p>
+</div>
+<footer class=post-footer>
+<ul class=post-tags>
+<li><a href=https://elvisfinol.com/tags/cloud-formation/>Cloud Formation</a></li>
+<li><a href=https://elvisfinol.com/tags/aws/>aws</a></li>
+</ul>
+</footer><div id=disqus_thread></div>
+<script>(function(){var a=document,b=a.createElement('script');b.src='https://elvisfinol.disqus.com/embed.js',b.setAttribute('data-timestamp',+new Date),(a.head||a.body).appendChild(b)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+</article>
+</main><footer class=footer>
+<span>&copy; 2021 <a href=https://elvisfinol.com>EF | Personal Website</a></span>
+<span>&#183;</span>
+<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo Framework</a></span>
+<span>&#183;</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)">
+<button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</button>
+</a>
+<script defer src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<script>window.onload=function(){localStorage.getItem("menu-scroll-position")&&(document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position"))},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.replaceState(null,null,`#${a}`)})});var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft)}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+</body>
+</html>
