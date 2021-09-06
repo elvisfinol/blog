@@ -179,3 +179,18 @@ title = "DevOps Concepts"
 * **Save time** - Certain tasks and workflows can be automated, freeing up engineers' time
 * **Selt-service** - Orchestration can be used to offer resources to customers in a seft-service fashion
 * **Granular insight into resource usage** - Orchestration tools give greater insight into how many resources are being used by what software, services or customers
+
+## Monitoring
+
+### What is Monitoring?
+
+* **Monitoring**: The collection and presentation of data about the performance and stability of services and infrastructure 
+* Monitoring tools collect data over things such as:
+  * Usage of memory
+  * CPU
+  * Disk I/O
+  * Other resources over time
+  * Application Logs
+  * Network traffic
+  * etc.
+* The collected data is presented in various forms, such as charts and graphs, or in the form of real-time notifications about problems.
