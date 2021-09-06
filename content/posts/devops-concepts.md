@@ -1,6 +1,7 @@
 +++
 author = "Elvis Finol"
 date = 2021-09-04T22:00:00Z
+draft = true
 tags = ["devops"]
 title = "DevOps Concepts"
 
@@ -123,3 +124,12 @@ title = "DevOps Concepts"
 * **Scalability** - Need a new instance? You can have one configured exactly the same way as the existing instances in minutes (or seconds)
 * **Self-documenting** - With IaC, changes to infrastructure documents themselves to a degree. The way a server is configured can be viewed in source control, rather than being a matter of who logged in to the server and did something
 * **Simplify the complexity** - Complex infrastructures can be stood up quickly once they are defined as code. A group of several interdependent servers can be provisioned on demand
+
+## Configuration Management
+
+### What is Configuration Management?
+
+* Configuration Management: maintaining and changing the state of pieces of infrastructure in a consistent, maintainable and stable way
+* Changes always need to happen - configuration management is about doing them in a maintainable way
+* Configuration management allows you to minimize configuration drift - the small changes that accumulate over time and make systems different from one another and harder to manage
+* Infrastructure as Code is very beneficial for configuration management
