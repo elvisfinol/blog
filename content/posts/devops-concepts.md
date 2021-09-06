@@ -142,3 +142,8 @@ title = "DevOps Concepts"
 * Configuration Management is about managing your configuration somewhere outside the servers themselves
 
 ### Why do Configuration Management?
+
+* **Save time** - It takes less time to change the configuration
+* **Insight** - With good configuration management, you can know about the state of all pieces of a large and complex infrastructure
+* **Maintainability** - A more maintainable infrastructure is easier to change in a stable way
+* **Less configuration drift** - It is easier to keep a standard configuration across a multitude of hosts
