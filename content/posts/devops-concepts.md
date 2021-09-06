@@ -153,8 +153,6 @@ title = "DevOps Concepts"
 ### What is Orchestration?
 
 * Automation that supports processes and workflows, such as provisioning resources
-
-
 * With Orchestration, managing a complex infrastructure is less like being a builder and more like conducting an orchestra
 * Instead of going out and creating a piece of infrastructure, the conductor simply signals what needs to be done and be orchestra performs it:
   * The conductor does not need to control every detail
@@ -184,7 +182,7 @@ title = "DevOps Concepts"
 
 ### What is Monitoring?
 
-* **Monitoring**: The collection and presentation of data about the performance and stability of services and infrastructure 
+* **Monitoring**: The collection and presentation of data about the performance and stability of services and infrastructure
 * Monitoring tools collect data over things such as:
   * Usage of memory
   * CPU
@@ -194,3 +192,22 @@ title = "DevOps Concepts"
   * Network traffic
   * etc.
 * The collected data is presented in various forms, such as charts and graphs, or in the form of real-time notifications about problems.
+
+### What does Monitoring look like?
+
+* **Real-time notifications:**
+  * Performance on the website is beginning to slow down
+  * A monitoring tool detects that response times are growing
+  * An administrator is immediately notified and is able to interviene before downtime occurs
+* **Postmortem analysis:**
+  * Something went wrong in production last night
+  * It's working now, but we don't know what caused it
+  * Luckily, monitoring tools collected a lot of data during the outage
+  * Will the data, developers and operations engineers are able to determine the root cause (a poorly performing SQL query) and fix it
+
+### **Why do Monitoring?**
+
+* **Fast recovery** - The sooner a problem is detected, the sooner it can be fixed. You want to know about a problem before your customer does
+* **Better root cause analysis** - The more data you have, the easier it is to determine the root cause of a problem
+* **Visibility across teams** - Good monitoring tools give useful data to both developers and operations people about the performance of code in production
+* **Automated response** - Monitoring data can be used alongside orchestration to provide 
