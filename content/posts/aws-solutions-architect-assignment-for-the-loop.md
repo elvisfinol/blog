@@ -21,17 +21,17 @@ You are contacted and asked to:
 
 1. Verify the topology used on the CloudFormation template
 2. Verify VPC/EC2 configuration
-   1. IGW is associated with the VPC? **Yes**
-   2. Route tables are associate with the instance subnets? **Yes**
-   3. Does the instance have Public IP associated? **Yes**
-   4. Validate Instance status checks. **OK**
+   1. IGW is associated with the VPC? 
+   2. Route tables are associate with the instance subnets?
+   3. Does the instance have Public IP associated?
+   4. Validate Instance status checks.
 3. Verify Elastic Load Balancer configuration
-   1. Is the instance attached to the ELB? **Yes**
-   2. Does ELB is pointing to the correct AZ? **No, changes applied**
-   3. How is the health check configured (Validate ping target details) **changes applied**
+   1. Is the instance attached to the ELB? 
+   2. Does ELB is pointing to the correct AZ?
+   3. How is the health check configured?
 4. Verify Inbound/outbound rules configured on SecurityGroups
-   1. Does the ELB SG have rules configured? **No, changes applied**
-   2. Does the APP SG have rules configured? **No, changes applied**
+   1. Does the ELB SG have rules configured?
+   2. Does the APP SG have rules configured?
 
 **b) Propose short term changes you could help them implement to improve the availability, security, reliability, cost and performance before the project goes into production. Your customer expects you to explain the business and technical benefits of your proposals, with artifacts such as a design or architecture document and diagrams.**
 
