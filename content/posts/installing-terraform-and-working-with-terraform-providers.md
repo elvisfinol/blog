@@ -1,8 +1,7 @@
 +++
 author = "Elvis Finol"
 date = 2021-09-10T22:00:00Z
-draft = true
-tags = []
+tags = ["terraform"]
 title = "Instalación de Terraform Linux 64 bit - AWS"
 
 +++
