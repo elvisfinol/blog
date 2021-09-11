@@ -10,4 +10,4 @@ title = "Instalación de Terraform en un Linux 64 bit - AWS"
 
 Descargue el paquete binario de Terraform apropiado para la máquina virtual del servidor proporcionada (Linux de 64 bits) mediante el comando wget:
 
-    wget -c https://releases.hashicorp.com/terraform/1.0.6/terraform_1.0.6_linux_amd64.zip
+    wget -c wget -c https://releases.hashicorp.com/terraform/1.0.6/terraform_1.0.6_linux_amd64.zip
