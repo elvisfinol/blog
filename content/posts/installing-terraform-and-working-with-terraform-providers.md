@@ -86,7 +86,7 @@ Implementa el código:
 
     terraform apply
 
-Cuando se le solicite, escriba YES y presione Enter.
+Cuando se te solicite, escribe YES y presiona Enter.
 
 Verifica que se hayan creado dos recursos con sus ID de nombre de recursos de Amazon (ARN) correspondientes en la región en la que se activaron.
 
