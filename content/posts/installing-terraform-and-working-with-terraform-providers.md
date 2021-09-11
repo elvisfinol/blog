@@ -3,7 +3,7 @@ author = ""
 date = 2021-09-10T22:00:00Z
 draft = true
 tags = []
-title = "Instalación de Terraform en un Linux 64 bit - AWS"
+title = "Instalación de Terraform Linux 64 bit - AWS"
 
 +++
 ## Solución
