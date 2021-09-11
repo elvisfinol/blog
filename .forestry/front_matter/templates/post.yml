@@ -17,4 +17,5 @@ fields:
 pages:
 - content/posts/aws-solutions-architect-assignment-for-the-loop.md
 - content/posts/devops-concepts.md
+- content/posts/installing-terraform-and-working-with-terraform-providers.md
 - content/posts/script-to-install-hugo-latest-version-for-macos.md
