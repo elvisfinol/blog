@@ -25,7 +25,7 @@ Verifica la versión de Terraform:
 
     terraform version
 
-Si devuelve la versión de Terraform, el binario de Terraform está instalado y funciona correctamente. 
+Si devuelve la versión de Terraform, el binario de Terraform está instalado y funciona correctamente.
 
 ### Clonar sobre código para proveedores de Terraform
 
@@ -70,7 +70,7 @@ Habilita el registro de salida detallado para los comandos de Terraform usando T
 
     export TF_LOG=TRACE
 
-Nota: Puedes desactivar el registro detallado en cualquier momento mediante el comando export TF_LOG =.
+> Nota: Puedes desactivar el registro detallado en cualquier momento mediante el comando export TF_LOG =.
 
 Inicializa el directorio de trabajo donde se encuentra el código:
 
