@@ -9,20 +9,20 @@ title = "Core AWS services"
 
 ### Compute
 
-###### Elastic Compute Cloud (EC2)
+**Elastic Compute Cloud (EC2)**
 
 EC2 server instances provide virtual versions of the servers you would run in your local data center. EC2 instances can be provisioned with the CPU, memory, storage, and network interface profile to meet any appli- cation need, from a simple web server to one part of a cluster of instances providing an integrated multi-tiered fleet architecture. Since EC2 instances are virtual, they’re resource-efficient and deploy nearly instantly.
 
-###### Lambda
+**Lambda**
 
 Serverless application architectures like the one provided by Amazon’s Lambda service allow you to provide responsive public-facing services without the need for  
 a server that’s actually running 24/7. Instead, network events (like consumer requests) can trigger the execution of a predefined code-based operation. When the opera- tion (which can currently run for as long as 15 minutes) is complete, the Lambda event ends, and all resources auto- matically shut down.
 
-###### Auto Scaling
+**Auto Scaling**
 
 Copies of running EC2 instances can be defined as image templates and automatically launched (or scaled up) when client demand can’t be met by existing instances. As demand drops, unused instances can be terminated (or scaled down).
 
-###### Elastic Load Balancing
+**Elastic Load Balancing**
 
 Incoming network traffic can be directed between mul- tiple web servers to ensure that a single web server isn’t overwhelmed while other servers are underused or that traffic isn’t directed to failed servers.
 
