@@ -125,3 +125,9 @@ SQS allows for event-driven messaging within distributed systems that can decoup
 **API Gateway**
 
 This service enables you to create and manage secure and reliable APIs for your AWS-based applications.
+
+***
+
+_Source_
+
+* [AWS Certified Solutions Architect Study Guide: Associate SAA-CO2 Exam](https://www.amazon.com/-/es/Ben-Piper/dp/1119713080/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&dchild=1&keywords=Associate+%28SAA-C02%29+Exam&qid=1631455748&sr=8-1)
