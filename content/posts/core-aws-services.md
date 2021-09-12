@@ -128,6 +128,6 @@ This service enables you to create and manage secure and reliable APIs for your 
 
 ***
 
-_Source_
+_References_
 
-* [AWS Certified Solutions Architect Study Guide: Associate SAA-CO2 Exam](https://www.amazon.com/-/es/Ben-Piper/dp/1119713080/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&dchild=1&keywords=Associate+%28SAA-C02%29+Exam&qid=1631455748&sr=8-1)
+* [AWS Certified Solutions Architect Study Guide: Associate SAA-CO2 Exam](https://www.amazon.com/-/es/Ben-Piper/dp/1119713080/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Associate+%28SAA-C02%29+Exam&qid=1631455748&sr=8-1)
