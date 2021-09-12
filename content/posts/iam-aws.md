@@ -6,6 +6,8 @@ tags = []
 title = "IAM - AWS"
 
 +++
+Your AWS credentials let you log into the AWS management console, manage services, view and edit resources, and so on. Security in AWS begins with the foundation of identity, which is managed by the Identity and Access Management (IAM) service. Because your AWS credentials are the keys to the kingdom, the first order of business is to protect them from accidental exposure and unauthorised use. The second step is to ensure that users have only the permissions they need, and no more.
+
 * IAM is used to securely control individual and group access to AWS resources.
 * IAM makes it easy to provide multiple users secure access to AWS resources.
 * IAM can be used to manage:
