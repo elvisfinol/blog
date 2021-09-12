@@ -50,3 +50,10 @@ Your AWS credentials let you log into the AWS management console, manage service
 * IAM integrates with many different AWS services.
 * IAM supports PCI DSS compliance.
 * AWS recommend that you use the AWS SDKs to make programmatic API calls to IAM.
+
+***
+
+_References_
+
+* [https://digitalcloud.training/certification-training/aws-solutions-architect-associate/security-identity-compliance/aws-iam/]()
+* [AWS Certified Solutions Architect Study Guide: Associate SAA-CO2 Exam](https://www.amazon.com/-/es/Ben-Piper/dp/1119713080/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Associate+%28SAA-C02%29+Exam&qid=1631455748&sr=8-1)
