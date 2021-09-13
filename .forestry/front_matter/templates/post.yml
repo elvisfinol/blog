@@ -16,6 +16,7 @@ fields:
   label: author
 pages:
 - content/posts/aws-solutions-architect-assignment-for-the-loop.md
+- content/posts/building-a-kubernetes-1.21-cluster-with-kubeadm.md
 - content/posts/core-aws-services.md
 - content/posts/devops-concepts.md
 - content/posts/iam-aws.md
