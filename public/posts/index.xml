@@ -6,7 +6,29 @@
     <description>Recent content in Posts on EF | Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Sep 2021 22:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 22:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Core AWS services</title>
+      <link>https://elvisfinol.com/posts/core-aws-services/</link>
+      <pubDate>Sat, 11 Sep 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/core-aws-services/</guid>
+      <description>Functions of some core AWS services, organized by category.
+Compute Elastic Compute Cloud (EC2)
+EC2 server instances provide virtual versions of the servers you would run in your local data center. EC2 instances can be provisioned with the CPU, memory, storage, and network interface profile to meet any application need, from a simple web server to one part of a cluster of instances providing an integrated multi-tiered fleet architecture. Since EC2 instances are virtual, they’re resource-efficient and deploy nearly instantly.</description>
+    </item>
+    
+    <item>
+      <title>Instalación de Terraform Linux 64 bit - AWS</title>
+      <link>https://elvisfinol.com/posts/installing-terraform-and-working-with-terraform-providers/</link>
+      <pubDate>Fri, 10 Sep 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/installing-terraform-and-working-with-terraform-providers/</guid>
+      <description>Paso a paso Descarga el paquete binario de Terraform apropiado para la máquina virtual de tu servidor, en este caso lo haré para Linux de 64 bits mediante el comando wget:
+wget -c https://releases.hashicorp.com/terraform/0.13.4/terraform_0.13.4_linux_amd64.zip  Descomprime el archivo descargado:
+unzip terraform_0.13.4_linux_amd64.zip  Coloca el binario de Terraform en el PATH del sistema operativo de la máquina virtual para que el binario sea accesible en todo el sistema para todos los usuarios:</description>
+    </item>
+    
     <item>
       <title>AWS Solutions Architect - Assignment for the loop!</title>
       <link>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</link>

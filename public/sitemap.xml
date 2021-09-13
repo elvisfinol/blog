@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://elvisfinol.com/tags/aws/</loc>
-    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
+    <lastmod>2021-09-11T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/posts/core-aws-services/</loc>
+    <lastmod>2021-09-11T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/</loc>
+    <lastmod>2021-09-11T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/posts/</loc>
+    <lastmod>2021-09-11T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/tags/</loc>
+    <lastmod>2021-09-11T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/posts/installing-terraform-and-working-with-terraform-providers/</loc>
+    <lastmod>2021-09-10T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/tags/terraform/</loc>
+    <lastmod>2021-09-10T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</loc>
     <lastmod>2021-09-05T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/tags/cloud-formation/</loc>
-    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://elvisfinol.com/</loc>
-    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://elvisfinol.com/posts/</loc>
-    <lastmod>2021-09-05T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://elvisfinol.com/tags/</loc>
     <lastmod>2021-09-05T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/tags/devops/</loc>

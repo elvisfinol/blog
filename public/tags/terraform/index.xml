@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>terraform on EF | Personal Website</title>
+    <link>https://elvisfinol.com/tags/terraform/</link>
+    <description>Recent content in terraform on EF | Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Sep 2021 22:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalación de Terraform Linux 64 bit - AWS</title>
+      <link>https://elvisfinol.com/posts/installing-terraform-and-working-with-terraform-providers/</link>
+      <pubDate>Fri, 10 Sep 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/installing-terraform-and-working-with-terraform-providers/</guid>
+      <description>Paso a paso Descarga el paquete binario de Terraform apropiado para la máquina virtual de tu servidor, en este caso lo haré para Linux de 64 bits mediante el comando wget:
+wget -c https://releases.hashicorp.com/terraform/0.13.4/terraform_0.13.4_linux_amd64.zip  Descomprime el archivo descargado:
+unzip terraform_0.13.4_linux_amd64.zip  Coloca el binario de Terraform en el PATH del sistema operativo de la máquina virtual para que el binario sea accesible en todo el sistema para todos los usuarios:</description>
+    </item>
+    
+  </channel>
+</rss>

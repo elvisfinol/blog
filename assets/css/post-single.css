@@ -196,7 +196,7 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Fira Code', monospace;
     font-size: 1em;
     line-height: 1.5;
     background: var(--code-bg);
