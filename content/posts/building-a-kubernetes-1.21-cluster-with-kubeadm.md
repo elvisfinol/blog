@@ -1,6 +1,7 @@
 +++
 author = ""
 date = 2021-09-12T22:00:00Z
+draft = true
 tags = []
 title = "Building a Kubernetes 1.21 Cluster with kubeadm"
 
