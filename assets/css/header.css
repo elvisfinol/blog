@@ -1,13 +1,13 @@
 .nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     /* max-width: calc(var(--nav-width) + var(--gap) * 2); */
     width: 100%;
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
-    border-top: var(--primary) solid 10px;
+    border-top: var(--primary) solid 4px;
 }
 
 .nav a {
