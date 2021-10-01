@@ -67,8 +67,8 @@
 }
 
 .entry-header h2 {
-    font-size: 1.4em;
-    font-weight: 500;
+    font-size: 1.2em;
+    font-weight: 400;
 
 
 }
@@ -76,7 +76,7 @@
 .entry-content {
     margin: 0px 0;
     color: var(--secondary);
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.6;
     overflow: hidden;
     display: -webkit-box;

@@ -51,16 +51,16 @@ body {
 .content img {
     display: inline-block;
     border-radius: 50%;
-    width: 15rem;
+    width: 10rem;
     height: auto;
 }
 
 .content h1 {
-    font-size: 7em;
+    font-size: 6em;
 }
 
 .content h2 {
-    font-size: 3.2em;
+    font-size: 2.2em;
     font-weight: 200;
 }
 
