@@ -51,7 +51,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ .Site.Params.label.text | default .Site.Title }} (Alt + H)">
+            <a class="link-3" href="{{ "" | absLangURL }}" accesskey="h" title="{{ .Site.Params.label.text | default .Site.Title }} (Alt + H)">
                 {{- if .Site.Params.label.icon }}
                 <img src="{{- .Site.Params.label.icon -}}" alt="logo" aria-label="logo"
                     height="{{- .Site.Params.label.iconHeight | default "30px" -}}">
@@ -126,7 +126,7 @@
     </nav>
 
 
-     <!-- FONT AWESOME -->
+    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
     <!-- FONTS GOOGLE -->

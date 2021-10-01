@@ -1,7 +1,7 @@
 # Site Info
 baseURL: "https://elvisfinol.com"
 languageCode: "en-us"
-title: "EF | Personal Website"
+title: "Elvis Finol"
 theme: "PaperMod"
 
 #Enable comments by entering your disqus shortname
@@ -27,7 +27,7 @@ params:
   images: ["<link or path of image for opengraph, twitter-cards>"]
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   comments: false
   defaultTheme: auto
   disableThemeToggle: false
@@ -43,7 +43,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "🔶"
+    text: "Elvis Finol"
     # icon: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Rubik_cube.png/600px-Rubik_cube.png
     iconHeight: 35
 

@@ -1,16 +1,14 @@
 .main {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    /* max-width: calc(var(--main-width) + var(--gap) * 2); */
+    max-width: calc(var(--main-width) + var(--gap) * 2);
     width: 80%;
     margin: auto;
     padding: var(--gap);
-
-
 }
 
 .page-header {
-    margin-bottom: 24px
+    margin-bottom: 24px;
 }
 
 .page-header h1 {
@@ -36,6 +34,7 @@
 
 .social-icons {
     padding: 12px 0;
+    margin-left: 40px;
 }
 
 .social-icons a:not(:last-of-type) {
@@ -48,8 +47,8 @@
 }
 
 .social-icons a svg {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
 
 code {
