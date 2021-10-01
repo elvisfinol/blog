@@ -86,7 +86,8 @@
 
 .entry-footer {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    justify-content: right;
     color: var(--secondary);
     font-size: 10px;
 

@@ -34,7 +34,6 @@
 
 .social-icons {
     padding: 12px 0;
-    margin-left: 40px;
 }
 
 .social-icons a:not(:last-of-type) {
@@ -47,8 +46,8 @@
 }
 
 .social-icons a svg {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }
 
 code {
