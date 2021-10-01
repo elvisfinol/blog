@@ -17,7 +17,7 @@
 .logo,
 .menu {
     display: flex;
-    /* margin: auto var(--gap); */
+    margin: auto var(--gap);
     margin-top: 1rem;
     margin-left: 4.5rem;
     margin-right: 4.5rem;
