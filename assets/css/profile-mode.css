@@ -72,8 +72,8 @@ body {
 }
 
 .location p {
-    font-size: 1.3em;
-    font-weight: 400;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 */ .profile .profile_inner span {
@@ -84,7 +84,9 @@ body {
 .buttons {
     flex-wrap: wrap;
     max-width: 400px;
-    margin: 0 auto
+    margin: 0 auto;
+
+
 }
 
 .button {
@@ -92,7 +94,7 @@ body {
     border-radius: var(--radius);
     margin: 8px;
     padding: 6px;
-    transition: transform .1s
+    transition: transform .1s;
 }
 
 .button-inner {
