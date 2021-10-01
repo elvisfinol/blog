@@ -26,17 +26,21 @@ A pensar que mi título diga lo contrario, desde siempre me he desarrollado en a
 - Banco Galicia – Líder para migración de toda la infraestructura de Backup y Restore, incluyendo implementación UDA (Unified Data architecture) (2018)
 - Carrefour (retail) – Líder para expansión de Teradata (Merge) llevando sistema 6700 2+1 a 6800 1+1 (2017)
 
-> **Además este último año me he estado formando, aprendiendo tecnologías Front-end para el Desarrollo Web (HTML, CSS y JavaScript) y he realizado algunos trabajos Freelance que actualmente tengo disponibles en mi [GitHub](https://github.com/elvisfinol).**
+[**Thomson Reuters**](https://www.thomsonreuters.com/en.html)
+
+- Project: "Argentina Markets Guide" desarrollada para Thomson Reuters Eikon (App Financiera)
+
+> **Este último año me he estado formando, aprendiendo tecnologías Front-end para el Desarrollo Web (HTML, CSS y JavaScript entre otras) y he realizado algunos projectos que actualmente tengo disponibles en mi [GitHub](https://github.com/elvisfinol).**
 
 # Un poco mas de mi - Hobbies! 💥
 
-### Pasión por la música
+### Música
 
 Desde muy chico descubrí que me encantaba la música. Recuerdo las visitas a las tiendas de discos donde guardaba los pocos ahorros que tenía para comprar los últimos álbumes (aquellos tiempos). No fue hasta los 12 años que mi papá me regalo una guitarra española y ahí no pare de aprender y hacer música. Aprendí a tocar el bajo eléctrico, guitarra, teclado y lo que más disfruto es la producción; estar detrás de backstage, en mi espacio creando música. Te dejo este [**enlace**](https://open.spotify.com/artist/1aBF34ZnXc9SHwvx0Rc0qK?si=dcVQPYUgTPeUG4TfR1ylqw) de mis producciones en el área de la música. 
 
 ### Contenido Visual y Fotografía
 
-En el 2019, Mica y yo decidimos crear **Vive Simple** un espacio en [**Youtube**](https://www.youtube.com/c/ViveSimple/featured) e [**Instagram**](https://www.instagram.com/info.vivesimple/) en el que ambos pudiéramos canalizar nuestra creatividad, compartiendo nuestras experiencias. Todo esto con el fin de ayudar a las personas y darles a conocer lo hermoso que es Buenos Aires, Argentina. 
+En el 2019, Mica y yo decidimos crear **Vive Simple** un espacio en [**Youtube**](https://www.youtube.com/c/ViveSimple/featured) e [**Instagram**](https://www.instagram.com/vivesimple.me/) en el que ambos pudiéramos canalizar nuestra creatividad, compartiendo nuestras experiencias. Todo esto con el fin de ayudar a las personas y darles a conocer lo hermoso que es Buenos Aires, Argentina. 
 
 ### ¡Escríbeme! 📥
 

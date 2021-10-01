@@ -226,7 +226,7 @@ button {
 }
 
 button.big-button {
-    padding: 0.5em 2em;
+    padding: 0.2em 1em;
     border: 2px solid var(--colorShadeA);
     border-radius: 1em;
     background: var(--colorShadeE);
