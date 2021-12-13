@@ -16,11 +16,23 @@ title = "Building Container Images Using Dockerfiles"
 
 ## Paso a Paso
 
-Log in to the server using the credentials provided:
+Inicie sesión en el servidor con las credenciales proporcionadas:
 
-    ssh cloud_user@<PUBLIC_IP_ADDRESS>
+    ssh YourUser@<LOCAL_IP or PUBLIC_IP_ADDRESS>
 
-### Build a First Version
+### Descargamos template de demostración
+
+1. Descargamos web template de demostración:
+
+       wget https://www.free-css.com/assets/files/free-css-templates/download/page274/sync.zip
+2. Descomprimimos dicho archivo
+
+       unzip sync.zip 
+3. Si no tienes instalado unzip en tu VM puedes descargarlo ejecutando
+
+       sudo apt install unzip
+
+### Construimos la primera version
 
  1. Change to the `widget-factory-inc` directory:
 
