@@ -10,9 +10,10 @@ title = "Building Container Images Using Dockerfiles"
 
 **Requisitos:** 
 
-* Disponer de una VM local o remote con acceso ssh (en mi caso estoy  usaré GCP como Cloud Provider);
+* Ubuntu 18.04.6 LTS puede ser local o remote con acceso ssh (en mi caso usaré GCP como Cloud Provider);
 * Docker instalado (version 20.10.11 o superior);
 * [Descargar](https://www.free-css.com/assets/files/free-css-templates/download/page274/sync.zip) web template de demostración;
+* 
 
 ## Paso a Paso
 
@@ -20,58 +21,61 @@ Inicie sesión en el servidor con las credenciales proporcionadas:
 
     ssh YourUser@<LOCAL_IP or PUBLIC_IP_ADDRESS>
 
-### Descargamos template de demostración
+### Descargar archivos:
 
-1. Descargamos web template de demostración:
+1. Creamos una carpeta "webapp":
+
+       mkdir webapp
+2. Nos movemos a la carpeta creada:
+
+       cd webapp
+3. Descargamos el web template de demostración:
 
        wget https://www.free-css.com/assets/files/free-css-templates/download/page274/sync.zip
-2. Descomprimimos dicho archivo
+4. Descomprimimos dicho archivo:
 
        unzip sync.zip 
-3. Si no tienes instalado unzip en tu VM puedes descargarlo ejecutando
+5. Si no tienes instalado unzip en tu VM puedes descargarlo ejecutando:
 
        sudo apt install unzip
 
-### Construimos la primera version
+### Construimos nuestro primera imagen:
 
- 1. Change to the `widget-factory-inc` directory:
-
-        cd widget-factory-inc
- 2. Create a Dockerfile that uses `httpd:2.4` as the base image:
+ 1. Creamos un Dockerfile que use httpd: 2.4 como imagen base:
 
         vim Dockerfile
- 3. In the new file, insert the following:
+ 2. En el nuevo archivo, inserta lo siguiente:
 
         FROM httpd:2.4
         RUN apt update -y && apt upgrade -y && apt autoremove -y && apt clean && rm -rf /var/lib/apt/lists*
- 4. Save the file:
+ 3. Guarda los cambios
 
         ESC
         :wq
- 5. Verify that the file was saved successfully:
+ 4. Verifica que el archivo se haya guardado correctamente:
 
         cat Dockerfile
- 6. Build the `0.1` version of the `widgetfactory` image using the Dockerfile:
+ 5. Crea la versión 0.1 de la imagen de webapp usando el Dockerfile
 
-        docker build -t widgetfactory:0.1 .
- 7. Set variables to examine the image's size and layers:
+        docker build -t webapp:0.1 .
+ 6. Establezca variables para examinar el tamaño y las capas de las imágenes:
 
         export showLayers='{{ range .RootFS.Layers }}{{ println . }}{{end}}'
         
         export showSize='{{ .Size }}'
- 8. Compare the `httpd` and `widgetfactory` images:
+ 7. Compara las imágenes httpd y webapp:
 
         docker images
- 9. Show the `widgetfactory` image's size:
+ 8. Muestra el tamaño de la imagen de webapp
 
-        docker inspect -f "$showSize" widgetfactory:0.1
-10. Show the layers:
+        docker inspect -f "$showSize" webapp:0.1
+ 9. Muestra las capas:
 
-        docker inspect -f "$showLayers" widgetfactory:0.1
-11. Show the layers of the `httpd:2.4` image:
+        docker inspect -f "$showLayers" webapp:0.1
+10. Muestre las capas de la imagen httpd: 2.4:
 
         docker inspect -f "$showLayers" httpd:2.4
-12. Compare the layers. Are they the same?
+11. Compara las capas. ¿Son lo mismo?
 
 ### Load the Website into the Container
 
