@@ -1,7 +1,6 @@
 +++
-author = ""
-date = ""
-draft = true
+author = "Elvis Finol"
+date = 2021-12-07T23:00:00Z
 tags = []
 title = "IAM - AWS"
 
