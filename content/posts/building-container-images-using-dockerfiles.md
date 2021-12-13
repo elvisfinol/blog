@@ -6,11 +6,15 @@ tags = []
 title = "Building Container Images Using Dockerfiles"
 
 +++
-## Introduction
+¡Hola a todos! En este Hands-on lab les enseñaré como construir una imagen Docker a partir de un archivo Dockerfile todo en un paso a paso muy sencillo. Crearemos varias versiones de la imagen a utilizar para entender mejor el funcionamiento de las capas en Docker. Una vez el contenedor se encuentre arriba y corriendo, vamos a exponerlo a la web y comprobar su acceso por medio del navegador.
 
-Creating a container image by hand is possible, but it requires manual processes. There has to be a more automatic way to build images. Manual processes do not scale and are not easily version controlled. Docker provides a solution to this problem - the Dockerfile. In this lab, you will create a Dockerfile to build an image, and host a static website.
+**Requisitos:** 
 
-## Solution
+* Disponer de una VM local o remote con acceso ssh (en mi caso estoy  usaré GCP como Cloud Provider);
+* Docker instalado (version 20.10.11 o superior);
+* [Descargar](https://www.free-css.com/assets/files/free-css-templates/download/page274/sync.zip) web template de demostración;
+
+## Paso a Paso
 
 Log in to the server using the credentials provided:
 
@@ -41,7 +45,7 @@ Log in to the server using the credentials provided:
  7. Set variables to examine the image's size and layers:
 
         export showLayers='{{ range .RootFS.Layers }}{{ println . }}{{end}}'
-
+        
         export showSize='{{ .Size }}'
  8. Compare the `httpd` and `widgetfactory` images:
 
@@ -84,7 +88,7 @@ Log in to the server using the credentials provided:
  8. Using an interactive terminal, check the `htdocs` folder for `widgetfactory:0.2`. Are the website files in the folder?:
 
         docker run --rm -it widgetfactory:0.2 bash
-
+        
         ls htdocs
  9. Exit the container:
 
