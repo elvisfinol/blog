@@ -13,7 +13,6 @@ title = "Building Container Images Using Dockerfiles"
 * Ubuntu 18.04.6 LTS puede ser local o remote con acceso ssh (en mi caso usaré GCP como Cloud Provider);
 * Docker instalado (version 20.10.11 o superior);
 * [Descargar](https://www.free-css.com/assets/files/free-css-templates/download/page274/sync.zip) web template de demostración;
-* 
 
 ## Paso a Paso
 
