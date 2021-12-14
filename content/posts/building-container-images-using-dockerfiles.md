@@ -8,7 +8,7 @@ title = "Building Container Images Using Dockerfiles"
 +++
 ¡Hola a todos! En este Hands-on lab les enseñaré como construir una imagen Docker a partir de un archivo Dockerfile todo en un paso a paso muy sencillo. Crearemos varias versiones de la imagen a utilizar para entender mejor el funcionamiento de las capas en Docker. Una vez el contenedor se encuentre arriba y corriendo, vamos a exponerlo a la web y comprobar su acceso por medio del navegador.
 
-**Requisitos:** 
+**Requisitos:**
 
 * Ubuntu 18.04.6 LTS puede ser local o remote con acceso ssh (en mi caso usaré GCP como Cloud Provider);
 * Docker instalado (version 20.10.11 o superior);
