@@ -5,7 +5,7 @@ tags = ["Cloud Formation", "AWS"]
 title = "AWS Solutions Architect - Assignment for the loop!"
 
 +++
-In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won't upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative. **Imagine that this is for a customer, so effort yourself.** If you have any question, email me.
+In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however, I received good feedback about my assignment. I won't upload the Cloud Formation fixed template for obvious reasons. However, is NOT a complicated assignment, go and check ACL, SG or how health checks are configured on the ELB. This excessive is easy, so you can be creative. **Imagine that this is for a customer, so effort yourself.** If you have any questions, email me.
 
 > Good Luck and do your best!
 
