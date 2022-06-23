@@ -108,8 +108,8 @@ menu:
     #   url: /tags/
     #   weight: 30
     - identified: sobremi
-      name: Sobre Mi
-      url: /sobremi/
+      name: About Me
+      url: /aboutme/
       weight: 10
     - identified: GitHub
       name: GitHub

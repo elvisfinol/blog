@@ -6,7 +6,16 @@
     <description>Recent content on Elvis Finol</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Sep 2021 22:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Dec 2021 23:00:00 +0000</lastBuildDate><atom:link href="https://elvisfinol.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IAM - AWS</title>
+      <link>https://elvisfinol.com/posts/iam-aws/</link>
+      <pubDate>Tue, 07 Dec 2021 23:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/posts/iam-aws/</guid>
+      <description>Your AWS credentials let you log into the AWS management console, manage services, view and edit resources, and so on. Security in AWS begins with the foundation of identity, which is managed by the Identity and Access Management (IAM) service. Because your AWS credentials are the keys to the kingdom, the first order of business is to protect them from accidental exposure and unauthorised use. The second step is to ensure that users have only the permissions they need, and no more.</description>
+    </item>
+    
     <item>
       <title>Core AWS services</title>
       <link>https://elvisfinol.com/posts/core-aws-services/</link>
@@ -35,7 +44,7 @@ unzip terraform_0.13.4_linux_amd64.zip  Coloca el binario de Terraform en el PAT
       <pubDate>Sun, 05 Sep 2021 22:00:00 +0000</pubDate>
       
       <guid>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</guid>
-      <description>In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won&amp;rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative.</description>
+      <description>In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however, I received good feedback about my assignment. I won&amp;rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT a complicated assignment, go and check ACL, SG or how health checks are configured on the ELB. This excessive is easy, so you can be creative.</description>
     </item>
     
     <item>
@@ -179,6 +188,15 @@ Table content  Frameworks Tools Preprocessors Reset and Normalize Design Inspira
     </item>
     
     <item>
+      <title>About Me</title>
+      <link>https://elvisfinol.com/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elvisfinol.com/aboutme/</guid>
+      <description>sobremi</description>
+    </item>
+    
+    <item>
       <title>Blog</title>
       <link>https://elvisfinol.com/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -194,15 +212,6 @@ Table content  Frameworks Tools Preprocessors Reset and Normalize Design Inspira
       
       <guid>https://elvisfinol.com/search/</guid>
       <description>search</description>
-    </item>
-    
-    <item>
-      <title>Sobre Mi</title>
-      <link>https://elvisfinol.com/sobremi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://elvisfinol.com/sobremi/</guid>
-      <description>sobremi</description>
     </item>
     
   </channel>

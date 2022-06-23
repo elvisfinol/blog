@@ -1,7 +1,7 @@
 ---
-title: "Sobre Mi" # in any language you want
-layout: "sobremi" # is necessary
-url: "/sobremi"
+title: "About Me" # in any language you want
+layout: "aboutme" # is necessary
+url: "/aboutme"
 summary: "sobremi"
 ---
 

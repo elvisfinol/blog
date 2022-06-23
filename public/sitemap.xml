@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://elvisfinol.com/</loc>
+    <lastmod>2021-12-07T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/posts/iam-aws/</loc>
+    <lastmod>2021-12-07T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/posts/</loc>
+    <lastmod>2021-12-07T23:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://elvisfinol.com/tags/aws/</loc>
     <lastmod>2021-09-11T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/posts/core-aws-services/</loc>
-    <lastmod>2021-09-11T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://elvisfinol.com/</loc>
-    <lastmod>2021-09-11T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://elvisfinol.com/posts/</loc>
     <lastmod>2021-09-11T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/tags/</loc>
@@ -122,12 +125,12 @@
     <loc>https://elvisfinol.com/posts/css-tools/</loc>
     <lastmod>2020-07-20T16:41:21-03:00</lastmod>
   </url><url>
+    <loc>https://elvisfinol.com/aboutme/</loc>
+  </url><url>
     <loc>https://elvisfinol.com/archive/</loc>
   </url><url>
     <loc>https://elvisfinol.com/categories/</loc>
   </url><url>
     <loc>https://elvisfinol.com/search/</loc>
-  </url><url>
-    <loc>https://elvisfinol.com/sobremi/</loc>
   </url>
 </urlset>

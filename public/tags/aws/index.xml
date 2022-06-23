@@ -24,7 +24,7 @@ EC2 server instances provide virtual versions of the servers you would run in yo
       <pubDate>Sun, 05 Sep 2021 22:00:00 +0000</pubDate>
       
       <guid>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</guid>
-      <description>In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however I got a really good feedback about my assignment. I won&amp;rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT complicated assignment, go and check ACL, SG or how health checks is configured on the ELB. This excessive is easy, so you can be creative.</description>
+      <description>In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however, I received good feedback about my assignment. I won&amp;rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT a complicated assignment, go and check ACL, SG or how health checks are configured on the ELB. This excessive is easy, so you can be creative.</description>
     </item>
     
     <item>
