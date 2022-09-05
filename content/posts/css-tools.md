@@ -143,5 +143,3 @@ A CSS preprocessor is a program that lets you generate CSS from the preprocessor
 * [Line-Awesome](https://icons8.com/line-awesome) - Swap Font Awesome for modern line icons in one line of code.
 
 <sub>[⇧ back to top](#table-content)</sub>
-
-_More coming soon! Stay tuned..._
