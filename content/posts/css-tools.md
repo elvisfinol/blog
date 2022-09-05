@@ -134,6 +134,7 @@ A CSS preprocessor is a program that lets you generate CSS from the preprocessor
 * [FlatIcon](https://www.flaticon.com/) - The best UI icons for your projects.
 * [IconFinder](https://www.iconfinder.com/) - is the world's largest marketplace for vector and raster icons in SVG and PNG formats.
 * [FeatherIcons](https://feathericons.com/) - is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.
+* [Favicon Generator](https://www.websiteplanet.com/webtools/favicon-generator/) - Favicons are also known as favorite icons, URL icons, or website icon. They are very small icons (usually 16×16 or 32×32) and appear next to your website URL in browser tabs and bookmarks, making it easy for your visitors to identify your website in their open tabs.
 * [StreamLineIcons](https://www.streamlineicons.com/) - The world’s largest icon pack.
 * [LinearIcons](https://linearicons.com/) - is the highest quality set of line icons, matching with minimalist UI designs in iOS.
 * [Unicons](https://iconscout.com/unicons) - Web’s new favorite icon library.
