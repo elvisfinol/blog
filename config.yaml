@@ -21,13 +21,13 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Elvis Finol | Website
-  description: "ExampleSite description"
+  description: "Elvis Finol Personal Website"
   author: Elvis Finol
 
   images: ["<link or path of image for opengraph, twitter-cards>"]
 
   ShowReadingTime: true
-  ShowShareButtons: false
+  ShowShareButtons: true
   comments: true
   defaultTheme: auto
   disableThemeToggle: false
