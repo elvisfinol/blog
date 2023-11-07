@@ -2,6 +2,8 @@
 title: "3 Técnicas Para Mejorar Tu Productividad."
 date: 2023-11-07T18:00:15+02:00
 draft: false
+tags: ["productividad"]
+author: "Elvis Finol"
 ---
 
 Por lo general, cuando comenzamos nuestra jornada laboral desde la primera hora de la mañana, ya nos sentimos un poco agobiados y nos abruman la cantidad de correos electrónicos que tenemos en la bandeja de entrada, las tareas asignadas que tenemos que desarrollar o alguna presentación que tenemos que finalizar.

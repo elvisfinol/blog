@@ -11,6 +11,12 @@
     <loc>https://elvisfinol.com/posts/</loc>
     <lastmod>2023-11-07T18:00:15+02:00</lastmod>
   </url><url>
+    <loc>https://elvisfinol.com/tags/productividad/</loc>
+    <lastmod>2023-11-07T18:00:15+02:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/tags/</loc>
+    <lastmod>2023-11-07T18:00:15+02:00</lastmod>
+  </url><url>
     <loc>https://elvisfinol.com/posts/iam-aws/</loc>
     <lastmod>2021-12-07T23:00:00+00:00</lastmod>
   </url><url>
@@ -18,9 +24,6 @@
     <lastmod>2021-09-11T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/posts/core-aws-services/</loc>
-    <lastmod>2021-09-11T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://elvisfinol.com/tags/</loc>
     <lastmod>2021-09-11T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/posts/installing-terraform-and-working-with-terraform-providers/</loc>
