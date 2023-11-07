@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://elvisfinol.com/</loc>
-    <lastmod>2021-12-07T23:00:00+00:00</lastmod>
+    <loc>https://elvisfinol.com/posts/3-tecnicas-para-mejorar-tu-productividad/</loc>
+    <lastmod>2023-11-07T18:00:15+02:00</lastmod>
   </url><url>
-    <loc>https://elvisfinol.com/posts/iam-aws/</loc>
-    <lastmod>2021-12-07T23:00:00+00:00</lastmod>
+    <loc>https://elvisfinol.com/</loc>
+    <lastmod>2023-11-07T18:00:15+02:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/posts/</loc>
+    <lastmod>2023-11-07T18:00:15+02:00</lastmod>
+  </url><url>
+    <loc>https://elvisfinol.com/posts/iam-aws/</loc>
     <lastmod>2021-12-07T23:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elvisfinol.com/tags/aws/</loc>
