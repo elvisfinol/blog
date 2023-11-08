@@ -54,7 +54,7 @@ unzip terraform_0.13.4_linux_amd64.zip  Coloca el binario de Terraform en el PAT
       <pubDate>Sun, 05 Sep 2021 22:00:00 +0000</pubDate>
       
       <guid>https://elvisfinol.com/posts/aws-solutions-architect-assignment-for-the-loop/</guid>
-      <description>In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however, I received good feedback about my assignment. I won&amp;rsquo;t upload the Cloud Formation fixed template for obvious reasons. However, is NOT a complicated assignment, go and check ACL, SG or how health checks are configured on the ELB. This excessive is easy, so you can be creative.</description>
+      <description>In May 2021, I went through an interview process at AWS for the role of Solutions Architect. Unfortunately, I did not successfully pass the interview loop. However, I did receive good feedback about my assignment. Therefore, I would like to share my experience with you regarding this process and discuss the assignment in detail. I won’t upload the Cloud Formation template for obvious reasons, but the exercise is not complicated, and it allows you to be creative on the assignment.</description>
     </item>
     
     <item>

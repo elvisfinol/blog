@@ -5,9 +5,11 @@ tags = ["Cloud Formation", "AWS"]
 title = "AWS Solutions Architect - Assignment for the loop!"
 
 +++
-In May, I was in a process interview in AWS for the role of Solutions Architects. Sadly, I did not pass successfully the loop, however, I received good feedback about my assignment. I won't upload the Cloud Formation fixed template for obvious reasons. However, is NOT a complicated assignment, go and check ACL, SG or how health checks are configured on the ELB. This excessive is easy, so you can be creative. **Imagine that this is for a customer, so effort yourself.** If you have any questions, email me.
 
-> Good Luck and do your best!
+In May 2021, I went through an interview process at AWS for the role of Solutions Architect. Unfortunately, I did not successfully pass the interview loop. However, I did receive good feedback about my assignment. Therefore, I would like to share my experience with you regarding this process and discuss the assignment in detail. I won’t upload the Cloud Formation template for obvious reasons, but the exercise is not complicated, and it allows you to be creative on the assignment.
+> Consider that you are doing this for a customer, so make sure to put in some effort.
+
+By the way, I’m not certain if this assignment is still current, but it can be helpful for practice if you’re preparing the interview for the **AWS Solutions Architect role.**
 
 ### **Context**
 
@@ -20,18 +22,19 @@ You are contacted and asked to:
 **Step by step to find the problem (Questions that I made)**
 
 1. Verify the topology used on the CloudFormation template
-2. Verify VPC/EC2 configuration
-   1. IGW is associated with the VPC? 
-   2. Route tables are associate with the instance subnets?
-   3. Does the instance have Public IP associated?
-   4. Validate Instance status checks.
+2. Verify VPC/EC2 configuration:
+* IGW is associated with the VPC?
+* Route tables are associate with the instance subnets?
+* Does the instance have Public IP associated?
+* Validate Instance status checks.
+
 3. Verify Elastic Load Balancer configuration
-   1. Is the instance attached to the ELB? 
-   2. Does ELB is pointing to the correct AZ?
-   3. How is the health check configured?
+* Is the instance attached to the ELB?
+* Does ELB is pointing to the correct AZ?
+* How is the health check configured?
 4. Verify Inbound/outbound rules configured on SecurityGroups
-   1. Does the ELB SG have rules configured?
-   2. Does the APP SG have rules configured?
+* Does the ELB SG have rules configured?
+* Does the APP SG have rules configured?
 
 **b) Propose short term changes you could help them implement to improve the availability, security, reliability, cost and performance before the project goes into production. Your customer expects you to explain the business and technical benefits of your proposals, with artifacts such as a design or architecture document and diagrams.**
 
@@ -67,3 +70,5 @@ I propose a three tier web application architecture (Web/Presentation, App/Logic
 11. Use [IAM](https://aws.amazon.com/iam/?nc1=h_ls) to control who is authenticated (signed in) and authorized (has permissions) to use resources. You will gain granular control and enhanced security.
 
 ![](https://elvisfinol-website-bucket.s3.eu-west-1.amazonaws.com/long-term.png)
+
+Hope you find this useful, and good luck in your upcoming interview. 🚀
