@@ -1,7 +1,7 @@
 ---
 title: "3 Técnicas Para Mejorar Tu Productividad."
 date: 2023-11-07T18:00:15+02:00
-draft: false
+draft: true
 tags: ["productividad"]
 author: "Elvis Finol"
 ---
