@@ -11,7 +11,7 @@ unzip terraform_0.13.4_linux_amd64.zip  Coloca el binario de Terraform en el PAT
 <meta name=author content="Elvis Finol">
 <link rel=canonical href=https://elvisfinol.com/posts/installing-terraform-and-working-with-terraform-providers/>
 <meta name=google-site-verification content="XYZabc">
-<link href=/assets/css/stylesheet.min.03a9625f134ae9a90d2965368738004d05fe449a4be109663a1a80f4dba77687.css integrity="sha256-A6liXxNK6akNKWU2hzgATQX+RJpL4QlmOhqA9Nundoc=" rel="preload stylesheet" as=style>
+<link href=/assets/css/stylesheet.min.dd156d7821ad35a772546eade009acec0dfcacff97b731d4f06342701374f348.css integrity="sha256-3RVteCGtNadyVG6t4Ams7A38rP+XtzHU8GNCcBN080g=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
 <link rel=icon type=image/png sizes=16x16 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
 <link rel=icon type=image/png sizes=32x32 href=https://elvisfinol.com/%3Clink%20/%20abs%20url%3E>
@@ -40,28 +40,6 @@ unzip terraform_0.13.4_linux_amd64.zip  Coloca el binario de Terraform en el PAT
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Instalación de Terraform Linux 64 bit - AWS","name":"Instalación de Terraform Linux 64 bit - AWS","description":"Paso a paso Descarga el paquete binario de Terraform apropiado para la máquina virtual de tu servidor, en este caso lo haré para Linux de 64 bits mediante el comando wget:\nwget -c …","keywords":["terraform"],"articleBody":"Paso a paso Descarga el paquete binario de Terraform apropiado para la máquina virtual de tu servidor, en este caso lo haré para Linux de 64 bits mediante el comando wget:\nwget -c https://releases.hashicorp.com/terraform/0.13.4/terraform_0.13.4_linux_amd64.zip  Descomprime el archivo descargado:\nunzip terraform_0.13.4_linux_amd64.zip  Coloca el binario de Terraform en el PATH del sistema operativo de la máquina virtual para que el binario sea accesible en todo el sistema para todos los usuarios:\nsudo mv terraform /usr/sbin/   Nota: Si se te solicita, ingrese el nombre de usuario y la contraseña de tu servidor.\n Verifica la versión de Terraform:\nterraform version  Si devuelve la versión de Terraform, el binario de Terraform está instalado y funciona correctamente.\nClonar sobre código para proveedores de Terraform Crea un directorio de proveedores:\nmkdir providers  Dirígete al directorio de proveedores:\ncd providers/  Crea el archivo main.tf:\nvim main.tf  Pega el siguiente código proporcionado\nprovider \"aws\" { alias = \"us-east-1\" region = \"us-east-1\" } provider \"aws\" { alias = \"us-west-2\" region = \"us-west-2\" } resource \"aws_sns_topic\" \"topic-us-east\" { provider = aws.us-east-1 name = \"topic-us-east\" } resource \"aws_sns_topic\" \"topic-us-west\" { provider = aws.us-west-2 name = \"topic-us-west\" }  Para guardar y salir del archivo, presiona Escape e ingresa: wq!\nImplementar el código con Terraform Apply Habilita el registro de salida detallado para los comandos de Terraform usando TF_LOG = TRACE:\nexport TF_LOG=TRACE   Nota: Puedes desactivar el registro detallado en cualquier momento mediante el comando export TF_LOG =.\n Inicializa el directorio de trabajo donde se encuentra el código:\nterraform init  Revisa las acciones realizadas cuando implementa el código Terraform:\nterraform plan  Nota: Se crearán dos recursos, de acuerdo con los proveedores que se configuraron en el fragmento de código proporcionado.\nImplementa el código:\nterraform apply  Cuando se te solicite, escribe YES y presiona Enter.\nVerifica que se hayan creado dos recursos con sus ID de nombre de recursos de Amazon (ARN) correspondientes en la región en la que se activaron.\nOpcionalmente, verifica que los recursos se crearon en sus respectivas regiones dentro de la Consola de administración de AWS\nElimina la infraestructura que acaba de crear:\nterraform destroy --auto-approve ","wordCount":"345","inLanguage":"en","datePublished":"2021-09-10T22:00:00Z","dateModified":"2021-09-10T22:00:00Z","author":{"@type":"Person","name":"Elvis Finol"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://elvisfinol.com/posts/installing-terraform-and-working-with-terraform-providers/"},"publisher":{"@type":"Organization","name":"Elvis Finol","logo":{"@type":"ImageObject","url":"https://elvisfinol.com/%3Clink%20/%20abs%20url%3E"}}}</script>
 </head>
 <body id=top>
-<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
-<noscript>
-<style type=text/css>.theme-toggle,.top-link{display:none}</style>
-</noscript>
-<header class=header>
-<nav class=nav>
-<div class=logo>
-<a class=link-3 href=https://elvisfinol.com accesskey=h title="Elvis Finol (Alt + H)">
-<img src=https://upload.wikimedia.org/wikipedia/commons/b/b3/Terminalicon2.png alt=logo aria-label=logo height=35>Elvis Finol</a>
-<span class=logo-switches>
-<span class=theme-toggle title="(Alt + T)">
-<a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-</a>
-</span>
-</span>
-</div>
-<ul class=menu id=menu onscroll=menu_on_scroll()></ul>
-</nav>
-<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.15.1/css/all.css integrity=sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp crossorigin=anonymous>
-<link rel=preconnect href=https://fonts.gstatic.com>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&family=Rubik:wght@300;500;600&display=swap" rel=stylesheet>
-</header>
 <main class=main>
 <article class=post-single>
 <header class=post-header>
