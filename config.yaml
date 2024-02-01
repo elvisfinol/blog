@@ -97,36 +97,36 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
 # Menu feature
-menu:
-  main:
-    - identifier: archive
-      name: Blog
-      url: /archive/
-      weight: 20
+# menu:
+#   main:
+    # - identifier: archive
+    #   name: Blog
+    #   url: /archive/
+    #   weight: 20
     # - identifier: tags
     #   name: Tags
     #   url: /tags/
     #   weight: 30
-    - identified: sobremi
-      name: About Me
-      url: /aboutme/
-      weight: 10
-    - identified: GitHub
-      name: GitHub
-      url: https://github.com/elvisfinol
-      weight: 30
-    - identified: LinkedIn
-      name: LinkedIn
-      url: https://www.linkedin.com/in/elvisfinol/
-      weight: 40
-    - identified: search
-      name: 🔍
-      url: /search/
-      weight: 50
-    - identified: Resume
-      name: Resume
-      url: https://elvisfinol-website-bucket.s3.eu-west-1.amazonaws.com/ELVIS-ENRIQUE-FINOL-ARRIETA-CV2.pdf
-      weight: 45
+    # - identified: sobremi
+    #   name: About Me
+    #   url: /aboutme/
+    #   weight: 10
+    # - identified: GitHub
+    #   name: GitHub
+    #   url: https://github.com/elvisfinol
+    #   weight: 30
+    # - identified: LinkedIn
+    #   name: LinkedIn
+    #   url: https://www.linkedin.com/in/elvisfinol/
+    #   weight: 40
+    # - identified: search
+    #   name: 🔍
+    #   url: /search/
+    #   weight: 50
+    # - identified: Resume
+    #   name: Resume
+    #   url: https://elvisfinol-website-bucket.s3.eu-west-1.amazonaws.com/ELVIS-ENRIQUE-FINOL-ARRIETA-CV2.pdf
+    #   weight: 45
 
 # Search feature
 outputs:
